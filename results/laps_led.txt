@@ -16,7 +16,7 @@ Piastri,36,Norris,9,Verstappen,7#UK
 #Belgium Sprint
 Piastri,38,Norris,6#Belgium
 Norris,36,Leclerc,28,Piastri,6#Hungary
-#Dutch
+Piastri,72#Dutch
 #Italy
 #Azerbaijan
 #Singapore
