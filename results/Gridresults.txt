@@ -1,0 +1,31 @@
+# the grid positions
+Australia,Norris,Piastri,Verstappen,Russell,Tsunoda,Albon,Leclerc,Hamilton,Gasly,Sainz,Hadjar,Alonso,Stroll,Doohan,Bortoleto,Antonelli,Hülkenberg,Ocon,Lawson,Bearman
+China Sprint,Hamilton,Verstappen,Piastri,Leclerc,Russell,Norris,Antonelli,Tsunoda,Albon,Stroll,Alonso,Bearman,Sainz,Bortoleto,Hadjar,Doohan,Gasly,Ocon,Lawson,Hülkenberg
+China,Piastri,Russell,Norris,Verstappen,Hamilton,Leclerc,Hadjar,Antonelli,Tsunoda,Albon,Ocon,Hülkenberg,Alonso,Stroll,Sainz,Gasly,Bearman,Doohan,Bortoleto,Lawson
+Japan,Verstappen,Norris,Piastri,Leclerc,Russell,Antonelli,Hadjar,Hamilton,Albon,Bearman,Gasly,Alonso,Lawson,Tsunoda,Sainz,Hülkenberg,Bortoleto,Ocon,Doohan,Stroll
+Bahrain,Piastri,Leclerc,Russell,Gasly,Antonelli,Norris,Verstappen,Sainz,Hamilton,Tsunoda,Doohan,Hadjar,Alonso,Ocon,Albon,Hülkenberg,Lawson,Bortoleto,Stroll,Bearman
+Saudi Arabia,Verstappen,Piastri,Russell,Leclerc,Antonelli,Sainz,Hamilton,Tsunoda,Gasly,Norris,Albon,Lawson,Alonso,Hadjar,Bearman,Stroll,Doohan,Hülkenberg,Ocon,Bortoleto
+Miami Sprint,Antonelli,Piastri,Norris,Verstappen,Russell,Leclerc,Hamilton,Albon,Hadjar,Alonso,Hülkenberg,Ocon,Gasly,Lawson,Sainz,Stroll,Doohan,Bortoleto,Bearman,Tsunoda
+Miami,Verstappen,Norris,Antonelli,Piastri,Russell,Sainz,Albon,Leclerc,Ocon,Tsunoda,Hadjar,Hamilton,Bortoleto,Doohan,Lawson,Hülkenberg,Alonso,Stroll,Bearman,Gasly
+Imola,Piastri,Verstappen,Russell,Norris,Alonso,Sainz,Albon,Stroll,Hadjar,Gasly,Leclerc,Hamilton,Antonelli,Bortoleto,Lawson,Colapinto,Hülkenberg,Ocon,Bearman,Tsunoda
+Monaco,Norris,Leclerc,Piastri,Verstappen,Hadjar,Alonso,Hamilton,Ocon,Lawson,Albon,Sainz,Tsunoda,Hülkenberg,Russell,Antonelli,Bortoleto,Gasly,Colapinto,Stroll,Bearman
+Spain,Piastri,Norris,Verstappen,Russell,Hamilton,Antonelli,Leclerc,Gasly,Hadjar,Alonso,Albon,Bortoleto,Lawson,Bearman,Hülkenberg,Ocon,Sainz,Colapinto,Tsunoda,
+Canada,Russell,Verstappen,Piastri,Antonelli,Hamilton,Alonso,Norris,Leclerc,Albon,Colapinto,Hülkenberg,Hadjar,Bearman,Ocon,Bortoleto,Sainz,Stroll,Tsunoda,Lawson,Gasly
+Austria,Norris,Leclerc,Piastri,Hamilton,Russell,Lawson,Verstappen,Bortoleto,Antonelli,Gasly,Alonso,Albon,Hadjar,Colapinto,Bearman,Stroll,Ocon,Tsunoda,Sainz,Hülkenberg
+UK,Verstappen,Piastri,Norris,Russell,Hamilton,Leclerc,Alonso,Gasly,Sainz,Antonelli,Tsunoda,Hadjar,Albon,Ocon,Lawson,Bortoleto,Stroll,Bearman,Hülkenberg,Colapinto
+Belgium Sprint,Piastri,Verstappen,Norris,Leclerc,Ocon,Sainz,Bearman,Gasly,Hadjar,Bortoleto,Lawson,Tsunoda,Russell,Alonso,Stroll,Albon,Hülkenberg,Hamilton,Antonelli,Colapinto
+Belgium,Norris,Piastri,Leclerc,Verstappen,Albon,Russell,Tsunoda,Hadjar,Lawson,Bortoleto,Ocon,Bearman,Gasly,Hülkenberg,Colapinto,Stroll,Sainz,Hamilton,Antonelli,Alonso
+Hungary,Leclerc,Piastri,Norris,Russell,Alonso,Stroll,Bortoleto,Verstappen,Lawson,Hadjar,Bearman,Hamilton,Sainz,Colapinto,Antonelli,Gasly,Ocon,Hülkenberg,Albon,Tsunoda
+Dutch,Piastri,Norris,Verstappen,Hadjar,Russell,Leclerc,Hamilton,Lawson,Sainz,Alonso,Antonelli,Tsunoda,Bortoleto,Gasly,Albon,Colapinto,Hülkenberg,Ocon,Bearman,Stroll
+Italy,,,,,,,,,,,,,,,,,,,,
+Azerbaijan,,,,,,,,,,,,,,,,,,,,
+Singapore,,,,,,,,,,,,,,,,,,,,
+USA Sprint,,,,,,,,,,,,,,,,,,,,
+USA,,,,,,,,,,,,,,,,,,,,
+Mexico,,,,,,,,,,,,,,,,,,,,
+Brasil Sprint,,,,,,,,,,,,,,,,,,,,
+Brasil,,,,,,,,,,,,,,,,,,,,
+Las Vegas,,,,,,,,,,,,,,,,,,,,
+Qatar Sprint,,,,,,,,,,,,,,,,,,,,
+Qatar,,,,,,,,,,,,,,,,,,,,
+Abu Dhabi,,,,,,,,,,,,,,,,,,,,

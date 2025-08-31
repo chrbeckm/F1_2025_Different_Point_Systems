@@ -1,0 +1,8 @@
+docs/
+.jekyll-cache
+vendor
+_includes
+__pycache__
+.bundle/
+_site
+Gemfile.lock

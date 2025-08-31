@@ -1,0 +1,31 @@
+#https://www.statsf1.com/en/2025/hongrie/en-tete.aspx
+Norris,54,Verstappen,2,Hamilton,1#Australia
+#China Sprint
+Piastri,53,Norris,2,Albon,1#China
+Verstappen,43,Antonelli,10#Japan
+Piastri,54,Leclerc,3#Bahrain
+Verstappen,21,Piastri,17,Leclerc,8,Norris,4#SaudiArabia
+#Miami Sprint
+Piastri,44,Verstappen,13#Miami
+Verstappen,63#Imola
+Norris,42,Verstappen,33,Leclerc,3#Monaco
+Piastri,60,Verstappen,6#Spain
+Russell,43,Norris,16,Leclerc,6,Piastri,5,Antonelli,1#Canada
+Norris,62,Piastri,7,Hamilton,1#Austria
+Piastri,36,Norris,9,Verstappen,7#UK
+#Belgium Sprint
+Piastri,38,Norris,6#Belgium
+Norris,36,Leclerc,28,Piastri,6#Hungary
+#Dutch
+#Italy
+#Azerbaijan
+#Singapore
+#USA Sprint
+#USA
+#Mexico
+#Brasil Sprint
+#Brasil
+#Las Vegas
+#Qatar Sprint
+#Qatar
+#Abu Dhabi

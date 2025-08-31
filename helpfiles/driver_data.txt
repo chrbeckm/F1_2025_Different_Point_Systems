@@ -1,0 +1,22 @@
+# number, shorthand, name, color, style, marker
+1, Ver, Verstappen, 3671C6, solid, $V$
+4, Nor, Norris, ff8000, dashed, $N$
+5, Bor, Bortoleto, 52e252, dashed, $B$
+6, Had, Hadjar, 6692ff, solid, $H$
+7, Doo, Doohan, 0093cc, dotted, $D$
+10, Gas, Gasly, 0093cc, solid, $G$
+12, Ant, Antonelli, 27f4d2, dashed, $A$
+14, Alo, Alonso, 229971, solid, $A$
+16, Lec, Leclerc, e80020, solid, $L$
+18, Str, Stroll, 229971, dashed, $S$
+22, Tsu, Tsunoda, 3671C6, dashed, $T$
+23, Alb, Albon, 64c4ff, solid, $A$
+27, Hül, Hülkenberg, 52e252, solid, $H$
+30, Law, Lawson, 6692ff, dashed, $L$
+31, Oco, Ocon, b6babd, solid, $O$
+43, Col, Colapinto, 0093cc, dashed, $C$
+44, Ham, Hamilton, e80020, dashed, $H$
+55, Sai, Sainz, 64c4ff, dashed, $S$
+63, Rus, Russell, 27f4d2, solid, $R$
+81, Pia, Piastri, ff8000, solid, $P$
+87, Bea, Bearman, b6babd, dashed, $B$
