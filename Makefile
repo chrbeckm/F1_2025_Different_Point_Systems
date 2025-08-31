@@ -22,25 +22,25 @@ all: _includes/eel/Grid.md \
 	docs/assets/mean/qualifying/positions_2D.png
 
 _includes/eel/Grid.md: \
+	$(TARGETwithDNF) \
+	$(TARGETwoDNF) \
+	$(TARGETnoSprintswithDNF) \
+	$(TARGETnoSprintswoDNF) \
 	$(TARGETSCRABBLE) \
 	$(TARGETEEL) \
 	$(TARGETMEAN) \
 	$(TARGETMEDALS) \
-	$(TARGETINDYCAR) \
-	$(TARGETwithDNF) \
-	$(TARGETwoDNF) \
-	$(TARGETnoSprintswithDNF) \
-	$(TARGETnoSprintswoDNF)
+	$(TARGETINDYCAR)
 	find _includes -type f -name '*.csv' -exec sh -c 'for f; do csv2md "$$f" > "$${f%.csv}.md"; done' _ {} +
 
 docs/assets/mean/qualifying/positions_2D.png: \
-	$(TARGETMEAN) \
-	$(TARGETMEDALS) \
-	$(TARGETINDYCAR) \
 	$(TARGETwithDNF) \
 	$(TARGETwoDNF) \
 	$(TARGETnoSprintswithDNF) \
-	$(TARGETnoSprintswoDNF)
+	$(TARGETnoSprintswoDNF) \
+	$(TARGETMEAN) \
+	$(TARGETMEDALS) \
+	$(TARGETINDYCAR)
 	mkdir -p docs/assets
 	find _includes -type f -name '*.png' \
 	  -exec sh -c 'for f; do \

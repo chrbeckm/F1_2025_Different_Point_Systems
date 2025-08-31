@@ -75,5 +75,5 @@ Possible abbreviations are:
   there is the analysis, ignoring all sprint races
 
 ## Data taken from
-  - https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship#Grands_Prix
+  - <https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship#Grands_Prix>
   - Fastest Lap in Sprints: Race review on Sky F1 youtube channel
