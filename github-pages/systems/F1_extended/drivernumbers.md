@@ -10,15 +10,15 @@ permalink: /drivernumbers
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/drivernumbers/#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/drivernumbers/#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/drivernumbers/#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/drivernumbers/#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/drivernumbers/#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/drivernumbers/#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/drivernumbers/#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/drivernumbers/#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/drivernumbers/#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/drivernumbers#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/drivernumbers#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/drivernumbers#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/drivernumbers#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/drivernumbers#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/drivernumbers#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/drivernumbers#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/drivernumbers#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/drivernumbers#tn)
 
 ## Points
 

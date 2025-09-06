@@ -7,14 +7,14 @@ permalink: /positions
 [Back to index](/F1_2025_Different_Point_Systems/)
 
 **Table of Content**
-1. [Qualifyingresults](/F1_2025_Different_Point_Systems/positions/#Q)
-2. [Gridpositions](/F1_2025_Different_Point_Systems/positions/#G)
-3. [Raceresults with DNF](/F1_2025_Different_Point_Systems/positions/#with)
-4. [Raceresults without DNF](/F1_2025_Different_Point_Systems/positions/#wo)
+1. [Qualifyingresults](/F1_2025_Different_Point_Systems/positions#Q)
+2. [Gridpositions](/F1_2025_Different_Point_Systems/positions#G)
+3. [Raceresults with DNF](/F1_2025_Different_Point_Systems/positions#with)
+4. [Raceresults without DNF](/F1_2025_Different_Point_Systems/positions#wo)
 
 _Position 21 is the default position_
 
-## Mean Positions
+## Positions
 
 ### <a id="Q"></a>Qualifyingresults
 

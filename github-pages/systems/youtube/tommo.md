@@ -12,15 +12,15 @@ permalink: /tommo
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/tommo/#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/tommo/#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/tommo/#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/tommo/#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/tommo/#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/tommo/#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/tommo/#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/tommo/#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/tommo/#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/tommo#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/tommo#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/tommo#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/tommo#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/tommo#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/tommo#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/tommo#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/tommo#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/tommo#tn)
 
 ## Points
 

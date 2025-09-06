@@ -10,15 +10,15 @@ permalink: /2025_proposal
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/2025_proposal/#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/2025_proposal/#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/2025_proposal/#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/2025_proposal/#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/2025_proposal/#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/2025_proposal/#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/2025_proposal/#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/2025_proposal/#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/2025_proposal/#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/2025_proposal#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/2025_proposal#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/2025_proposal#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/2025_proposal#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/2025_proposal#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/2025_proposal#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/2025_proposal#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/2025_proposal#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/2025_proposal#tn)
 
 ## Points
 

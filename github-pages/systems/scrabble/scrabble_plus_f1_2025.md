@@ -10,15 +10,15 @@ permalink: /scrabble_plus_f1_2025
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025/#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025/#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025/#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025/#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025/#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025/#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025/#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025/#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025/#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025#tn)
 
 ## <a id="ww"></a> with Sprints, with DNF
 

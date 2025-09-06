@@ -10,15 +10,15 @@ permalink: /mariokart_Wii
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/mariokart_Wii/#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/mariokart_Wii/#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/mariokart_Wii/#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/mariokart_Wii/#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/mariokart_Wii/#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/mariokart_Wii/#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/mariokart_Wii/#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/mariokart_Wii/#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/mariokart_Wii/#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/mariokart_Wii#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/mariokart_Wii#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/mariokart_Wii#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/mariokart_Wii#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/mariokart_Wii#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/mariokart_Wii#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/mariokart_Wii#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/mariokart_Wii#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/mariokart_Wii#tn)
 
 ## Points
 

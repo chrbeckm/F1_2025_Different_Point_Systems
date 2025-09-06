@@ -10,13 +10,13 @@ permalink: /indycar
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/indycar/#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/indycar/#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/indycar/#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/indycar/#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/indycar/#tables)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/indycar/#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/indycar/#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/indycar#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/indycar#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/indycar#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/indycar#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/indycar#tables)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/indycar#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/indycar#tn)
 
 ## Points
 

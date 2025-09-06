@@ -10,15 +10,15 @@ permalink: /mariokart_World
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/mariokart_World/#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/mariokart_World/#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/mariokart_World/#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/mariokart_World/#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/mariokart_World/#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/mariokart_World/#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/mariokart_World/#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/mariokart_World/#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/mariokart_World/#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/mariokart_World#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/mariokart_World#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/mariokart_World#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/mariokart_World#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/mariokart_World#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/mariokart_World#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/mariokart_World#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/mariokart_World#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/mariokart_World#tn)
 
 ## Points
 

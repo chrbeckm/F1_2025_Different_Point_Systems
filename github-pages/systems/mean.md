@@ -7,10 +7,10 @@ permalink: /mean
 [Back to index](/F1_2025_Different_Point_Systems/)
 
 **Table of Content**
-1. [Qualifyingresults](/F1_2025_Different_Point_Systems/mean/#Q)
-2. [Gridpositions](/F1_2025_Different_Point_Systems/mean/#G)
-3. [Raceresults with DNF](/F1_2025_Different_Point_Systems/mean/#with)
-4. [Raceresults without DNF](/F1_2025_Different_Point_Systems/mean/#wo)
+1. [Qualifyingresults](/F1_2025_Different_Point_Systems/mean#Q)
+2. [Gridpositions](/F1_2025_Different_Point_Systems/mean#G)
+3. [Raceresults with DNF](/F1_2025_Different_Point_Systems/mean#with)
+4. [Raceresults without DNF](/F1_2025_Different_Point_Systems/mean#wo)
 
 ## Mean Positions
 

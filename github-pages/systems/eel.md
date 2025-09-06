@@ -7,9 +7,9 @@ permalink: /eel
 [Back to index](/F1_2025_Different_Point_Systems/)
 
 **Table of Content**
-1. [Qualifyingresults](/F1_2025_Different_Point_Systems/eel/#Q)
-2. [Gridpositions](/F1_2025_Different_Point_Systems/eel/#G)
-3. [Raceresults](/F1_2025_Different_Point_Systems/eel/#wo)
+1. [Qualifyingresults](/F1_2025_Different_Point_Systems/eel#Q)
+2. [Gridpositions](/F1_2025_Different_Point_Systems/eel#G)
+3. [Raceresults](/F1_2025_Different_Point_Systems/eel#wo)
 
 ## Everyone Except Last
 

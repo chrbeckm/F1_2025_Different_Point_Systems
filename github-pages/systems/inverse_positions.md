@@ -10,15 +10,15 @@ permalink: /inverse_positions
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/inverse_positions/#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/inverse_positions/#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/inverse_positions/#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/inverse_positions/#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/inverse_positions/#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/inverse_positions/#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/inverse_positions/#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/inverse_positions/#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/inverse_positions/#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/inverse_positions#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/inverse_positions#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/inverse_positions#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/inverse_positions#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/inverse_positions#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/inverse_positions#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/inverse_positions#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/inverse_positions#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/inverse_positions#tn)
 
 ## Points
 
