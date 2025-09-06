@@ -172,6 +172,7 @@ x = np.arange(len(races) + 1)
 
 
 if DNFdiff == "withDNF":
+    os.makedirs(f"_includes/{DNFdiff}/{point_systems[f125]['dir']}", exist_ok=True)
     fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
     for i, (di, dn) in enumerate(zip(driver_data["shorthand"], driver_data["name"])):
         ax.plot(
