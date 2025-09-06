@@ -427,6 +427,21 @@ def get_point_systems_dict(nr_of_races):
             "dir": "math/prime",
         },
         {
+            "name": "Squared Numbers Raceresults",
+            "points": inverse_position**2,
+            "sprint_points": inverse_position,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "dir": "math/squared",
+        },
+        {
+            "name": "Squared Numbers Qualifyingresults",
+            "points": inverse_position**2,
+            "sprint_points": inverse_position,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "qualifying": True,
+            "dir": "math/squared",
+        },
+        {
             "name": "Tommo (yt) Raceresults",
             "points": tommo,
             "sprint_points": tommo_s,
