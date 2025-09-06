@@ -27,7 +27,7 @@ jobs:
           pip install -r .github/workflows/requirements.txt
 
       - name: Generate images
-        run: make -j 1
+        run: make -j 2
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
