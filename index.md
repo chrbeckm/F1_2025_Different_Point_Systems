@@ -4,40 +4,18 @@ permalink: /
 title: F1 2025 in different Point Systems
 ---
 
-- [Positions](/F1_2025_Different_Point_Systems/positions)
-- [Inverse Positions](/F1_2025_Different_Point_Systems/inverse_positions)
-- [Everyone Except Last](/F1_2025_Different_Point_Systems/eel)
-- [Mean Positions](/F1_2025_Different_Point_Systems/mean)
-- Math
-  - [Prime Numbers](/F1_2025_Different_Point_Systems/prime)
-  - [Fibonacci](/F1_2025_Different_Point_Systems/fibonacci)
-- Formula 1
-  - [1950](/F1_2025_Different_Point_Systems/1950)
-  - [1988](/F1_2025_Different_Point_Systems/1988)
-  - [2007](/F1_2025_Different_Point_Systems/2007)
-  - [2021](/F1_2025_Different_Point_Systems/2021)
-  - [2024](/F1_2025_Different_Point_Systems/2024)
-  - [2025](/F1_2025_Different_Point_Systems/2025)
-- Formula 1 related
-  - [F1 Medals](/F1_2025_Different_Point_Systems/F1Medals)
-  - [F1 2025 Proposal](/F1_2025_Different_Point_Systems/2025_proposal)
-  - [F1 2025 Reversed](/F1_2025_Different_Point_Systems/2025_reversed)
-  - [F2](/F1_2025_Different_Point_Systems/F2_2025)
-  - [Drivernumbers](/F1_2025_Different_Point_Systems/drivernumbers)
-- Other Motorsport
-  - [IMSA](/F1_2025_Different_Point_Systems/imsa)
-  - [Indycar](/F1_2025_Different_Point_Systems/indycar)
-- Mariokart
-  - [Mariokart DS](/F1_2025_Different_Point_Systems/mariokart_DS)
-  - [Mariokart Wii](/F1_2025_Different_Point_Systems/mariokart_Wii)
-  - [Mariokart 7](/F1_2025_Different_Point_Systems/mariokart_7)
-  - [Mariokart 8](/F1_2025_Different_Point_Systems/mariokart_8)
-  - [Mariokart World](/F1_2025_Different_Point_Systems/mariokart_World)
-- Scrabble
-  - [only Scrabble](/F1_2025_Different_Point_Systems/scrabble)
-  - [Scrabble + F1 2025](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025)
-- Youtubers
-  - [Tommo](/F1_2025_Different_Point_Systems/tommo)
+| Position based systems | Math | Formula 1 | Formula 1 related | Other Motorsport | Mariokart | Scrabble | Youtubers |
+| - | - | - | - | - | - | - | - |
+| [Positions](/F1_2025_Different_Point_Systems/positions) | [Prime Numbers](/F1_2025_Different_Point_Systems/prime) | [1950](/F1_2025_Different_Point_Systems/1950) | [F1 Medals](/F1_2025_Different_Point_Systems/F1Medals) | [IMSA](/F1_2025_Different_Point_Systems/imsa) | [Mariokart DS](/F1_2025_Different_Point_Systems/mariokart_DS) | [only Scrabble](/F1_2025_Different_Point_Systems/scrabble) | [Tommo](/F1_2025_Different_Point_Systems/tommo) |
+| [Inverse Positions](/F1_2025_Different_Point_Systems/inverse_positions) | [Fibonacci](/F1_2025_Different_Point_Systems/fibonacci) | [1988](/F1_2025_Different_Point_Systems/1988) | [F1 2025 Proposal](/F1_2025_Different_Point_Systems/2025_proposal) | [Indycar](/F1_2025_Different_Point_Systems/indycar) | [Mariokart Wii](/F1_2025_Different_Point_Systems/mariokart_Wii) | [Scrabble + F1 2025](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025) | |
+| [Mean Positions](/F1_2025_Different_Point_Systems/mean) | [Squared Numbers](/F1_2025_Different_Point_Systems/squared) | [2007](/F1_2025_Different_Point_Systems/2007) | [F1 2025 Reversed](/F1_2025_Different_Point_Systems/2025_reversed) | | [Mariokart 7](/F1_2025_Different_Point_Systems/mariokart_7) | | |
+| [Everyone Except Last](/F1_2025_Different_Point_Systems/eel) | | [2021](/F1_2025_Different_Point_Systems/2021) | [F2](/F1_2025_Different_Point_Systems/F2_2025) | | [Mariokart 8](/F1_2025_Different_Point_Systems/mariokart_8) | | |
+| | | [2024](/F1_2025_Different_Point_Systems/2024) | [Drivernumbers](/F1_2025_Different_Point_Systems/drivernumbers) | | [Mariokart World](/F1_2025_Different_Point_Systems/mariokart_World) | | |
+| | | [2025](/F1_2025_Different_Point_Systems/2025) | | | | | |
+
+Download all files in a zip [here](/F1_2025_Different_Point_Systems/docs/assets/all_files.zip).
+
+[Comparison between all point systems and the Formula 1 2025 point system.](/F1_2025_Different_Point_Systems/overview)
 
 # F1 2025 in different Point Systems - Explanation
 
@@ -76,4 +54,5 @@ Possible abbreviations are:
 
 ## Data taken from
   - <https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship#Grands_Prix>
+  - <https://www.statsf1.com/en/2025/hongrie/meilleur-tour.aspx>
   - Fastest Lap in Sprints: Race review on Sky F1 youtube channel

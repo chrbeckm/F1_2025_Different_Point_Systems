@@ -127,7 +127,7 @@ for race_number, race in enumerate(races):
 
 
 # Plot
-def sorted_legend_by_final_points(ax):
+def sorted_legend_by_final_points(ax, bbox=(1.0, 0.5)):
     handles, labels = ax.get_legend_handles_labels()
     points_in_labels = [float(label.split()[0]) for label in labels]
     sorted_items = sorted(
@@ -138,11 +138,11 @@ def sorted_legend_by_final_points(ax):
         sorted_handles,
         sorted_labels,
         loc="center left",
-        bbox_to_anchor=(1.0, 0.5),
+        bbox_to_anchor=bbox,
     )
 
 
-imsa, imsa_q, f150, f150q, f188, f188q, mksc, mkscq = 0, 0, 0, 0, 0, 0, 0, 0
+imsa, imsa_q, f150, f150q, f188, f188q, f125, mksc, mkscq = 0, 0, 0, 0, 0, 0, 0, 0, 0
 for i in range(len(point_systems)):
     if point_systems[i]["name"] == "IMSA":
         imsa = i
@@ -156,6 +156,8 @@ for i in range(len(point_systems)):
         f188 = i
     elif point_systems[i]["name"] == "F1 1988 Qualifyingresults":
         f188q = i
+    elif point_systems[i]["name"] == "F1 2025 Raceresults":
+        f125 = i
     elif point_systems[i]["name"] == "Super Mario Kart Raceresults":
         mksc = i
     elif point_systems[i]["name"] == "Super Mario Kart Qualifyingresults":
@@ -167,6 +169,38 @@ for dn in driver_data["name"]:
     point_systems[imsa]["driver_dict"][dn] += point_systems[imsa_q]["driver_dict"][dn]
 
 x = np.arange(len(races) + 1)
+
+
+if DNFdiff == "withDNF":
+    fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
+    for i, (di, dn) in enumerate(zip(driver_data["shorthand"], driver_data["name"])):
+        ax.plot(
+            x,
+            point_systems[f125]["driver_dict"][dn],
+            label=f"{point_systems[f125]['driver_dict'][dn][-1]:5.0f} {di}",
+            color=f"#{driver_data['color'][i]}",
+            linestyle=driver_data["style"][i],
+        )
+    ax.set_title(f"{point_systems[f125]['name']} {DNFdiff[:-3].replace('wo', 'without')} DNF")
+    sorted_legend_by_final_points(ax, (-0.14, 0.5))
+    ax.grid()
+    ax.set_xlim(0, 30)
+    ax.set_ylim(0, ax.get_ylim()[-1])
+    ax.set_xticks(
+        np.arange(31),
+        labels=[""] + races,
+        rotation=-45,
+        ha="left",
+        rotation_mode="anchor",
+    )
+    ax.yaxis.set_label_position("right")
+    ax.yaxis.tick_right()
+
+    filename = f"_includes/{DNFdiff}/{point_systems[f125]['dir']}/{point_systems[f125]['name'].replace(' ', '_')}_leftLegend"
+    fig.savefig(filename + ".pdf")
+    fig.savefig(filename + ".png", dpi=500)
+    plt.close(fig)
+    print("F1 2025 plot done", DNFdiff)
 
 zero_arr = np.zeros((len(driver_data["name"]), len(races)))
 point_readout = [zero_arr] * len(point_systems)
@@ -356,5 +390,6 @@ for system_nr in [f150, f150q, f188, f188q]:
         f.write(",".join(sorted_names) + "\n")
         # second row: points
         f.write(",".join(map(str, sorted_points)) + "\n")
+
 
 print(f">>> {sys.argv} done")
