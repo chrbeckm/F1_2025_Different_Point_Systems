@@ -56,3 +56,11 @@ Possible abbreviations are:
   - <https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship#Grands_Prix>
   - <https://www.statsf1.com/en/2025/hongrie/meilleur-tour.aspx>
   - Fastest Lap in Sprints: Race review on Sky F1 youtube channel
+
+### Contact
+
+Have suggestion for a new point system?
+
+Found a bug?
+
+[E-Mail](mailto:fdifferentpointsystem at gmail.com)
