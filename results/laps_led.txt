@@ -17,7 +17,7 @@ Piastri,36,Norris,9,Verstappen,7#UK
 Piastri,38,Norris,6#Belgium
 Norris,36,Leclerc,28,Piastri,6#Hungary
 Piastri,72#Dutch
-#Italy
+Verstappen,42,Norris,11#Italy
 #Azerbaijan
 #Singapore
 #USA Sprint

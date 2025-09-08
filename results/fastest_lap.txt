@@ -17,7 +17,7 @@ Norris,,,,,,,,,,,,,,,,,,,#Belgium Sprint
 Antonelli,Hülkenberg,Norris,Piastri,Alonso,Sainz,Verstappen,Colapinto,Leclerc,Hamilton,Russell,Lawson,Bearman,Ocon,Albon,Bortoleto,Gasly,Stroll,Tsunoda,Hadjar#Belgium
 Russell,Piastri,Verstappen,Sainz,Norris,Hülkenberg,Hamilton,Alonso,Leclerc,Lawson,Bortoleto,Stroll,Antonelli,Albon,Hadjar,Colapinto,Tsunoda,Gasly,Ocon,Bearman#Hungary
 Piastri,Norris,Verstappen,Colapinto,Hadjar,Antonelli,Albon,Alonso,Russell,Sainz,Stroll,Lawson,Bearman,Ocon,Bortoleto,Tsunoda,Leclerc,Hülkenberg,Gasly,Hamilton#Dutch
-,,,,,,,,,,,,,,,,,,,#Italy
+Norris,Verstappen,Piastri,Leclerc,Albon,Hamilton,Sainz,Russell,Bearman,Antonelli,Hadjar,Bortoleto,Stroll,Gasly,Colapinto,Tsunoda,Lawson,Ocon,Alonso,#Italy
 ,,,,,,,,,,,,,,,,,,,#Azerbaijan
 ,,,,,,,,,,,,,,,,,,,#Singapore
 ,,,,,,,,,,,,,,,,,,,#USA Sprint
