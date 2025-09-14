@@ -63,4 +63,4 @@ Have suggestion for a new point system?
 
 Found a bug?
 
-[E-Mail](mailto:fdifferentpointsystem at gmail.com)
+[E-Mail](mailto:f1differentpointsystem at gmail.com)
