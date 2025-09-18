@@ -1,5 +1,6 @@
 TARGETSCRABBLE = helpfiles/scrabble.txt
 TARGETEEL = _includes/eel/Grid.csv
+TARGETBALATRO = _includes/withDNF/math/Balatro/Balatro_with_Sprints.pdf
 TARGETMEAN = _includes/mean/grid/mean.csv
 TARGETMEDALS = _includes/medals/F1_Medals_Gridresults_races.csv
 TARGETINDYCAR = _includes/withDNF/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png
@@ -8,6 +9,7 @@ TARGETwoDNF = _includes/woDNF/drivernumbers/constructors_Drivernumbers_Qualifyin
 TARGETnoSprintswithDNF = _includes/noSprints/withDNF/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
 TARGETnoSprintswoDNF = _includes/noSprints/woDNF/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
 
+HELPPLOT = python_scripts/plot_help.py
 HELPDICT = python_scripts/first_point_systems_dict.py
 HELPDRIVERDATA = helpfiles/driver_data.txt
 HELPRACES = helpfiles/races.txt
@@ -30,7 +32,8 @@ _includes/eel/Grid.md: \
 	$(TARGETEEL) \
 	$(TARGETMEAN) \
 	$(TARGETMEDALS) \
-	$(TARGETINDYCAR)
+	$(TARGETINDYCAR) \
+	$(TARGETBALATRO)
 	find _includes -type f -name '*.csv' -exec sh -c 'for f; do csv2md "$$f" > "$${f%.csv}.md"; done' _ {} +
 
 docs/assets/mean/qualifying/positions_2D.png: \
@@ -40,7 +43,8 @@ docs/assets/mean/qualifying/positions_2D.png: \
 	$(TARGETnoSprintswoDNF) \
 	$(TARGETMEAN) \
 	$(TARGETMEDALS) \
-	$(TARGETINDYCAR)
+	$(TARGETINDYCAR) \
+	$(TARGETBALATRO)
 	mkdir -p docs/assets
 	find _includes -type f -name '*.png' \
 	  -exec sh -c 'for f; do \
@@ -61,6 +65,16 @@ $(TARGETEEL): \
 	$(RESULTwoDNF) \
 	$(HELPRACES) \
 	$(HELPDRIVERDATA)
+	python $<
+
+$(TARGETBALATRO): \
+	python_scripts/balatro.py \
+	$(RESULTQUALIFYING) \
+	$(RESULTwithDNF) \
+	$(RESULTFASTEST) \
+	$(HELPRACES) \
+	$(HELPDRIVERDATA) \
+	$(HELPPLOT)
 	python $<
 
 $(TARGETMEAN): \
@@ -90,7 +104,8 @@ $(TARGETINDYCAR): \
 	$(RESULTwithDNF) \
 	$(RESULTLAPSLED) \
 	$(HELPRACES) \
-	$(HELPDRIVERDATA)
+	$(HELPDRIVERDATA) \
+	$(HELPPLOT)
 	python $<
 
 $(TARGETwithDNF): \
@@ -100,7 +115,8 @@ $(TARGETwithDNF): \
 	$(RESULTwithDNF) \
 	$(RESULTFASTEST) \
 	$(HELPRACES) \
-	$(HELPDRIVERDATA)
+	$(HELPDRIVERDATA) \
+	$(HELPPLOT)
 	python $< with
 
 $(TARGETwoDNF): \
@@ -110,7 +126,8 @@ $(TARGETwoDNF): \
 	$(wDNF) \
 	$(RESULTFASTEST) \
 	$(HELPRACES) \
-	$(HELPDRIVERDATA)
+	$(HELPDRIVERDATA) \
+	$(HELPPLOT)
 	python $< wo
 
 $(TARGETnoSprintswithDNF): \
@@ -120,7 +137,8 @@ $(TARGETnoSprintswithDNF): \
 	$(RESULTwithDNF) \
 	$(RESULTFASTEST) \
 	$(HELPRACES) \
-	$(HELPDRIVERDATA)
+	$(HELPDRIVERDATA) \
+	$(HELPPLOT)
 	python $< with
 
 $(TARGETnoSprintswoDNF): \
@@ -130,8 +148,10 @@ $(TARGETnoSprintswoDNF): \
 	$(wDNF) \
 	$(RESULTFASTEST) \
 	$(HELPRACES) \
-	$(HELPDRIVERDATA)
+	$(HELPDRIVERDATA) \
+	$(HELPPLOT)
 	python $< wo
 
 clean:
 	rm -rf _includes
+	rm -rf docs
