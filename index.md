@@ -11,7 +11,7 @@ title: F1 2025 in different Point Systems
 | [Mean Positions](/F1_2025_Different_Point_Systems/mean) | [Squared Numbers](/F1_2025_Different_Point_Systems/squared) | [2007](/F1_2025_Different_Point_Systems/2007) | [F1 2025 Reversed](/F1_2025_Different_Point_Systems/2025_reversed) | | [Mariokart 7](/F1_2025_Different_Point_Systems/mariokart_7) | | |
 | [Everyone Except Last](/F1_2025_Different_Point_Systems/eel) | | [2021](/F1_2025_Different_Point_Systems/2021) | [F2](/F1_2025_Different_Point_Systems/F2_2025) | | [Mariokart 8](/F1_2025_Different_Point_Systems/mariokart_8) | | |
 | | | [2024](/F1_2025_Different_Point_Systems/2024) | [Drivernumbers](/F1_2025_Different_Point_Systems/drivernumbers) | | [Mariokart World](/F1_2025_Different_Point_Systems/mariokart_World) | | |
-| | | [2025](/F1_2025_Different_Point_Systems/2025) | | | | | |
+| |[Balatro](/F1_2025_Different_Point_Systems/balatro) | [2025](/F1_2025_Different_Point_Systems/2025) | | | | | |
 
 Download all files in a zip [here](/F1_2025_Different_Point_Systems/docs/assets/all_files.zip).
 
