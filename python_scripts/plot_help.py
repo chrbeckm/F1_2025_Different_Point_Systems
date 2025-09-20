@@ -20,17 +20,21 @@ def sorted_legend_by_final_points(ax, bbox=(1.0, 0.5)):
 
 def plot_help(point_systems, races, driver_data, path="_includes"):
     for j, system in enumerate(point_systems):
+        label_format = "{:7.1f} {}" if "Balatro" in system["name"] else "{:5.0f} {}"
         x = np.arange(len(races) + 1)
 
         zero_arr = np.zeros((len(driver_data["name"]), len(races)))
         point_readout = [zero_arr] * len(point_systems)
         os.makedirs(path + "/" + system["dir"], exist_ok=True)
         fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
-        for i, (di, dn) in enumerate(zip(driver_data["shorthand"], driver_data["name"])):
+
+        for i, (di, dn) in enumerate(
+            zip(driver_data["shorthand"], driver_data["name"])
+        ):
             ax.plot(
                 x,
                 system["driver_dict"][dn],
-                label=f"{system['driver_dict'][dn][-1]:5.0f} {di}",
+                label=label_format.format(system["driver_dict"][dn][-1], di),
                 color=f"#{driver_data['color'][i]}",
                 linestyle=driver_data["style"][i],
             )
@@ -49,7 +53,7 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
         )
 
         filename = f"{path}/{system['dir']}/{system['name'].replace(' ', '_')}"
-        fig.savefig(filename + ".pdf")
+        # fig.savefig(filename + ".pdf")
         fig.savefig(filename + ".png", dpi=500)
         plt.close(fig)
         data_with_race_names = []
@@ -87,11 +91,13 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
             + system["driver_dict"]["Colapinto"],
             "AstonMartin": system["driver_dict"]["Alonso"]
             + system["driver_dict"]["Stroll"],
-            "Ferrari": system["driver_dict"]["Leclerc"] + system["driver_dict"]["Hamilton"],
+            "Ferrari": system["driver_dict"]["Leclerc"]
+            + system["driver_dict"]["Hamilton"],
             "Haas": system["driver_dict"]["Ocon"] + system["driver_dict"]["Bearman"],
             "KickSauber": system["driver_dict"]["Bortoleto"]
             + system["driver_dict"]["Hülkenberg"],
-            "McLaren": system["driver_dict"]["Norris"] + system["driver_dict"]["Piastri"],
+            "McLaren": system["driver_dict"]["Norris"]
+            + system["driver_dict"]["Piastri"],
             "Mercedes": system["driver_dict"]["Antonelli"]
             + system["driver_dict"]["Russell"],
             "RacingBulls": system["driver_dict"]["Hadjar"] + RacingBulls,
@@ -99,76 +105,27 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
             "Williams": system["driver_dict"]["Albon"] + system["driver_dict"]["Sainz"],
         }
         fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
-        ax.plot(
-            x,
-            team_dict["Alpine"],
-            label=f"{team_dict['Alpine'][-1]:5.0f} Alpine",
-            color="#0093cc",
-            linestyle="solid",
-        )
-        ax.plot(
-            x,
-            team_dict["AstonMartin"],
-            label=f"{team_dict['AstonMartin'][-1]:5.0f} Aston Martin",
-            color="#229971",
-            linestyle="solid",
-        )
-        ax.plot(
-            x,
-            team_dict["Ferrari"],
-            label=f"{team_dict['Ferrari'][-1]:5.0f} Ferrari",
-            color="#e80020",
-            linestyle="solid",
-        )
-        ax.plot(
-            x,
-            team_dict["Haas"],
-            label=f"{team_dict['Haas'][-1]:5.0f} Haas",
-            color="#b6babd",
-            linestyle="solid",
-        )
-        ax.plot(
-            x,
-            team_dict["KickSauber"],
-            label=f"{team_dict['KickSauber'][-1]:5.0f} Kick Sauber",
-            color="#52e252",
-            linestyle="solid",
-        )
-        ax.plot(
-            x,
-            team_dict["McLaren"],
-            label=f"{team_dict['McLaren'][-1]:5.0f} McLaren",
-            color="#ff8000",
-            linestyle="solid",
-        )
-        ax.plot(
-            x,
-            team_dict["Mercedes"],
-            label=f"{team_dict['Mercedes'][-1]:5.0f} Mercedes",
-            color="#27f4d2",
-            linestyle="solid",
-        )
-        ax.plot(
-            x,
-            team_dict["RacingBulls"],
-            label=f"{team_dict['RacingBulls'][-1]:5.0f} Racing Bulls",
-            color="#6692ff",
-            linestyle="solid",
-        )
-        ax.plot(
-            x,
-            team_dict["RedBull"],
-            label=f"{team_dict['RedBull'][-1]:5.0f} Red Bull",
-            color="#3671C6",
-            linestyle="solid",
-        )
-        ax.plot(
-            x,
-            team_dict["Williams"],
-            label=f"{team_dict['Williams'][-1]:5.0f} Williams",
-            color="#64c4ff",
-            linestyle="solid",
-        )
+        teams = {
+            "Alpine": ["#0093cc", "Alpine"],
+            "AstonMartin": ["#229971", "Aston Martin"],
+            "Ferrari": ["#e80020", "Ferrari"],
+            "Haas": ["#b6babd", "Haas"],
+            "KickSauber": ["#52e252", "Kick Sauber"],
+            "McLaren": ["#ff8000", "McLaren"],
+            "Mercedes": ["#27f4d2", "Mercedes"],
+            "RacingBulls": ["#6692ff", "Racing Bulls"],
+            "RedBull": ["#3671C6", "Red Bull"],
+            "Williams": ["#64c4ff", "Williams"],
+        }
+
+        for team, (color, label) in teams.items():
+            ax.plot(
+                x,
+                team_dict[team],
+                label=label_format.format(team_dict[team][-1], label),
+                color=color,
+                linestyle="solid",
+            )
         ax.set_title(f"{system['name']} Constructors' Championship")
         sorted_legend_by_final_points(ax)
         ax.grid()
@@ -182,7 +139,9 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
             rotation_mode="anchor",
         )
 
-        filename = f"{path}/{system['dir']}/constructors_{system['name'].replace(' ', '_')}"
-        fig.savefig(filename + ".pdf")
+        filename = (
+            f"{path}/{system['dir']}/constructors_{system['name'].replace(' ', '_')}"
+        )
+        # fig.savefig(filename + ".pdf")
         fig.savefig(filename + ".png", dpi=500)
         plt.close(fig)

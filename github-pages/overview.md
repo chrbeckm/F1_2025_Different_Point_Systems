@@ -4,10 +4,10 @@ permalink: /overview
 title: Overview over all possible files
 ---
 
-| [Position based systems](/F1_2025_Different_Point_Systems/overview#positionbasedsystems) | [Math](/F1_2025_Different_Point_Systems/overview#math) | [Formula 1](/F1_2025_Different_Point_Systems/overview#f1) | [Formula 1 related](/F1_2025_Different_Point_Systems/overview#f1related) | [Other Motorsport](/F1_2025_Different_Point_Systems/overview#om) | [Mariokart](/F1_2025_Different_Point_Systems/overview#mk) | [Scrabble](/F1_2025_Different_Point_Systems/overview#scrabble) | [Youtubers](/F1_2025_Different_Point_Systems/overview#yt) |
+| [Position based systems](/F1_2025_Different_Point_Systems/overview#positionbasedsystems) | [Math](/F1_2025_Different_Point_Systems/overview#math) | [Formula 1](/F1_2025_Different_Point_Systems/overview#f1) | [Formula 1 related](/F1_2025_Different_Point_Systems/overview#f1related) | [Other Motorsport](/F1_2025_Different_Point_Systems/overview#om) | [Mariokart](/F1_2025_Different_Point_Systems/overview#mk) | [Games](/F1_2025_Different_Point_Systems/overview#games) | [Scrabble](/F1_2025_Different_Point_Systems/overview#scrabble) | [Youtubers](/F1_2025_Different_Point_Systems/overview#yt) |
 | - | - | - | - | - | - | - | - |
-| Positions | Prime Numbers | 1950 | F1 Medals | IMSA | Mariokart DS | only Scrabble | Tommo |
-| Inverse Positions | Fibonacci | 1988 | F1 2025 Proposal | Indycar | Mariokart Wii | Scrabble + F1 2025 | |
+| Positions | Prime Numbers | 1950 | F1 Medals | IMSA | Mariokart DS | Balatro | only Scrabble | Tommo |
+| Inverse Positions | Fibonacci | 1988 | F1 2025 Proposal | Indycar | Mariokart Wii | | Scrabble + F1 2025 | |
 | Mean Positions | Squared Numbers | 2007 | F1 2025 Reversed | | Mariokart 7 | | |
 | Everyone Except Last | | 2021 | F2 | | Mariokart 8 | | |
 | | | 2024 | Drivernumbers | | Mariokart World | | |
@@ -68,6 +68,12 @@ All comparisons are based on the systems with sprint results and DNF.
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/mariokart/7/Mariokart_7_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/mariokart/8/Mariokart_8_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/mariokart/world/Mariokart_World_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+
+# <a id="games"></a> Games
+
+| Point System | Forumla 1 2025 |
+| - | - |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/Balatro/Balatro_with_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="scrabble"></a> Scrabble
 

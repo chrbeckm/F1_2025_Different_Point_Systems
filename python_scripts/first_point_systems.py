@@ -166,7 +166,9 @@ if DNFdiff == "withDNF":
             color=f"#{driver_data['color'][i]}",
             linestyle=driver_data["style"][i],
         )
-    ax.set_title(f"{point_systems[f125]['name']} {DNFdiff[:-3].replace('wo', 'without')} DNF")
+    ax.set_title(
+        f"{point_systems[f125]['name']} {DNFdiff[:-3].replace('wo', 'without')} DNF"
+    )
     sorted_legend_by_final_points(ax, (-0.14, 0.5))
     ax.grid()
     ax.set_xlim(0, 30)
@@ -182,7 +184,7 @@ if DNFdiff == "withDNF":
     ax.yaxis.tick_right()
 
     filename = f"_includes/{DNFdiff}/{point_systems[f125]['dir']}/{point_systems[f125]['name'].replace(' ', '_')}_leftLegend"
-    fig.savefig(filename + ".pdf")
+    # fig.savefig(filename + ".pdf")
     fig.savefig(filename + ".png", dpi=500)
     plt.close(fig)
     print("F1 2025 plot done", DNFdiff)

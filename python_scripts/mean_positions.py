@@ -158,7 +158,7 @@ for system in point_systems:
     ax.set_yticks(np.arange(1, 21))
     ax.yaxis.set_inverted(True)
     fig.savefig(f"{filename}.png", dpi=500)
-    fig.savefig(f"{filename}.pdf")
+    # fig.savefig(f"{filename}.pdf")
     plt.close(fig)
 
     ax2d.set_title(f"{system['name']} - Positions")
@@ -168,7 +168,7 @@ for system in point_systems:
     ax2d.set_yticks(np.arange(1, 21))
     ax2d.yaxis.set_inverted(True)
     fig2d.savefig(f"{filename}_2D.png")
-    fig2d.savefig(f"{filename}_2D.pdf")
+    # fig2d.savefig(f"{filename}_2D.pdf")
     plt.close(fig2d)
 
     filename = f"{system['dir']}/mean"
@@ -196,7 +196,7 @@ for system in point_systems:
     ax.set_yticks(np.arange(1, 21))
     ax.yaxis.set_inverted(True)
     fig.savefig(f"{filename}.png")
-    fig.savefig(f"{filename}.pdf")
+    # fig.savefig(f"{filename}.pdf")
     plt.close(fig)
 
 print(f">>> mean_positions.py done")

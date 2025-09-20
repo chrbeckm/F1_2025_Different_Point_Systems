@@ -4,14 +4,14 @@ permalink: /
 title: F1 2025 in different Point Systems
 ---
 
-| Position based systems | Math | Formula 1 | Formula 1 related | Other Motorsport | Mariokart | Scrabble | Youtubers |
-| - | - | - | - | - | - | - | - |
-| [Positions](/F1_2025_Different_Point_Systems/positions) | [Prime Numbers](/F1_2025_Different_Point_Systems/prime) | [1950](/F1_2025_Different_Point_Systems/1950) | [F1 Medals](/F1_2025_Different_Point_Systems/F1Medals) | [IMSA](/F1_2025_Different_Point_Systems/imsa) | [Mariokart DS](/F1_2025_Different_Point_Systems/mariokart_DS) | [only Scrabble](/F1_2025_Different_Point_Systems/scrabble) | [Tommo](/F1_2025_Different_Point_Systems/tommo) |
-| [Inverse Positions](/F1_2025_Different_Point_Systems/inverse_positions) | [Fibonacci](/F1_2025_Different_Point_Systems/fibonacci) | [1988](/F1_2025_Different_Point_Systems/1988) | [F1 2025 Proposal](/F1_2025_Different_Point_Systems/2025_proposal) | [Indycar](/F1_2025_Different_Point_Systems/indycar) | [Mariokart Wii](/F1_2025_Different_Point_Systems/mariokart_Wii) | [Scrabble + F1 2025](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025) | |
-| [Mean Positions](/F1_2025_Different_Point_Systems/mean) | [Squared Numbers](/F1_2025_Different_Point_Systems/squared) | [2007](/F1_2025_Different_Point_Systems/2007) | [F1 2025 Reversed](/F1_2025_Different_Point_Systems/2025_reversed) | | [Mariokart 7](/F1_2025_Different_Point_Systems/mariokart_7) | | |
-| [Everyone Except Last](/F1_2025_Different_Point_Systems/eel) | | [2021](/F1_2025_Different_Point_Systems/2021) | [F2](/F1_2025_Different_Point_Systems/F2_2025) | | [Mariokart 8](/F1_2025_Different_Point_Systems/mariokart_8) | | |
-| | | [2024](/F1_2025_Different_Point_Systems/2024) | [Drivernumbers](/F1_2025_Different_Point_Systems/drivernumbers) | | [Mariokart World](/F1_2025_Different_Point_Systems/mariokart_World) | | |
-| |[Balatro](/F1_2025_Different_Point_Systems/balatro) | [2025](/F1_2025_Different_Point_Systems/2025) | | | | | |
+| Position based systems | Math | Formula 1 | Formula 1 related | Other Motorsport | Mariokart | Games | Scrabble | Youtubers |
+| - | - | - | - | - | - | - | - | - |
+| [Positions](/F1_2025_Different_Point_Systems/positions) | [Prime Numbers](/F1_2025_Different_Point_Systems/prime) | [1950](/F1_2025_Different_Point_Systems/1950) | [F1 Medals](/F1_2025_Different_Point_Systems/F1Medals) | [IMSA](/F1_2025_Different_Point_Systems/imsa) | [Mariokart DS](/F1_2025_Different_Point_Systems/mariokart_DS) | [Balatro](/F1_2025_Different_Point_Systems/balatro) | [only Scrabble](/F1_2025_Different_Point_Systems/scrabble) | [Tommo](/F1_2025_Different_Point_Systems/tommo) |
+| [Inverse Positions](/F1_2025_Different_Point_Systems/inverse_positions) | [Fibonacci](/F1_2025_Different_Point_Systems/fibonacci) | [1988](/F1_2025_Different_Point_Systems/1988) | [F1 2025 Proposal](/F1_2025_Different_Point_Systems/2025_proposal) | [Indycar](/F1_2025_Different_Point_Systems/indycar) | [Mariokart Wii](/F1_2025_Different_Point_Systems/mariokart_Wii) | | [Scrabble + F1 2025](/F1_2025_Different_Point_Systems/scrabble_plus_f1_2025) |
+| [Mean Positions](/F1_2025_Different_Point_Systems/mean) | [Squared Numbers](/F1_2025_Different_Point_Systems/squared) | [2007](/F1_2025_Different_Point_Systems/2007) | [F1 2025 Reversed](/F1_2025_Different_Point_Systems/2025_reversed) | | [Mariokart 7](/F1_2025_Different_Point_Systems/mariokart_7) |
+| [Everyone Except Last](/F1_2025_Different_Point_Systems/eel) | | [2021](/F1_2025_Different_Point_Systems/2021) | [F2](/F1_2025_Different_Point_Systems/F2_2025) | | [Mariokart 8](/F1_2025_Different_Point_Systems/mariokart_8) |
+| | | [2024](/F1_2025_Different_Point_Systems/2024) | [Drivernumbers](/F1_2025_Different_Point_Systems/drivernumbers) | | [Mariokart World](/F1_2025_Different_Point_Systems/mariokart_World) |
+| | | [2025](/F1_2025_Different_Point_Systems/2025) |
 
 Download all files in a zip [here](/F1_2025_Different_Point_Systems/docs/assets/all_files.zip).
 
