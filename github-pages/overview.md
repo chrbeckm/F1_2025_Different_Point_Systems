@@ -19,7 +19,7 @@ All comparisons are based on the systems with sprint results and DNF.
 
 # <a id="positionbasedsystems"></a> Position based systems
 
-| Point System | Forumla 1 2025 |
+| Point System | Formula 1 2025 |
 | - | - |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/mean/raceresults_with_DNF/positions_2D.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/Inverse/Inverse_Position_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
@@ -27,7 +27,7 @@ All comparisons are based on the systems with sprint results and DNF.
 
 # <a id="math"></a> Math
 
-| Point System | Forumla 1 2025 |
+| Point System | Formula 1 2025 |
 | - | - |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/prime/Prime_Numbers_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/fibonacci/Fibonacci_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
@@ -35,7 +35,7 @@ All comparisons are based on the systems with sprint results and DNF.
 
 # <a id="f1"></a> Formula 1
 
-| Point System | Forumla 1 2025 |
+| Point System | Formula 1 2025 |
 | - | - |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/1950/F1_1950_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/1988/F1_1988_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
@@ -45,7 +45,7 @@ All comparisons are based on the systems with sprint results and DNF.
 
 # <a id="f1related"></a> Formula 1 related
 
-| Point System | Forumla 1 2025 |
+| Point System | Formula 1 2025 |
 | - | - |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/2025_reversed/F1_2025_Reversed_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
@@ -54,14 +54,14 @@ All comparisons are based on the systems with sprint results and DNF.
 
 # <a id="om"></a> Other Motorsport
 
-| Point System | Forumla 1 2025 |
+| Point System | Formula 1 2025 |
 | - | - |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/other_motorsport/IMSA/IMSA.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="mk"></a> Mariokart
 
-| Point System | Forumla 1 2025 |
+| Point System | Formula 1 2025 |
 | - | - |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/mariokart/DS/Mariokart_DS_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/mariokart/Wii/Mariokart_Wii_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
@@ -71,19 +71,19 @@ All comparisons are based on the systems with sprint results and DNF.
 
 # <a id="games"></a> Games
 
-| Point System | Forumla 1 2025 |
+| Point System | Formula 1 2025 |
 | - | - |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/Balatro/Balatro_with_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="scrabble"></a> Scrabble
 
-| Point System | Forumla 1 2025 |
+| Point System | Formula 1 2025 |
 | - | - |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/scrabble/Scrabble_Raceresults.png)  | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/scrabble/PlusF12025/Scrabble_+_F1_2025_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="yt"></a> Youtubers
 
-| Point System | Forumla 1 2025 |
+| Point System | Formula 1 2025 |
 | - | - |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/yt/tommo/Tommo_(yt)_Raceresults.png)  | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
