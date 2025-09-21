@@ -18,7 +18,7 @@ Antonelli,Hülkenberg,Norris,Piastri,Alonso,Sainz,Verstappen,Colapinto,Leclerc,H
 Russell,Piastri,Verstappen,Sainz,Norris,Hülkenberg,Hamilton,Alonso,Leclerc,Lawson,Bortoleto,Stroll,Antonelli,Albon,Hadjar,Colapinto,Tsunoda,Gasly,Ocon,Bearman#Hungary
 Piastri,Norris,Verstappen,Colapinto,Hadjar,Antonelli,Albon,Alonso,Russell,Sainz,Stroll,Lawson,Bearman,Ocon,Bortoleto,Tsunoda,Leclerc,Hülkenberg,Gasly,Hamilton#Dutch
 Norris,Verstappen,Piastri,Leclerc,Albon,Hamilton,Sainz,Russell,Bearman,Antonelli,Hadjar,Bortoleto,Stroll,Gasly,Colapinto,Tsunoda,Lawson,Ocon,Alonso,#Italy
-,,,,,,,,,,,,,,,,,,,#Azerbaijan
+Verstappen,Russell,Hadjar,Sainz,Hamilton,Antonelli,Albon,Norris,Leclerc,Bearman,Hülkenberg,Tsunoda,Lawson,Bortoleto,Alonso,Stroll,Ocon,Gasly,Colapinto,#Azerbaijan
 ,,,,,,,,,,,,,,,,,,,#Singapore
 ,,,,,,,,,,,,,,,,,,,#USA Sprint
 ,,,,,,,,,,,,,,,,,,,#USA
