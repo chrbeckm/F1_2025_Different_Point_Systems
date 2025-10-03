@@ -58,7 +58,7 @@ point_systems = [
     {
         "name": "Balatro with Sprints",
         "sprints": True,
-        "dir": "withDNF/math/Balatro",
+        "dir": "withDNF_withSprint/math/Balatro",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "point_finishes": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "podium": defaultdict(lambda: np.zeros(nr_of_races + 1)),
@@ -68,7 +68,7 @@ point_systems = [
     {
         "name": "Balatro without Sprints",
         "sprints": False,
-        "dir": "noSprints/withDNF/math/Balatro",
+        "dir": "withDNF_woSprint/math/Balatro",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "point_finishes": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "podium": defaultdict(lambda: np.zeros(nr_of_races + 1)),

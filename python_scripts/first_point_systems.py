@@ -196,7 +196,7 @@ if DNFdiff == "withDNF" and SprintDiff == "withSprint":
     plt.close(fig)
     print("F1 2025 plot done", DNFdiff)
 
-plot_help(point_systems, races, driver_data, f"_includes/{DNFdiff}")
+plot_help(point_systems, races, driver_data, f"_includes/{DNFdiff}_{SprintDiff}")
 
 # F1 1950: only 4 best results count
 # F1 1988: only 11 best results count
