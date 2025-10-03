@@ -70,19 +70,19 @@ $(TARGETINDYCAR): python_scripts/indycar.py $(pre_indy)
 
 pre_with = $(HELPDICT) $(RESULTGRID) $(RESULTwithDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
 $(TARGETwithDNF): python_scripts/first_point_systems.py $(pre_with)
-	python $< with
+	python $< withDNF withSprint
 
 pre_wo = $(HELPDICT) $(RESULTQUALIFYING) $(wDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
 $(TARGETwoDNF): python_scripts/first_point_systems.py $(pre_wo)
-	python $< wo
+	python $< woDNF withSprint
 
 pre_noSpwith = $(HELPDICT) $(RESULTGRID) $(RESULTwithDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
-$(TARGETnoSprintswithDNF): python_scripts/first_point_systems_noSprints.py $(pre_noSpwith)
-	python $< with
+$(TARGETnoSprintswithDNF): python_scripts/first_point_systems.py $(pre_noSpwith)
+	python $< withDNF woSprint
 
 pre_noSpwo = $(HELPDICT) $(RESULTQUALIFYING) $(wDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
-$(TARGETnoSprintswoDNF): python_scripts/first_point_systems_noSprints.py $(pre_noSpwo)
-	python $< wo
+$(TARGETnoSprintswoDNF): python_scripts/first_point_systems.py $(pre_noSpwo)
+	python $< woDNF woSprint
 
 clean:
 	rm -rf _includes
