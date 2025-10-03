@@ -67,7 +67,10 @@ for race_number, race in enumerate(races):
             if not system.get("is_drivernumbers"):
                 if system.get("scrabble") and "2025" not in system["name"]:
                     score_array = (
-                        [int(_ * system["scale"]) for _ in system["points"][race_number]]
+                        [
+                            int(_ * system["scale"])
+                            for _ in system["points"][race_number]
+                        ]
                         if is_sprint
                         else system["points"][race_number]
                     )
@@ -84,7 +87,9 @@ for race_number, race in enumerate(races):
                         else system["points"]
                     )
                 else:
-                    score_array = system["sprint_points"] if is_sprint else system["points"]
+                    score_array = (
+                        system["sprint_points"] if is_sprint else system["points"]
+                    )
             for dn in driver_data["name"]:
                 prev_score = system["driver_dict"][dn][race_number]
                 if dn in current_result:
@@ -98,28 +103,30 @@ for race_number, race in enumerate(races):
                                     driver_data["name"] == dname
                                 ][0]
                                 i += 1
-                        numbers_in_race = np.sort(numbers_in_race, kind="mergesort")[::-1]
+                        numbers_in_race = np.sort(numbers_in_race, kind="mergesort")[
+                            ::-1
+                        ]
                         raw_points = numbers_in_race[pos_index]
                         score = (
-                            int(raw_points * system["scale"]) if is_sprint else raw_points
+                            int(raw_points * system["scale"])
+                            if is_sprint
+                            else raw_points
                         )
                     elif "reversed" in system["name"]:
                         score = score_array[finishers - pos_index - 1]
                     else:
                         score = score_array[pos_index]
-                    if (
-                        (system.get("fastest_lap") == True and not is_sprint)
-                        or (system.get("sprint_fastest_lap") == True and is_sprint)
+                    if (system.get("fastest_lap") == True and not is_sprint) or (
+                        system.get("sprint_fastest_lap") == True and is_sprint
                     ):
-                        score_array = system["sprint_fastest_lap"] if is_sprint else system["fastest_lap"]
-                        score += score_array(np.where(dn == fastest_lap[race_number])[0][0])
-                    if (
-                        "F2" in system["name"]
-                        and system.get("pole") == True
-                        and not is_sprint
-                        and qualiresults[race_number, 1] == dn
-                    ):
-                        score += 2
+                        score_array = (
+                            system["sprint_fastest_lap"]
+                            if is_sprint
+                            else system["fastest_lap"]
+                        )
+                        score += score_array(
+                            np.where(dn == fastest_lap[race_number])[0][0]
+                        )
 
                     system["driver_dict"][dn][race_number + 1] = prev_score + score
                 else:
