@@ -98,6 +98,8 @@ def get_point_systems_dict(nr_of_races):
         dtype=np.int32,
     )
 
+    empty_1P = np.array([1] + [0] * 19, dtype=np.int32)
+
     point_systems = [
         {
             "name": "F1 2025 Raceresults",
@@ -164,7 +166,7 @@ def get_point_systems_dict(nr_of_races):
             "points": f125,
             "sprint_points": f125_s,
             "driver_dict": make_driver_dict(nr_of_races),
-            "fastest_lap": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1/2024",
         },
         {
@@ -172,7 +174,7 @@ def get_point_systems_dict(nr_of_races):
             "points": f125,
             "sprint_points": f121_s,
             "driver_dict": make_driver_dict(nr_of_races),
-            "fastest_lap": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1/2021",
         },
         {
@@ -180,6 +182,7 @@ def get_point_systems_dict(nr_of_races):
             "points": f125,
             "sprint_points": f121_s,
             "driver_dict": make_driver_dict(nr_of_races),
+            "fastest_lap": empty_1P,
             "qualifying": True,
             "dir": "formula1/2021",
         },
@@ -188,7 +191,7 @@ def get_point_systems_dict(nr_of_races):
             "points": f125_proposal,
             "sprint_points": f125_s,
             "driver_dict": make_driver_dict(nr_of_races),
-            "fastest_lap": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1_extended/2025_proposal",
         },
         {
@@ -197,6 +200,7 @@ def get_point_systems_dict(nr_of_races):
             "sprint_points": f125_s,
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1_extended/2025_proposal",
         },
         {
@@ -369,7 +373,7 @@ def get_point_systems_dict(nr_of_races):
             "sprint_points": (f150 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
             "driver_sum": defaultdict(lambda: 0),
-            "fastest_lap": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1/1950",
         },
         {
@@ -379,6 +383,7 @@ def get_point_systems_dict(nr_of_races):
             "driver_dict": make_driver_dict(nr_of_races),
             "driver_sum": defaultdict(lambda: 0),
             "qualifying": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1/1950",
         },
         {

@@ -14,9 +14,6 @@ while SprintDiff not in ["withSprint", "woSprint"]:
     print("Choose with or without Sprints.")
     SprintDiff = input("'withSprint' | 'woSprint':")
 
-# Ensure build directory exists
-os.makedirs(f"_includes/{DNFdiff}", exist_ok=True)
-
 if DNFdiff == "woDNF":
     qualiresults = np.genfromtxt(
         "results/Qualifyingresults.txt", dtype=None, delimiter=",", autostrip=True
@@ -29,9 +26,7 @@ elif DNFdiff == "withDNF":
 raceresults = np.genfromtxt(
     f"results/Raceresults_{DNFdiff}.txt", dtype=None, delimiter=",", autostrip=True
 )
-with open("results/fastest_lap.txt", "r") as f:
-    fl = f.read().splitlines()
-fastest_lap = [_.split(",")[0] for _ in fl[1:]]
+fastest_lap = np.genfromtxt("results/fastest_lap.txt", dtype=None, delimiter=",")
 
 with open("helpfiles/races.txt", "r") as f:
     races = f.read().splitlines()
@@ -118,7 +113,7 @@ for race_number, race in enumerate(races):
                         score = score_array[pos_index]
                     if (system.get("fastest_lap") == True and not is_sprint) or (
                         system.get("sprint_fastest_lap") == True and is_sprint
-                    ):
+                    ) and (dn in fastest_lap[race_number]):
                         score_array = (
                             system["sprint_fastest_lap"]
                             if is_sprint
@@ -126,6 +121,17 @@ for race_number, race in enumerate(races):
                         )
                         score += score_array(
                             np.where(dn == fastest_lap[race_number])[0][0]
+                        )
+                    if (system.get("pole_points") == True and not is_sprint) or (
+                        system.get("sprint_pole_points") == True and is_sprint
+                    ) and (dn in qualiresults[race_number]):
+                        score_array = (
+                            system["sprint_pole_points"]
+                            if is_sprint
+                            else system["pole_points"]
+                        )
+                        score += score_array(
+                            np.where(dn == qualiresults[race_number])[0][0]
                         )
 
                     system["driver_dict"][dn][race_number + 1] = prev_score + score
