@@ -10,6 +10,8 @@ def get_point_systems_dict(nr_of_races):
     # Scoring systems
     f125 = np.array([25, 18, 15, 12, 10, 8, 6, 4, 2, 1] + [0] * 10, dtype=np.int32)
     f125_s = np.array([8, 7, 6, 5, 4, 3, 2, 1] + [0] * 12, dtype=np.int32)
+    f125_11 = np.array([0] * 10 + [25, 18, 15, 12, 10, 8, 6, 4, 2, 1], dtype=np.int32)
+    f125_11_s = np.array([0] * 10 + [8, 7, 6, 5, 4, 3, 2, 1, 0, 0], dtype=np.int32)
     f121_s = np.array([3, 2, 1] + [0] * 17, dtype=np.int32)
     inverse_position = np.arange(20, 0, -1, dtype=np.int32)
     f125_proposal = np.array(
@@ -111,6 +113,21 @@ def get_point_systems_dict(nr_of_races):
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,
             "dir": "formula1/2025",
+        },
+        {
+            "name": "F1 2025 Points from 11th Raceresults",
+            "points": f125_11,
+            "sprint_points": f125_11_s,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "dir": "formula1_extended/2025_11th",
+        },
+        {
+            "name": "F1 2025 Points from 11th Qualifyingresults",
+            "points": f125_11,
+            "sprint_points": f125_11_s,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "qualifying": True,
+            "dir": "formula1_extended/2025_11th",
         },
         {
             "name": "Inverse Position Raceresults",

@@ -8,8 +8,8 @@ title: Overview over all possible files
 | - | - | - | - | - | - | - | - |
 | Positions | Prime Numbers | 1950 | F1 Medals | IMSA | Mariokart DS | Balatro | only Scrabble | Tommo |
 | Inverse Positions | Fibonacci | 1988 | F1 2025 Proposal | Indycar | Mariokart Wii | | Scrabble + F1 2025 | |
-| Mean Positions | Squared Numbers | 2007 | F1 2025 Reversed | | Mariokart 7 | | |
-| Everyone Except Last | | 2021 | F2 | | Mariokart 8 | | |
+| Mean Positions | Squared Numbers | 2007 | F1 2025 Reversed | F2 | Mariokart 7 | | |
+| Everyone Except Last | | 2021 | F1 Points from 11th | | Mariokart 8 | | |
 | | | 2024 | Drivernumbers | | Mariokart World | | |
 | | | 2025 | | | | | |
 
@@ -49,7 +49,7 @@ All comparisons are based on the systems with sprint results and DNF.
 | - | - |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/2025_reversed/F1_2025_Reversed_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/F2/F2_2025_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/2025_11th/F1_2025_Points_from_11th_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/drivernumbers/Drivernumbers_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="om"></a> Other Motorsport
@@ -58,6 +58,7 @@ All comparisons are based on the systems with sprint results and DNF.
 | - | - |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/other_motorsport/IMSA/IMSA.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/F2/F2_2025_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="mk"></a> Mariokart
 
