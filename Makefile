@@ -29,28 +29,12 @@ _includes/points/F1_1950.md: \
 	python_scripts/print_points.py
 	python $<
 
-_includes/eel/Grid.md: \
-	$(TARGETwithDNF) \
-	$(TARGETwoDNF) \
-	$(TARGETnoSprintswithDNF) \
-	$(TARGETnoSprintswoDNF) \
-	$(TARGETSCRABBLE) \
-	$(TARGETEEL) \
-	$(TARGETMEAN) \
-	$(TARGETMEDALS) \
-	$(TARGETINDYCAR) \
-	$(TARGETBALATRO)
+pre_csv2md = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) $(TARGETSCRABBLE) $(TARGETEEL) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
+_includes/eel/Grid.md: $(pre_csv2md)
 	find _includes -type f -name '*.csv' -exec sh -c 'for f; do csv2md "$$f" > "$${f%.csv}.md"; done' _ {} +
 
-docs/assets/mean/qualifying/positions_2D.png: \
-	$(TARGETwithDNF) \
-	$(TARGETwoDNF) \
-	$(TARGETnoSprintswithDNF) \
-	$(TARGETnoSprintswoDNF) \
-	$(TARGETMEAN) \
-	$(TARGETMEDALS) \
-	$(TARGETINDYCAR) \
-	$(TARGETBALATRO)
+pre_docs = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
+docs/assets/mean/qualifying/positions_2D.png: $(pre_docs)
 	mkdir -p docs/assets
 	find _includes -type f -name '*.png' \
 	  -exec sh -c 'for f; do \
@@ -64,98 +48,40 @@ docs/assets/mean/qualifying/positions_2D.png: \
 $(TARGETSCRABBLE): helpfiles/scrabble.py
 	python $<
 
-$(TARGETEEL): \
-	python_scripts/eel.py \
-	$(RESULTQUALIFYING) \
-	$(RESULTGRID) \
-	$(RESULTwoDNF) \
-	$(HELPRACES) \
-	$(HELPDRIVERDATA)
+pre_eel = $(RESULTQUALIFYING) $(RESULTGRID) $(RESULTwoDNF) $(HELPRACES) $(HELPDRIVERDATA)
+$(TARGETEEL): python_scripts/eel.py $(pre_eel)
 	python $<
 
-$(TARGETBALATRO): \
-	python_scripts/balatro.py \
-	$(RESULTQUALIFYING) \
-	$(RESULTwithDNF) \
-	$(RESULTFASTEST) \
-	$(HELPRACES) \
-	$(HELPDRIVERDATA) \
-	$(HELPPLOT)
+pre_balatro = $(RESULTQUALIFYING) $(RESULTwithDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
+$(TARGETBALATRO): python_scripts/balatro.py $(pre_balatro)
 	python $<
 
-$(TARGETMEAN): \
-	python_scripts/mean_positions.py \
-	$(RESULTQUALIFYING) \
-	$(RESULTGRID) \
-	$(RESULTwoDNF) \
-	$(RESULTwithDNF) \
-	$(HELPRACES) \
-	$(HELPDRIVERDATA)
+pre_mean = $(RESULTQUALIFYING) $(RESULTGRID) $(RESULTwoDNF) $(RESULTwithDNF) $(HELPRACES) $(HELPDRIVERDATA)
+$(TARGETMEAN): python_scripts/mean_positions.py $(pre_mean)
 	python $<
 
-$(TARGETMEDALS): \
-	python_scripts/medals.py \
-	$(RESULTQUALIFYING) \
-	$(RESULTGRID) \
-	$(RESULTwoDNF) \
-	$(HELPRACES) \
-	$(HELPDRIVERDATA)
+pre_medals = $(RESULTQUALIFYING) $(RESULTGRID) $(RESULTwoDNF) $(HELPRACES) $(HELPDRIVERDATA)
+$(TARGETMEDALS): python_scripts/medals.py $(pre_medals)
 	python $<
 
-$(TARGETINDYCAR): \
-	python_scripts/indycar.py \
-	$(RESULTQUALIFYING) \
-	$(RESULTGRID) \
-	$(RESULTwoDNF) \
-	$(RESULTwithDNF) \
-	$(RESULTLAPSLED) \
-	$(HELPRACES) \
-	$(HELPDRIVERDATA) \
-	$(HELPPLOT)
+pre_indy = $(RESULTQUALIFYING) $(RESULTGRID) $(RESULTwoDNF) $(RESULTwithDNF) $(RESULTLAPSLED) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
+$(TARGETINDYCAR): python_scripts/indycar.py $(pre_indy)
 	python $<
 
-$(TARGETwithDNF): \
-	python_scripts/first_point_systems.py \
-	$(HELPDICT) \
-	$(RESULTGRID) \
-	$(RESULTwithDNF) \
-	$(RESULTFASTEST) \
-	$(HELPRACES) \
-	$(HELPDRIVERDATA) \
-	$(HELPPLOT)
+pre_with = $(HELPDICT) $(RESULTGRID) $(RESULTwithDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
+$(TARGETwithDNF): python_scripts/first_point_systems.py $(pre_with)
 	python $< with
 
-$(TARGETwoDNF): \
-	python_scripts/first_point_systems.py \
-	$(HELPDICT) \
-	$(RESULTQUALIFYING) \
-	$(wDNF) \
-	$(RESULTFASTEST) \
-	$(HELPRACES) \
-	$(HELPDRIVERDATA) \
-	$(HELPPLOT)
+pre_wo = $(HELPDICT) $(RESULTQUALIFYING) $(wDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
+$(TARGETwoDNF): python_scripts/first_point_systems.py $(pre_wo)
 	python $< wo
 
-$(TARGETnoSprintswithDNF): \
-	python_scripts/first_point_systems_noSprints.py \
-	$(HELPDICT) \
-	$(RESULTGRID) \
-	$(RESULTwithDNF) \
-	$(RESULTFASTEST) \
-	$(HELPRACES) \
-	$(HELPDRIVERDATA) \
-	$(HELPPLOT)
+pre_noSpwith = $(HELPDICT) $(RESULTGRID) $(RESULTwithDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
+$(TARGETnoSprintswithDNF): python_scripts/first_point_systems_noSprints.py $(pre_noSpwith)
 	python $< with
 
-$(TARGETnoSprintswoDNF): \
-	python_scripts/first_point_systems_noSprints.py \
-	$(HELPDICT) \
-	$(RESULTQUALIFYING) \
-	$(wDNF) \
-	$(RESULTFASTEST) \
-	$(HELPRACES) \
-	$(HELPDRIVERDATA) \
-	$(HELPPLOT)
+pre_noSpwo = $(HELPDICT) $(RESULTQUALIFYING) $(wDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
+$(TARGETnoSprintswoDNF): python_scripts/first_point_systems_noSprints.py $(pre_noSpwo)
 	python $< wo
 
 clean:
