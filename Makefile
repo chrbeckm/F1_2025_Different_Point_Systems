@@ -24,9 +24,7 @@ all: _includes/eel/Grid.md \
 	docs/assets/mean/qualifying/positions_2D.png \
 	_includes/points/F1_1950.md
 
-_includes/points/F1_1950.md: \
-	$(HELPDICT) \
-	python_scripts/print_points.py
+_includes/points/F1_1950.md: python_scripts/print_points.py	$(HELPDICT)
 	python $<
 
 pre_csv2md = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) $(TARGETSCRABBLE) $(TARGETEEL) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
