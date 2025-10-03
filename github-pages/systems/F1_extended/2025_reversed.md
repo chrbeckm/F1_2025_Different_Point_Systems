@@ -25,10 +25,7 @@ permalink: /2025_reversed
 1 point for the fastest lap in either race or sprint.
 1 point for pole position (not calculated in qualifyingresults).
 
-| Event / Position | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
-| - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| Sprint | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
-| Race | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 2 | 4 | 6 | 8 | 10 | 12 | 15 | 18 | 25 |
+{% include points/F1_2025_Reversed.md %}
 
 ## <a id="ww"></a> with Sprints, with DNF
 

@@ -22,10 +22,7 @@ permalink: /mariokart_World
 
 ## Points
 
-| Event / Position | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
-| - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| Sprint | 4 | 3 | 3 | 2 | 2 | 2 | 2 | 2 | 2 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 | 0 |
-| Race | 15 | 12 | 10 | 9 | 9 | 8 | 8 | 7 | 7 | 6 | 6 | 6 | 5 | 5 | 5 | 4 | 4 | 4 | 3 | 3 |
+{% include points/Mariokart_World.md %}
 
 ## <a id="ww"></a> with Sprints, with DNF
 

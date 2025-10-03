@@ -1,6 +1,6 @@
 TARGETSCRABBLE = helpfiles/scrabble.txt
 TARGETEEL = _includes/eel/Grid.csv
-TARGETBALATRO = _includes/withDNF/math/Balatro/Balatro_with_Sprints.pdf
+TARGETBALATRO = _includes/withDNF/math/Balatro/Balatro_with_Sprints.png
 TARGETMEAN = _includes/mean/grid/mean.csv
 TARGETMEDALS = _includes/medals/F1_Medals_Gridresults_races.csv
 TARGETINDYCAR = _includes/withDNF/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png
@@ -21,7 +21,13 @@ RESULTwoDNF = results/Raceresults_woDNF.txt
 RESULTwithDNF = results/Raceresults_withDNF.txt
 
 all: _includes/eel/Grid.md \
-	docs/assets/mean/qualifying/positions_2D.png
+	docs/assets/mean/qualifying/positions_2D.png \
+	_includes/points/F1_1950.md
+
+_includes/points/F1_1950.md: \
+	$(HELPDICT) \
+	python_scripts/print_points.py
+	python $<
 
 _includes/eel/Grid.md: \
 	$(TARGETwithDNF) \

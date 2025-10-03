@@ -17,10 +17,7 @@ permalink: /balatro
 
 ## Points
 
-| Event / Position | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
-| - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
-| Sprint | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Race | 25 | 18 | 15 | 12 | 10 | 8 | 6 | 4 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+{% include points/F1_2025.md %}
 
 - +10 Points for the Pole Position
 - +10 Points for the Fastest Lap
