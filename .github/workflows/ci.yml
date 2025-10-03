@@ -17,6 +17,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
 
+      - name: Check number of available cores
+        uses: echo $(nproc)
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -27,7 +30,7 @@ jobs:
           pip install -r .github/workflows/requirements.txt
 
       - name: Generate images
-        run: make -j 2
+        run: make -j $(nproc)
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
