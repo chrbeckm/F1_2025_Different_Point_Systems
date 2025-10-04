@@ -52,7 +52,11 @@ point_systems = psd.get_point_systems_dict(len(races))
 # Process race results
 for race_number, race in enumerate(races):
     is_sprint = "Sprint" in race
-    if not (is_sprint and SprintDiff == "woSprint"):
+    if (is_sprint and SprintDiff == "woSprint"):
+        for system in point_systems:
+            for dn in driver_data["name"]:
+                system["driver_dict"][dn][race_number + 1] = prev_score
+    else:
         for system in point_systems:
             # Load results, if the dict is for quali results, or other results
             results = qualiresults if system.get("qualifying") else raceresults
@@ -115,24 +119,24 @@ for race_number, race in enumerate(races):
                         (system.get("fastest_lap") is not None and not is_sprint)
                         or (system.get("sprint_fastest_lap") is not None and is_sprint)
                     ) and (dn in fastest_lap[race_number]):
-                        score_array = (
+                        fastest_array = (
                             system["sprint_fastest_lap"]
                             if is_sprint
                             else system["fastest_lap"]
                         )
-                        score += score_array[
+                        score += fastest_array[
                             np.where(dn == fastest_lap[race_number])[0][0]
                         ]
                     if (
                         (system.get("pole_points") is not None and not is_sprint)
                         or (system.get("sprint_pole_points") is not None and is_sprint)
                     ) and (dn in qualiresults[race_number]):
-                        score_array = (
+                        pole_array = (
                             system["sprint_pole_points"]
                             if is_sprint
                             else system["pole_points"]
                         )
-                        score += score_array[
+                        score += pole_array[
                             np.where(dn == qualiresults[race_number, 1:])[0][0]
                         ]
                     system["driver_dict"][dn][race_number + 1] = prev_score + score
