@@ -28,29 +28,29 @@ permalink: /imsa
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/other_motorsport/IMSA/IMSA_q.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/other_motorsport/IMSA/constructors_IMSA_q.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/other_motorsport/IMSA/IMSA.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/other_motorsport/IMSA/constructors_IMSA.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/other_motorsport/IMSA/IMSA_q.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/other_motorsport/IMSA/constructors_IMSA_q.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/other_motorsport/IMSA/IMSA.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/other_motorsport/IMSA/constructors_IMSA.png) |
 
 ## <a id="wn"></a> with Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/other_motorsport/IMSA/IMSA_q.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/other_motorsport/IMSA/constructors_IMSA_q.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/other_motorsport/IMSA/IMSA.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/other_motorsport/IMSA/constructors_IMSA.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/other_motorsport/IMSA/IMSA_q.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/other_motorsport/IMSA/constructors_IMSA_q.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/other_motorsport/IMSA/IMSA.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/other_motorsport/IMSA/constructors_IMSA.png) |
 
 ## <a id="nw"></a> without Sprints, with DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/other_motorsport/IMSA/IMSA_q.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/other_motorsport/IMSA/constructors_IMSA_q.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/other_motorsport/IMSA/IMSA.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/other_motorsport/IMSA/constructors_IMSA.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/other_motorsport/IMSA/IMSA_q.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/other_motorsport/IMSA/constructors_IMSA_q.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/other_motorsport/IMSA/IMSA.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/other_motorsport/IMSA/constructors_IMSA.png) |
 
 ## <a id="nn"></a> without Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/other_motorsport/IMSA/IMSA_q.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/other_motorsport/IMSA/constructors_IMSA_q.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/other_motorsport/IMSA/IMSA.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/other_motorsport/IMSA/constructors_IMSA.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/other_motorsport/IMSA/IMSA_q.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/other_motorsport/IMSA/constructors_IMSA_q.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/other_motorsport/IMSA/IMSA.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/other_motorsport/IMSA/constructors_IMSA.png) |
 
 # <a id="tables"></a> Number Tables
 
@@ -58,38 +58,38 @@ permalink: /imsa
 
 ### with Sprints
 
-{% include woDNF/other_motorsport/IMSA/IMSA_q.md %}
+{% include woDNF_withSprint/other_motorsport/IMSA/IMSA_q.md %}
 
 ### without Sprints
 
-{% include noSprints/woDNF/other_motorsport/IMSA/IMSA_q.md %}
+{% include woDNF_woSprint/other_motorsport/IMSA/IMSA_q.md %}
 
 ## <a id="tg"></a> Gridpositions
 
 ### with Sprints
 
-{% include withDNF/other_motorsport/IMSA/IMSA_q.md %}
+{% include withDNF_withSprint/other_motorsport/IMSA/IMSA_q.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/other_motorsport/IMSA/IMSA_q.md %}
+{% include withDNF_woSprint/other_motorsport/IMSA/IMSA_q.md %}
 
 ## <a id="tw"></a> Raceresults with DNF
 
 ### with Sprints
 
-{% include withDNF/other_motorsport/IMSA/IMSA.md %}
+{% include withDNF_withSprint/other_motorsport/IMSA/IMSA.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/other_motorsport/IMSA/IMSA.md %}
+{% include withDNF_woSprint/other_motorsport/IMSA/IMSA.md %}
 
 ## <a id="tn"></a> Raceresults without DNF
 
 ### with Sprints
 
-{% include woDNF/other_motorsport/IMSA/IMSA.md %}
+{% include woDNF_withSprint/other_motorsport/IMSA/IMSA.md %}
 
 ### without Sprints
 
-{% include noSprints/woDNF/other_motorsport/IMSA/IMSA.md %}
+{% include woDNF_woSprint/other_motorsport/IMSA/IMSA.md %}

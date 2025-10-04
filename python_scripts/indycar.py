@@ -72,7 +72,7 @@ point_systems = [
         "name": "Indycar without Sprints and DNF",
         "sprints": False,
         "DNF": False,
-        "dir": "woDNF_withSprint/other_motorsport/Indycar",
+        "dir": "woDNF_woSprint/other_motorsport/Indycar",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "r_results": raceresults_wo,
         "q_results": qualiresults,

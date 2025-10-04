@@ -211,7 +211,7 @@ def get_point_systems_dict(nr_of_races):
             "fastest_lap": empty_1P,
             "pole_points": empty_1P * 2,
             "sprint_fastest_lap": empty_1P,
-            "dir": "formula1_extended/F2",
+            "dir": "other_motorsport/F2",
         },
         {
             "name": "Formula E Raceresults",
@@ -220,7 +220,7 @@ def get_point_systems_dict(nr_of_races):
             "driver_dict": make_driver_dict(nr_of_races),
             "fastest_lap": empty_1P,
             "pole_points": empty_1P * 3,
-            "dir": "formula1_extended/FE",
+            "dir": "other_motorsport/FE",
         },
         {
             "name": "IMSA",

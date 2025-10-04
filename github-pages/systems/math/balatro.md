@@ -28,15 +28,15 @@ permalink: /balatro
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/Balatro/Balatro_with_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/Balatro/constructors_Balatro_with_Sprints.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/Balatro/Balatro_with_Sprints_multiplier.png) | |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/Balatro/Balatro_with_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/Balatro/constructors_Balatro_with_Sprints.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/Balatro/Balatro_with_Sprints_multiplier.png) | |
 
 ## <a id="nw"></a> without Sprints, with DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/math/Balatro/Balatro_without_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/math/Balatro/constructors_Balatro_without_Sprints.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/math/Balatro/Balatro_without_Sprints_multiplier.png) | |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/Balatro/Balatro_without_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/Balatro/constructors_Balatro_without_Sprints.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/Balatro/Balatro_without_Sprints_multiplier.png) | |
 
 # <a id="tables"></a> Number Tables
 
@@ -44,8 +44,8 @@ permalink: /balatro
 
 ### with Sprints
 
-{% include withDNF/math/Balatro/Balatro_with_Sprints.md %}
+{% include withDNF_withSprint/math/Balatro/Balatro_with_Sprints.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/math/Balatro/Balatro_without_Sprints.md %}
+{% include withDNF_woSprint/math/Balatro/Balatro_without_Sprints.md %}

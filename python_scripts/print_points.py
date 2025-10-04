@@ -21,3 +21,5 @@ for system in point_systems:
                     file.write(" | ".join(map(str, system["sprint_points"])))
                     file.write(" |\n| Race | ")
                     file.write(f"{' | '.join(map(str, system['points']))} |")
+
+print(f">>> print_points.py done")

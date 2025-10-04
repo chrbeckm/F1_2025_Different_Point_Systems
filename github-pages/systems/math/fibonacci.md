@@ -28,29 +28,29 @@ permalink: /fibonacci
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/fibonacci/Fibonacci_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/fibonacci/constructors_Fibonacci_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/fibonacci/Fibonacci_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/fibonacci/constructors_Fibonacci_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/fibonacci/Fibonacci_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/fibonacci/constructors_Fibonacci_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/fibonacci/Fibonacci_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/fibonacci/constructors_Fibonacci_Raceresults.png) |
 
 ## <a id="wn"></a> with Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/math/fibonacci/Fibonacci_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/math/fibonacci/constructors_Fibonacci_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/math/fibonacci/Fibonacci_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/math/fibonacci/constructors_Fibonacci_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/math/fibonacci/Fibonacci_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/math/fibonacci/constructors_Fibonacci_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/math/fibonacci/Fibonacci_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/math/fibonacci/constructors_Fibonacci_Raceresults.png) |
 
 ## <a id="nw"></a> without Sprints, with DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/math/fibonacci/Fibonacci_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/math/fibonacci/constructors_Fibonacci_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/math/fibonacci/Fibonacci_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/math/fibonacci/constructors_Fibonacci_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/fibonacci/Fibonacci_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/fibonacci/constructors_Fibonacci_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/fibonacci/Fibonacci_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/fibonacci/constructors_Fibonacci_Raceresults.png) |
 
 ## <a id="nn"></a> without Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/math/fibonacci/Fibonacci_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/math/fibonacci/constructors_Fibonacci_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/math/fibonacci/Fibonacci_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/math/fibonacci/constructors_Fibonacci_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/math/fibonacci/Fibonacci_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/math/fibonacci/constructors_Fibonacci_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/math/fibonacci/Fibonacci_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/math/fibonacci/constructors_Fibonacci_Raceresults.png) |
 
 # <a id="tables"></a> Number Tables
 
@@ -58,38 +58,38 @@ permalink: /fibonacci
 
 ### with Sprints
 
-{% include woDNF/math/fibonacci/Fibonacci_Qualifyingresults.md %}
+{% include woDNF_withSprint/math/fibonacci/Fibonacci_Qualifyingresults.md %}
 
 ### without Sprints
 
-{% include noSprints/woDNF/math/fibonacci/Fibonacci_Qualifyingresults.md %}
+{% include woDNF_woSprint/math/fibonacci/Fibonacci_Qualifyingresults.md %}
 
 ## <a id="tg"></a> Gridpositions
 
 ### with Sprints
 
-{% include withDNF/math/fibonacci/Fibonacci_Qualifyingresults.md %}
+{% include withDNF_withSprint/math/fibonacci/Fibonacci_Qualifyingresults.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/math/fibonacci/Fibonacci_Qualifyingresults.md %}
+{% include withDNF_woSprint/math/fibonacci/Fibonacci_Qualifyingresults.md %}
 
 ## <a id="tw"></a> Raceresults with DNF
 
 ### with Sprints
 
-{% include withDNF/math/fibonacci/Fibonacci_Raceresults.md %}
+{% include withDNF_withSprint/math/fibonacci/Fibonacci_Raceresults.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/math/fibonacci/Fibonacci_Raceresults.md %}
+{% include withDNF_woSprint/math/fibonacci/Fibonacci_Raceresults.md %}
 
 ## <a id="tn"></a> Raceresults without DNF
 
 ### with Sprints
 
-{% include woDNF/math/fibonacci/Fibonacci_Raceresults.md %}
+{% include woDNF_withSprint/math/fibonacci/Fibonacci_Raceresults.md %}
 
 ### without Sprints
 
-{% include noSprints/woDNF/math/fibonacci/Fibonacci_Raceresults.md %}
+{% include woDNF_woSprint/math/fibonacci/Fibonacci_Raceresults.md %}
