@@ -111,29 +111,30 @@ for race_number, race in enumerate(races):
                         score = score_array[finishers - pos_index - 1]
                     else:
                         score = score_array[pos_index]
-                    if (system.get("fastest_lap") == True and not is_sprint) or (
-                        system.get("sprint_fastest_lap") == True and is_sprint
+                    if (
+                        (system.get("fastest_lap") is not None and not is_sprint)
+                        or (system.get("sprint_fastest_lap") is not None and is_sprint)
                     ) and (dn in fastest_lap[race_number]):
                         score_array = (
                             system["sprint_fastest_lap"]
                             if is_sprint
                             else system["fastest_lap"]
                         )
-                        score += score_array(
+                        score += score_array[
                             np.where(dn == fastest_lap[race_number])[0][0]
-                        )
-                    if (system.get("pole_points") == True and not is_sprint) or (
-                        system.get("sprint_pole_points") == True and is_sprint
+                        ]
+                    if (
+                        (system.get("pole_points") is not None and not is_sprint)
+                        or (system.get("sprint_pole_points") is not None and is_sprint)
                     ) and (dn in qualiresults[race_number]):
                         score_array = (
                             system["sprint_pole_points"]
                             if is_sprint
                             else system["pole_points"]
                         )
-                        score += score_array(
-                            np.where(dn == qualiresults[race_number])[0][0]
-                        )
-
+                        score += score_array[
+                            np.where(dn == qualiresults[race_number, 1:])[0][0]
+                        ]
                     system["driver_dict"][dn][race_number + 1] = prev_score + score
                 else:
                     system["driver_dict"][dn][race_number + 1] = prev_score
@@ -169,7 +170,7 @@ x = np.arange(len(races) + 1)
 
 
 if DNFdiff == "withDNF" and SprintDiff == "withSprint":
-    os.makedirs(f"_includes/{DNFdiff}/{point_systems[f125]['dir']}", exist_ok=True)
+    os.makedirs(f"_includes/{DNFdiff}_{SprintDiff}/{point_systems[f125]['dir']}", exist_ok=True)
     fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
     for i, (di, dn) in enumerate(zip(driver_data["shorthand"], driver_data["name"])):
         ax.plot(
@@ -196,7 +197,7 @@ if DNFdiff == "withDNF" and SprintDiff == "withSprint":
     ax.yaxis.set_label_position("right")
     ax.yaxis.tick_right()
 
-    filename = f"_includes/{DNFdiff}/{point_systems[f125]['dir']}/{point_systems[f125]['name'].replace(' ', '_')}_leftLegend"
+    filename = f"_includes/{DNFdiff}_{SprintDiff}/{point_systems[f125]['dir']}/{point_systems[f125]['name'].replace(' ', '_')}_leftLegend"
     # fig.savefig(filename + ".pdf")
     fig.savefig(filename + ".png", dpi=500)
     plt.close(fig)
@@ -222,7 +223,7 @@ for system_nr in [f150, f150q, f188, f188q]:
     sorted_names = driver_names[sorted_indices]
     sorted_points = np.array(points)[sorted_indices]
 
-    filename = f"_includes/{DNFdiff}/{system['dir']}/{system['name'].replace(' ', '_')}"
+    filename = f"_includes/{DNFdiff}_{SprintDiff}/{system['dir']}/{system['name'].replace(' ', '_')}"
     with open(f"{filename}_summedPoints.csv", "w") as f:
         # first row: drivers
         f.write(",".join(sorted_names) + "\n")
