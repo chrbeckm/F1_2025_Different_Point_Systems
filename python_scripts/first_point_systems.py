@@ -4,17 +4,15 @@ import matplotlib.pyplot as plt
 import first_point_systems_dict as psd
 from plot_help import plot_help, sorted_legend_by_final_points
 
-if len(sys.argv) == 2 and (sys.argv[1] == "with" or sys.argv[1] == "wo"):
-    DNFdiff = sys.argv[1]  # with or wo
-else:
+DNFdiff = sys.argv[1]
+while DNFdiff not in ["withDNF", "woDNF"]:
     print("Choose with or without DNF.")
-    DNFdiff = input("'with' | 'wo':")
-    while DNFdiff != "with" and DNFdiff != "wo":
-        DNFdiff = input("'with' | 'wo': ")
-DNFdiff += "DNF"
+    DNFdiff = input("'withDNF' | 'woDNF':")
 
-# Ensure build directory exists
-os.makedirs(f"_includes/{DNFdiff}", exist_ok=True)
+SprintDiff = sys.argv[2]
+while SprintDiff not in ["withSprint", "woSprint"]:
+    print("Choose with or without Sprints.")
+    SprintDiff = input("'withSprint' | 'woSprint':")
 
 if DNFdiff == "woDNF":
     qualiresults = np.genfromtxt(
@@ -28,9 +26,7 @@ elif DNFdiff == "withDNF":
 raceresults = np.genfromtxt(
     f"results/Raceresults_{DNFdiff}.txt", dtype=None, delimiter=",", autostrip=True
 )
-with open("results/fastest_lap.txt", "r") as f:
-    fl = f.read().splitlines()
-fastest_lap = [_.split(",")[0] for _ in fl[1:]]
+fastest_lap = np.genfromtxt("results/fastest_lap.txt", dtype=None, delimiter=",")
 
 with open("helpfiles/races.txt", "r") as f:
     races = f.read().splitlines()
@@ -56,74 +52,98 @@ point_systems = psd.get_point_systems_dict(len(races))
 # Process race results
 for race_number, race in enumerate(races):
     is_sprint = "Sprint" in race
-    for system in point_systems:
-        # Load results, if the dict is for quali results, or other results
-        results = qualiresults if system.get("qualifying") else raceresults
-        current_result = results[race_number, :]
-        finishers = -1
-        for thing in current_result:
-            if thing != "":
-                finishers += 1
-        # Check which point system to use
-        if not system.get("is_drivernumbers"):
-            if system.get("scrabble") and "2025" not in system["name"]:
-                score_array = (
-                    [int(_ * system["scale"]) for _ in system["points"][race_number]]
-                    if is_sprint
-                    else system["points"][race_number]
-                )
-            elif system.get("scrabble") and "2025" in system["name"]:
-                score_array = (
-                    system["sprint_points"][race_number]
-                    if is_sprint
-                    else system["points"][race_number]
-                )
-            elif system.get("scale"):
-                score_array = (
-                    [int(_ * system["scale"]) for _ in system["points"]]
-                    if is_sprint
-                    else system["points"]
-                )
-            else:
-                score_array = system["sprint_points"] if is_sprint else system["points"]
-        for dn in driver_data["name"]:
-            prev_score = system["driver_dict"][dn][race_number]
-            if dn in current_result:
-                pos_index = np.where(dn == current_result)[0][0] - 1
-                if system.get("is_drivernumbers"):
-                    numbers_in_race = np.zeros(20)
-                    i = 0
-                    for dname in driver_data["name"]:
-                        if dname in current_result:
-                            numbers_in_race[i] = driver_data["number"][
-                                driver_data["name"] == dname
-                            ][0]
-                            i += 1
-                    numbers_in_race = np.sort(numbers_in_race, kind="mergesort")[::-1]
-                    raw_points = numbers_in_race[pos_index]
-                    score = (
-                        int(raw_points * system["scale"]) if is_sprint else raw_points
+    if is_sprint and SprintDiff == "woSprint":
+        for system in point_systems:
+            for dn in driver_data["name"]:
+                system["driver_dict"][dn][race_number + 1] = system["driver_dict"][dn][
+                    race_number
+                ]
+    else:
+        for system in point_systems:
+            # Load results, if the dict is for quali results, or other results
+            results = qualiresults if system.get("qualifying") else raceresults
+            current_result = results[race_number, 1:]
+            finishers = np.count_nonzero(current_result)
+            # Check which point system to use
+            if not system.get("is_drivernumbers"):
+                if system.get("scrabble") and "2025" not in system["name"]:
+                    score_array = (
+                        [
+                            int(_ * system["scale"])
+                            for _ in system["points"][race_number]
+                        ]
+                        if is_sprint
+                        else system["points"][race_number]
                     )
-                elif "reversed" in system["name"]:
-                    score = score_array[finishers - pos_index - 1]
+                elif system.get("scrabble") and "2025" in system["name"]:
+                    score_array = (
+                        system["sprint_points"][race_number]
+                        if is_sprint
+                        else system["points"][race_number]
+                    )
+                elif system.get("scale"):
+                    score_array = (
+                        [int(_ * system["scale"]) for _ in system["points"]]
+                        if is_sprint
+                        else system["points"]
+                    )
                 else:
-                    score = score_array[pos_index]
-                if (
-                    (system.get("fastest_lap") == True and not is_sprint)
-                    or (system.get("sprint_fastest_lap") == True and is_sprint)
-                ) and dn == fastest_lap[race_number]:
-                    score += 1
-                if (
-                    "F2" in system["name"]
-                    and system.get("pole") == True
-                    and not is_sprint
-                    and qualiresults[race_number, 1] == dn
-                ):
-                    score += 2
-
-                system["driver_dict"][dn][race_number + 1] = prev_score + score
-            else:
-                system["driver_dict"][dn][race_number + 1] = prev_score
+                    score_array = (
+                        system["sprint_points"] if is_sprint else system["points"]
+                    )
+            for dn in driver_data["name"]:
+                prev_score = system["driver_dict"][dn][race_number]
+                if dn in current_result:
+                    pos_index = np.where(dn == current_result)[0][0]
+                    if system.get("is_drivernumbers"):
+                        numbers_in_race = np.zeros(20)
+                        i = 0
+                        for dname in driver_data["name"]:
+                            if dname in current_result:
+                                numbers_in_race[i] = driver_data["number"][
+                                    driver_data["name"] == dname
+                                ][0]
+                                i += 1
+                        numbers_in_race = np.sort(numbers_in_race, kind="mergesort")[
+                            ::-1
+                        ]
+                        raw_points = numbers_in_race[pos_index]
+                        score = (
+                            int(raw_points * system["scale"])
+                            if is_sprint
+                            else raw_points
+                        )
+                    elif "reversed" in system["name"]:
+                        score = score_array[finishers - pos_index - 1]
+                    else:
+                        score = score_array[pos_index]
+                    if (
+                        (system.get("fastest_lap") is not None and not is_sprint)
+                        or (system.get("sprint_fastest_lap") is not None and is_sprint)
+                    ) and (dn in fastest_lap[race_number]):
+                        fastest_array = (
+                            system["sprint_fastest_lap"]
+                            if is_sprint
+                            else system["fastest_lap"]
+                        )
+                        score += fastest_array[
+                            np.where(dn == fastest_lap[race_number])[0][0]
+                        ]
+                    if (
+                        (system.get("pole_points") is not None and not is_sprint)
+                        or (system.get("sprint_pole_points") is not None and is_sprint)
+                    ) and (dn in qualiresults[race_number]):
+                        pole_array = (
+                            system["sprint_pole_points"]
+                            if is_sprint
+                            else system["pole_points"]
+                        )
+                        score += pole_array[
+                            np.where(dn == qualiresults[race_number, 1:])[0][0]
+                        ]
+                    system["driver_dict"][dn][race_number + 1] = prev_score + score
+                else:
+                    system["driver_dict"][dn][race_number + 1] = prev_score
 
 
 imsa, imsa_q, f150, f150q, f188, f188q, f125, mksc, mkscq = 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -155,8 +175,10 @@ for dn in driver_data["name"]:
 x = np.arange(len(races) + 1)
 
 
-if DNFdiff == "withDNF":
-    os.makedirs(f"_includes/{DNFdiff}/{point_systems[f125]['dir']}", exist_ok=True)
+if DNFdiff == "withDNF" and SprintDiff == "withSprint":
+    os.makedirs(
+        f"_includes/{DNFdiff}_{SprintDiff}/{point_systems[f125]['dir']}", exist_ok=True
+    )
     fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
     for i, (di, dn) in enumerate(zip(driver_data["shorthand"], driver_data["name"])):
         ax.plot(
@@ -183,13 +205,13 @@ if DNFdiff == "withDNF":
     ax.yaxis.set_label_position("right")
     ax.yaxis.tick_right()
 
-    filename = f"_includes/{DNFdiff}/{point_systems[f125]['dir']}/{point_systems[f125]['name'].replace(' ', '_')}_leftLegend"
+    filename = f"_includes/{DNFdiff}_{SprintDiff}/{point_systems[f125]['dir']}/{point_systems[f125]['name'].replace(' ', '_')}_leftLegend"
     # fig.savefig(filename + ".pdf")
     fig.savefig(filename + ".png", dpi=500)
     plt.close(fig)
     print("F1 2025 plot done", DNFdiff)
 
-plot_help(point_systems, races, driver_data, f"_includes/{DNFdiff}")
+plot_help(point_systems, races, driver_data, f"_includes/{DNFdiff}_{SprintDiff}")
 
 # F1 1950: only 4 best results count
 # F1 1988: only 11 best results count
@@ -209,7 +231,7 @@ for system_nr in [f150, f150q, f188, f188q]:
     sorted_names = driver_names[sorted_indices]
     sorted_points = np.array(points)[sorted_indices]
 
-    filename = f"_includes/{DNFdiff}/{system['dir']}/{system['name'].replace(' ', '_')}"
+    filename = f"_includes/{DNFdiff}_{SprintDiff}/{system['dir']}/{system['name'].replace(' ', '_')}"
     with open(f"{filename}_summedPoints.csv", "w") as f:
         # first row: drivers
         f.write(",".join(sorted_names) + "\n")

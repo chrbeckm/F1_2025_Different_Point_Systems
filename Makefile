@@ -1,13 +1,13 @@
 TARGETSCRABBLE = helpfiles/scrabble.txt
 TARGETEEL = _includes/eel/Grid.csv
-TARGETBALATRO = _includes/withDNF/math/Balatro/Balatro_with_Sprints.png
+TARGETBALATRO = _includes/withDNF_withSprint/math/Balatro/Balatro_with_Sprints.png
 TARGETMEAN = _includes/mean/grid/mean.csv
 TARGETMEDALS = _includes/medals/F1_Medals_Gridresults_races.csv
-TARGETINDYCAR = _includes/withDNF/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png
-TARGETwithDNF = _includes/withDNF/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
-TARGETwoDNF = _includes/woDNF/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
-TARGETnoSprintswithDNF = _includes/noSprints/withDNF/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
-TARGETnoSprintswoDNF = _includes/noSprints/woDNF/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
+TARGETINDYCAR = _includes/withDNF_withSprint/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png
+TARGETwithDNF = _includes/withDNF_withSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
+TARGETwoDNF = _includes/woDNF_withSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
+TARGETnoSprintswithDNF = _includes/withDNF_woSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
+TARGETnoSprintswoDNF = _includes/woDNF_woSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
 
 HELPPLOT = python_scripts/plot_help.py
 HELPDICT = python_scripts/first_point_systems_dict.py
@@ -68,19 +68,19 @@ $(TARGETINDYCAR): python_scripts/indycar.py $(pre_indy)
 
 pre_with = $(HELPDICT) $(RESULTGRID) $(RESULTwithDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
 $(TARGETwithDNF): python_scripts/first_point_systems.py $(pre_with)
-	python $< with
+	python $< withDNF withSprint
 
 pre_wo = $(HELPDICT) $(RESULTQUALIFYING) $(wDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
 $(TARGETwoDNF): python_scripts/first_point_systems.py $(pre_wo)
-	python $< wo
+	python $< woDNF withSprint
 
 pre_noSpwith = $(HELPDICT) $(RESULTGRID) $(RESULTwithDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
-$(TARGETnoSprintswithDNF): python_scripts/first_point_systems_noSprints.py $(pre_noSpwith)
-	python $< with
+$(TARGETnoSprintswithDNF): python_scripts/first_point_systems.py $(pre_noSpwith)
+	python $< withDNF woSprint
 
 pre_noSpwo = $(HELPDICT) $(RESULTQUALIFYING) $(wDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
-$(TARGETnoSprintswoDNF): python_scripts/first_point_systems_noSprints.py $(pre_noSpwo)
-	python $< wo
+$(TARGETnoSprintswoDNF): python_scripts/first_point_systems.py $(pre_noSpwo)
+	python $< woDNF woSprint
 
 clean:
 	rm -rf _includes

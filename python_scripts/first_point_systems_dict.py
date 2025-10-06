@@ -98,6 +98,8 @@ def get_point_systems_dict(nr_of_races):
         dtype=np.int32,
     )
 
+    empty_1P = np.array([1] + [0] * 19, dtype=np.int32)
+
     point_systems = [
         {
             "name": "F1 2025 Raceresults",
@@ -164,7 +166,7 @@ def get_point_systems_dict(nr_of_races):
             "points": f125,
             "sprint_points": f125_s,
             "driver_dict": make_driver_dict(nr_of_races),
-            "fastest_lap": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1/2024",
         },
         {
@@ -172,7 +174,7 @@ def get_point_systems_dict(nr_of_races):
             "points": f125,
             "sprint_points": f121_s,
             "driver_dict": make_driver_dict(nr_of_races),
-            "fastest_lap": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1/2021",
         },
         {
@@ -180,6 +182,7 @@ def get_point_systems_dict(nr_of_races):
             "points": f125,
             "sprint_points": f121_s,
             "driver_dict": make_driver_dict(nr_of_races),
+            "fastest_lap": empty_1P,
             "qualifying": True,
             "dir": "formula1/2021",
         },
@@ -188,7 +191,7 @@ def get_point_systems_dict(nr_of_races):
             "points": f125_proposal,
             "sprint_points": f125_s,
             "driver_dict": make_driver_dict(nr_of_races),
-            "fastest_lap": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1_extended/2025_proposal",
         },
         {
@@ -197,6 +200,7 @@ def get_point_systems_dict(nr_of_races):
             "sprint_points": f125_s,
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1_extended/2025_proposal",
         },
         {
@@ -204,10 +208,34 @@ def get_point_systems_dict(nr_of_races):
             "points": f125,
             "sprint_points": f2_s,
             "driver_dict": make_driver_dict(nr_of_races),
-            "fastest_lap": True,
-            "pole": True,
-            "sprint_fastest_lap": True,
-            "dir": "formula1_extended/F2",
+            "fastest_lap": empty_1P,
+            "pole_points": empty_1P * 2,
+            "sprint_fastest_lap": empty_1P,
+            "dir": "other_motorsport/F2",
+        },
+        {
+            "name": "Formula E Raceresults",
+            "points": f125,
+            "sprint_points": (f125 * 8) // 25,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "fastest_lap": empty_1P,
+            "pole_points": empty_1P * 3,
+            "dir": "other_motorsport/FE",
+        },
+        {
+            "name": "IMSA",
+            "points": imsa * 10,
+            "sprint_points": (imsa * 80) // 25,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "dir": "other_motorsport/IMSA",
+        },
+        {
+            "name": "IMSA q",
+            "points": imsa,
+            "sprint_points": (imsa * 8) // 25,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "qualifying": True,
+            "dir": "other_motorsport/IMSA",
         },
         {
             "name": "IMSA",
@@ -369,7 +397,7 @@ def get_point_systems_dict(nr_of_races):
             "sprint_points": (f150 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
             "driver_sum": defaultdict(lambda: 0),
-            "fastest_lap": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1/1950",
         },
         {
@@ -379,6 +407,7 @@ def get_point_systems_dict(nr_of_races):
             "driver_dict": make_driver_dict(nr_of_races),
             "driver_sum": defaultdict(lambda: 0),
             "qualifying": True,
+            "fastest_lap": empty_1P,
             "dir": "formula1/1950",
         },
         {
@@ -445,14 +474,14 @@ def get_point_systems_dict(nr_of_races):
         },
         {
             "name": "Squared Numbers Raceresults",
-            "points": inverse_position ** 2,
+            "points": inverse_position**2,
             "sprint_points": inverse_position,
             "driver_dict": make_driver_dict(nr_of_races),
             "dir": "math/squared",
         },
         {
             "name": "Squared Numbers Qualifyingresults",
-            "points": inverse_position ** 2,
+            "points": inverse_position**2,
             "sprint_points": inverse_position,
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,

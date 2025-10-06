@@ -30,29 +30,29 @@ permalink: /2025_proposal
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Raceresults.png) |
 
 ## <a id="wn"></a> with Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Raceresults.png) |
 
 ## <a id="nw"></a> without Sprints, with DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Raceresults.png) |
 
 ## <a id="nn"></a> without Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/formula1_extended/2025_proposal/constructors_F1_2025_Proposal_Raceresults.png) |
 
 # <a id="tables"></a> Number Tables
 
@@ -60,38 +60,38 @@ permalink: /2025_proposal
 
 ### with Sprints
 
-{% include woDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.md %}
+{% include woDNF_withSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.md %}
 
 ### without Sprints
 
-{% include noSprints/woDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.md %}
+{% include woDNF_woSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.md %}
 
 ## <a id="tg"></a> Gridpositions
 
 ### with Sprints
 
-{% include withDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.md %}
+{% include withDNF_withSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.md %}
+{% include withDNF_woSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Qualifyingresults.md %}
 
 ## <a id="tw"></a> Raceresults with DNF
 
 ### with Sprints
 
-{% include withDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.md %}
+{% include withDNF_withSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.md %}
+{% include withDNF_woSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.md %}
 
 ## <a id="tn"></a> Raceresults without DNF
 
 ### with Sprints
 
-{% include woDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.md %}
+{% include woDNF_withSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.md %}
 
 ### without Sprints
 
-{% include noSprints/woDNF/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.md %}
+{% include woDNF_woSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.md %}

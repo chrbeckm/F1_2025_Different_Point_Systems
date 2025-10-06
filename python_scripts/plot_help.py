@@ -67,7 +67,7 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
 
         with open(f"{filename}.csv", "w", newline="") as f:
             writer = csv.writer(f)
-            writer.writerow(["Race"] + driver_data["name"].tolist())
+            writer.writerow(["Race"] + driver_data["shorthand"].tolist())
             writer.writerows(data_with_race_names)
             writer.writerow(["Σ"] + [f"{fp}" for fp in full_points])
 

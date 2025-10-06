@@ -29,25 +29,25 @@ permalink: /indycar
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/other_motorsport/Indycar/constructors_Indycar_with_Sprints_and_DNF.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/other_motorsport/Indycar/constructors_Indycar_with_Sprints_and_DNF.png) |
 
 ## <a id="wn"></a> with Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/other_motorsport/Indycar/Indycar_with_Sprints_and_without_DNF.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/other_motorsport/Indycar/constructors_Indycar_with_Sprints_and_without_DNF.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/other_motorsport/Indycar/Indycar_with_Sprints_and_without_DNF.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/other_motorsport/Indycar/constructors_Indycar_with_Sprints_and_without_DNF.png) |
 
 ## <a id="nw"></a> without Sprints, with DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/other_motorsport/Indycar/Indycar_without_Sprints_and_with_DNF.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/other_motorsport/Indycar/constructors_Indycar_without_Sprints_and_with_DNF.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/other_motorsport/Indycar/Indycar_without_Sprints_and_with_DNF.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/other_motorsport/Indycar/constructors_Indycar_without_Sprints_and_with_DNF.png) |
 
 ## <a id="nn"></a> without Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/other_motorsport/Indycar/Indycar_without_Sprints_and_DNF.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/other_motorsport/Indycar/constructors_Indycar_without_Sprints_and_DNF.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/other_motorsport/Indycar/Indycar_without_Sprints_and_DNF.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/other_motorsport/Indycar/constructors_Indycar_without_Sprints_and_DNF.png) |
 
 # <a id="tables"></a> Number Tables
 
@@ -55,18 +55,18 @@ permalink: /indycar
 
 ### with Sprints
 
-{% include withDNF/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.md %}
+{% include withDNF_withSprint/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/other_motorsport/Indycar/Indycar_without_Sprints_and_with_DNF.md %}
+{% include withDNF_woSprint/other_motorsport/Indycar/Indycar_without_Sprints_and_with_DNF.md %}
 
 ## <a id="tn"></a> Raceresults without DNF
 
 ### with Sprints
 
-{% include woDNF/other_motorsport/Indycar/Indycar_with_Sprints_and_without_DNF.md %}
+{% include woDNF_withSprint/other_motorsport/Indycar/Indycar_with_Sprints_and_without_DNF.md %}
 
 ### without Sprints
 
-{% include noSprints/woDNF/other_motorsport/Indycar/Indycar_without_Sprints_and_DNF.md %}
+{% include woDNF_woSprint/other_motorsport/Indycar/Indycar_without_Sprints_and_DNF.md %}

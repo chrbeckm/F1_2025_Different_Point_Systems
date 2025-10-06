@@ -24,29 +24,29 @@ permalink: /scrabble
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/scrabble/Scrabble_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/scrabble/constructors_Scrabble_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/scrabble/Scrabble_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/scrabble/constructors_Scrabble_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/scrabble/Scrabble_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/scrabble/constructors_Scrabble_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/scrabble/Scrabble_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/scrabble/constructors_Scrabble_Raceresults.png) |
 
 ## <a id="wn"></a> with Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/scrabble/Scrabble_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/scrabble/constructors_Scrabble_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/scrabble/Scrabble_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/scrabble/constructors_Scrabble_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/scrabble/Scrabble_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/scrabble/constructors_Scrabble_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/scrabble/Scrabble_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/scrabble/constructors_Scrabble_Raceresults.png) |
 
 ## <a id="nw"></a> without Sprints, with DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/scrabble/Scrabble_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/scrabble/constructors_Scrabble_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/scrabble/Scrabble_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/scrabble/constructors_Scrabble_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/scrabble/Scrabble_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/scrabble/constructors_Scrabble_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/scrabble/Scrabble_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/scrabble/constructors_Scrabble_Raceresults.png) |
 
 ## <a id="nn"></a> without Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/scrabble/Scrabble_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/scrabble/constructors_Scrabble_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/scrabble/Scrabble_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/scrabble/constructors_Scrabble_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/scrabble/Scrabble_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/scrabble/constructors_Scrabble_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/scrabble/Scrabble_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/scrabble/constructors_Scrabble_Raceresults.png) |
 
 # <a id="tables"></a> Number Tables
 
@@ -54,38 +54,38 @@ permalink: /scrabble
 
 ### with Sprints
 
-{% include woDNF/scrabble/Scrabble_Qualifyingresults.md %}
+{% include woDNF_withSprint/scrabble/Scrabble_Qualifyingresults.md %}
 
 ### without Sprints
 
-{% include noSprints/woDNF/scrabble/Scrabble_Qualifyingresults.md %}
+{% include woDNF_woSprint/scrabble/Scrabble_Qualifyingresults.md %}
 
 ## <a id="tg"></a> Gridpositions
 
 ### with Sprints
 
-{% include withDNF/scrabble/Scrabble_Qualifyingresults.md %}
+{% include withDNF_withSprint/scrabble/Scrabble_Qualifyingresults.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/scrabble/Scrabble_Qualifyingresults.md %}
+{% include withDNF_woSprint/scrabble/Scrabble_Qualifyingresults.md %}
 
 ## <a id="tw"></a> Raceresults with DNF
 
 ### with Sprints
 
-{% include withDNF/scrabble/Scrabble_Raceresults.md %}
+{% include withDNF_withSprint/scrabble/Scrabble_Raceresults.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/scrabble/Scrabble_Raceresults.md %}
+{% include withDNF_woSprint/scrabble/Scrabble_Raceresults.md %}
 
 ## <a id="tn"></a> Raceresults without DNF
 
 ### with Sprints
 
-{% include woDNF/scrabble/Scrabble_Raceresults.md %}
+{% include woDNF_withSprint/scrabble/Scrabble_Raceresults.md %}
 
 ### without Sprints
 
-{% include noSprints/woDNF/scrabble/Scrabble_Raceresults.md %}
+{% include woDNF_woSprint/scrabble/Scrabble_Raceresults.md %}

@@ -26,15 +26,15 @@ permalink: /tommo
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/yt/tommo/Tommo_(yt)_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/yt/tommo/constructors_Tommo_(yt)_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/yt/tommo/Tommo_(yt)_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/yt/tommo/constructors_Tommo_(yt)_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/yt/tommo/Tommo_(yt)_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/yt/tommo/constructors_Tommo_(yt)_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/yt/tommo/Tommo_(yt)_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/yt/tommo/constructors_Tommo_(yt)_Raceresults.png) |
 
 ## <a id="nw"></a> without Sprints, with DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/yt/tommo/Tommo_(yt)_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/yt/tommo/constructors_Tommo_(yt)_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/yt/tommo/Tommo_(yt)_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/yt/tommo/constructors_Tommo_(yt)_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/yt/tommo/Tommo_(yt)_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/yt/tommo/constructors_Tommo_(yt)_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/yt/tommo/Tommo_(yt)_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/yt/tommo/constructors_Tommo_(yt)_Raceresults.png) |
 
 # <a id="tables"></a> Number Tables
 
@@ -42,18 +42,18 @@ permalink: /tommo
 
 ### with Sprints
 
-{% include withDNF/yt/tommo/Tommo_(yt)_Qualifyingresults.md %}
+{% include withDNF_withSprint/yt/tommo/Tommo_(yt)_Qualifyingresults.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/yt/tommo/Tommo_(yt)_Qualifyingresults.md %}
+{% include withDNF_woSprint/yt/tommo/Tommo_(yt)_Qualifyingresults.md %}
 
 ## <a id="tw"></a> Raceresults with DNF
 
 ### with Sprints
 
-{% include withDNF/yt/tommo/Tommo_(yt)_Raceresults.md %}
+{% include withDNF_withSprint/yt/tommo/Tommo_(yt)_Raceresults.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/yt/tommo/Tommo_(yt)_Raceresults.md %}
+{% include withDNF_woSprint/yt/tommo/Tommo_(yt)_Raceresults.md %}

@@ -28,29 +28,29 @@ permalink: /squared
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/squared/Squared_Numbers_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/squared/constructors_Squared_Numbers_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/squared/Squared_Numbers_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF/math/squared/constructors_Squared_Numbers_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/squared/Squared_Numbers_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/squared/constructors_Squared_Numbers_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/squared/Squared_Numbers_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/squared/constructors_Squared_Numbers_Raceresults.png) |
 
 ## <a id="wn"></a> with Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/math/squared/Squared_Numbers_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/math/squared/constructors_Squared_Numbers_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/math/squared/Squared_Numbers_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF/math/squared/constructors_Squared_Numbers_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/math/squared/Squared_Numbers_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/math/squared/constructors_Squared_Numbers_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/math/squared/Squared_Numbers_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_withSprint/math/squared/constructors_Squared_Numbers_Raceresults.png) |
 
 ## <a id="nw"></a> without Sprints, with DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/math/squared/Squared_Numbers_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/math/squared/constructors_Squared_Numbers_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/math/squared/Squared_Numbers_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/withDNF/math/squared/constructors_Squared_Numbers_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/squared/Squared_Numbers_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/squared/constructors_Squared_Numbers_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/squared/Squared_Numbers_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/squared/constructors_Squared_Numbers_Raceresults.png) |
 
 ## <a id="nn"></a> without Sprints, without DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/math/squared/Squared_Numbers_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/math/squared/constructors_Squared_Numbers_Qualifyingresults.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/math/squared/Squared_Numbers_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/noSprints/woDNF/math/squared/constructors_Squared_Numbers_Raceresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/math/squared/Squared_Numbers_Qualifyingresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/math/squared/constructors_Squared_Numbers_Qualifyingresults.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/math/squared/Squared_Numbers_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/woDNF_woSprint/math/squared/constructors_Squared_Numbers_Raceresults.png) |
 
 # <a id="tables"></a> Number Tables
 
@@ -58,38 +58,38 @@ permalink: /squared
 
 ### with Sprints
 
-{% include woDNF/math/squared/Squared_Numbers_Qualifyingresults.md %}
+{% include woDNF_withSprint/math/squared/Squared_Numbers_Qualifyingresults.md %}
 
 ### without Sprints
 
-{% include noSprints/woDNF/math/squared/Squared_Numbers_Qualifyingresults.md %}
+{% include woDNF_woSprint/math/squared/Squared_Numbers_Qualifyingresults.md %}
 
 ## <a id="tg"></a> Gridpositions
 
 ### with Sprints
 
-{% include withDNF/math/squared/Squared_Numbers_Qualifyingresults.md %}
+{% include withDNF_withSprint/math/squared/Squared_Numbers_Qualifyingresults.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/math/squared/Squared_Numbers_Qualifyingresults.md %}
+{% include withDNF_woSprint/math/squared/Squared_Numbers_Qualifyingresults.md %}
 
 ## <a id="tw"></a> Raceresults with DNF
 
 ### with Sprints
 
-{% include withDNF/math/squared/Squared_Numbers_Raceresults.md %}
+{% include withDNF_withSprint/math/squared/Squared_Numbers_Raceresults.md %}
 
 ### without Sprints
 
-{% include noSprints/withDNF/math/squared/Squared_Numbers_Raceresults.md %}
+{% include withDNF_woSprint/math/squared/Squared_Numbers_Raceresults.md %}
 
 ## <a id="tn"></a> Raceresults without DNF
 
 ### with Sprints
 
-{% include woDNF/math/squared/Squared_Numbers_Raceresults.md %}
+{% include woDNF_withSprint/math/squared/Squared_Numbers_Raceresults.md %}
 
 ### without Sprints
 
-{% include noSprints/woDNF/math/squared/Squared_Numbers_Raceresults.md %}
+{% include woDNF_woSprint/math/squared/Squared_Numbers_Raceresults.md %}

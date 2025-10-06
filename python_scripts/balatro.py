@@ -58,7 +58,7 @@ point_systems = [
     {
         "name": "Balatro with Sprints",
         "sprints": True,
-        "dir": "withDNF/math/Balatro",
+        "dir": "withDNF_withSprint/math/Balatro",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "point_finishes": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "podium": defaultdict(lambda: np.zeros(nr_of_races + 1)),
@@ -68,7 +68,7 @@ point_systems = [
     {
         "name": "Balatro without Sprints",
         "sprints": False,
-        "dir": "noSprints/withDNF/math/Balatro",
+        "dir": "withDNF_woSprint/math/Balatro",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "point_finishes": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "podium": defaultdict(lambda: np.zeros(nr_of_races + 1)),
@@ -132,14 +132,14 @@ for system in point_systems:
 
 
 # Plot
-plot_help(point_systems, races, driver_data)
+plot_help(point_systems, races, driver_data, "_includes")
 
 for j, system in enumerate(point_systems):
     x = np.arange(len(races) + 1)
 
     zero_arr = np.zeros((len(driver_data["name"]), len(races)))
     point_readout = [zero_arr] * len(point_systems)
-    os.makedirs(system["dir"], exist_ok=True)
+    os.makedirs("_includes/" + system["dir"], exist_ok=True)
     fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
     for i, (di, dn) in enumerate(zip(driver_data["shorthand"], driver_data["name"])):
         data = system["podium"][dn] + system["point_finishes"][dn]
