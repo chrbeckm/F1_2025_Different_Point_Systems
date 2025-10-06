@@ -23,8 +23,7 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
         label_format = "{:7.1f} {}" if "Balatro" in system["name"] else "{:5.0f} {}"
         x = np.arange(len(races) + 1)
 
-        zero_arr = np.zeros((len(driver_data["name"]), len(races)))
-        point_readout = [zero_arr] * len(point_systems)
+        point_readout = np.zeros((len(driver_data["name"]), len(races)))
         os.makedirs(path + "/" + system["dir"], exist_ok=True)
         fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
 
@@ -38,7 +37,7 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
                 color=f"#{driver_data['color'][i]}",
                 linestyle=driver_data["style"][i],
             )
-            point_readout[j][i] = np.diff(system["driver_dict"][dn])
+            point_readout[i] = np.diff(system["driver_dict"][dn])
         ax.set_title(f"{system['name']}")
         sorted_legend_by_final_points(ax)
         ax.grid()
@@ -58,7 +57,7 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
         plt.close(fig)
         data_with_race_names = []
         for race_idx, race in enumerate(races):
-            row = [race] + list(point_readout[j][:, race_idx])
+            row = [race] + list(point_readout[:, race_idx])
             data_with_race_names.append(row)
 
         full_points = np.zeros(driver_data.shape[0])

@@ -46,6 +46,8 @@ def get_point_systems_dict(nr_of_races):
         dtype=np.int32,
     )
     f107 = np.array([10, 8, 6, 5, 4, 3, 2, 1] + [0] * 12, dtype=np.int32)
+    motoGP = np.array([25, 20, 16, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] + [0] * 5, dtype=np.int32)
+    motoGP_s = np.array([12, 9, 7, 6, 5, 4, 3, 2, 1] + [0] * 11, dtype=np.int32)
     mariokart_sc = np.array([3, 2, 1] + [0] * 17, dtype=np.int32)
     mariokart_ds = np.array([10, 8, 6, 4, 3, 2, 1] + [0] * 13, dtype=np.int32)
     mariokart_wii = np.array(
@@ -501,6 +503,21 @@ def get_point_systems_dict(nr_of_races):
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,
             "dir": "yt/tommo",
+        },
+        {
+            "name": "Moto GP Raceresults",
+            "points": motoGP,
+            "sprint_points": motoGP_s,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "dir": "other_motorsport/motoGP",
+        },
+        {
+            "name": "Moto GP Qualifyingresults",
+            "points": motoGP,
+            "sprint_points": motoGP_s,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "qualifying": True,
+            "dir": "other_motorsport/motoGP",
         },
     ]
     return point_systems

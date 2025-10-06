@@ -10,7 +10,7 @@ title: Overview over all possible files
 | Inverse Positions | Fibonacci | 1988 | F1 2025 Proposal | Formula E | Mariokart Wii | | Scrabble + F1 2025 | |
 | Mean Positions | Squared Numbers | 2007 | F1 2025 Reversed | IMSA | Mariokart 7 | | |
 | Everyone Except Last | | 2021 | F1 Points from 11th | Indycar | Mariokart 8 | | |
-| | | 2024 | Drivernumbers | | Mariokart World | | |
+| | | 2024 | Drivernumbers | Moto GP | Mariokart World | | |
 | | | 2025 | | | | | |
 
 Download all files in a zip [here](/F1_2025_Different_Point_Systems/docs/assets/all_files.zip).
@@ -60,6 +60,7 @@ All comparisons are based on the systems with sprint results and DNF.
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/other_motorsport/FE/Formula_E_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/other_motorsport/IMSA/IMSA.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/other_motorsport/motoGP/Moto_GP_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="mk"></a> Mariokart
 
