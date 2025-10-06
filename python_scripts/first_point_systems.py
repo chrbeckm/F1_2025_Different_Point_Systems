@@ -52,10 +52,12 @@ point_systems = psd.get_point_systems_dict(len(races))
 # Process race results
 for race_number, race in enumerate(races):
     is_sprint = "Sprint" in race
-    if (is_sprint and SprintDiff == "woSprint"):
+    if is_sprint and SprintDiff == "woSprint":
         for system in point_systems:
             for dn in driver_data["name"]:
-                system["driver_dict"][dn][race_number + 1] = prev_score
+                system["driver_dict"][dn][race_number + 1] = system["driver_dict"][dn][
+                    race_number
+                ]
     else:
         for system in point_systems:
             # Load results, if the dict is for quali results, or other results
@@ -174,7 +176,9 @@ x = np.arange(len(races) + 1)
 
 
 if DNFdiff == "withDNF" and SprintDiff == "withSprint":
-    os.makedirs(f"_includes/{DNFdiff}_{SprintDiff}/{point_systems[f125]['dir']}", exist_ok=True)
+    os.makedirs(
+        f"_includes/{DNFdiff}_{SprintDiff}/{point_systems[f125]['dir']}", exist_ok=True
+    )
     fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
     for i, (di, dn) in enumerate(zip(driver_data["shorthand"], driver_data["name"])):
         ax.plot(
