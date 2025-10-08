@@ -1,4 +1,4 @@
-#https://www.statsf1.com/en/2025/hongrie/en-tete.aspx
+# https://www.statsf1.com/en/2025/hongrie/en-tete.aspx
 Norris,54,Verstappen,2,Hamilton,1#Australia
 #China Sprint
 Piastri,53,Norris,2,Albon,1#China
