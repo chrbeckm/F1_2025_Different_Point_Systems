@@ -46,6 +46,15 @@ jobs:
       - name: Build site with Jekyll
         run: bundle exec jekyll build
 
+      - name: Check the build
+        run: |
+          bundle exec htmlproofer ./_site \
+            --allow-hash-href \
+            --check-html \
+            --only-4xx \
+            --disable-external \
+            --empty-alt-ignore
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
