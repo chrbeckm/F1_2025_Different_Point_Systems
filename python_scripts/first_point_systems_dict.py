@@ -519,5 +519,22 @@ def get_point_systems_dict(nr_of_races):
             "qualifying": True,
             "dir": "other_motorsport/motoGP",
         },
+        {
+            "name": "DTM Raceresults",
+            "points": motoGP,
+            "sprint_points": (motoGP * 8) // 25,
+            "driver_dict": make_driver_dict(nr_of_races),
+						 "pole_points": f121_s,
+            "dir": "other_motorsport/DTM",
+        },
+        {
+            "name": "DTM Qualifyingresults",
+            "points": motoGP,
+            "sprint_points": (motoGP * 8) // 25,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "qualifying": True,
+						 "pole_points": f121_s,
+            "dir": "other_motorsport/DTM",
+        },
     ]
     return point_systems
