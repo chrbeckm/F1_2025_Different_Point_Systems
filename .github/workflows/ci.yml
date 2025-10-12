@@ -3,7 +3,7 @@ name: Build and deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - "**"
 
 permissions:
   contents: read
@@ -61,7 +61,8 @@ jobs:
           path: ./_site
 
   deploy:
-    environment:
+    if: github.ref == 'refs/heads/main'
+		environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
