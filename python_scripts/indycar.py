@@ -17,7 +17,7 @@ raceresults_wo = np.genfromtxt(
 
 with open("results/laps_led.txt", "r") as f:
     laps_lines = f.read().splitlines()
-ll = [_.split(",")[::2] for _ in laps_lines[1:]]
+ll = [_.split(",")[::2] for _ in laps_lines]
 
 with open("helpfiles/races.txt", "r") as f:
     races = f.read().splitlines()

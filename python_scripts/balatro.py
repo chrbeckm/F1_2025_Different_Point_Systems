@@ -22,7 +22,7 @@ with open("helpfiles/races.txt", "r") as f:
 
 with open("results/fastest_lap.txt", "r") as f:
     fl = f.read().splitlines()
-fastest_lap = [_.split(",")[0] for _ in fl[1:]]
+fastest_lap = [_.split(",")[0] for _ in fl]
 
 driver_data = np.genfromtxt(
     "helpfiles/driver_data.txt",
