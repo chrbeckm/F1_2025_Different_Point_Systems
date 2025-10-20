@@ -20,7 +20,7 @@ Verstappen,42,Norris,11#Italy
 Verstappen,51#Azerbaijan
 Russell,60,Piastri,2#Singapore
 Verstappen,19#USA Sprint
-#USA
+Verstappen,56#USA
 #Mexico
 #Brasil Sprint
 #Brasil

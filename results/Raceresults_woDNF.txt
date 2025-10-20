@@ -20,7 +20,7 @@ Italy,Verstappen,Norris,Piastri,Leclerc,Russell,Hamilton,Albon,Bortoleto,Antonel
 Azerbaijan,Verstappen,Russell,Sainz,Antonelli,Lawson,Tsunoda,Norris,Hamilton,Leclerc,Hadjar,Bortoleto,Bearman,Albon,Ocon,Alonso,Hülkenberg,Stroll,Gasly,Colapinto,Piastri
 Singapore,Russell,Verstappen,Norris,Piastri,Antonelli,Leclerc,Alonso,Hamilton,Bearman,Sainz,Hadjar,Tsunoda,Stroll,Albon,Lawson,Colapinto,Bortoleto,Ocon,Gasly,Hülkenberg
 USA Sprint,Verstappen,Russell,Sainz,Hamilton,Leclerc,Albon,Tsunoda,Antonelli,Lawson,Gasly,Bortoleto,Hadjar,Hülkenberg,Colapinto,Bearman,Ocon,Stroll,Norris,Piastri,Alonso
-USA,,,,,,,,,,,,,,,,,,,,
+USA,Verstappen,Norris,Leclerc,Hamilton,Piastri,Russell,Tsunoda,Hülkenberg,Bearman,Alonso,Lawson,Stroll,Antonelli,Albon,Ocon,Hadjar,Colapinto,Bortoleto,Gasly,Sainz
 Mexico,,,,,,,,,,,,,,,,,,,,
 Brasil Sprint,,,,,,,,,,,,,,,,,,,,
 Brasil,,,,,,,,,,,,,,,,,,,,
