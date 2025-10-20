@@ -1,0 +1,38 @@
+
+#Race,Who,P1,Norris,Piastri,Leclerc,Hamilton,Lawson,Verstappen,Russell,Antonelli,Alonso,Stroll,Colapinto,Doohan,Gasly,Bearman,Ocon,Hadjar,Tsunoda,Sainz,Albon,Bortoleto,Hülkenberg
+Australia,Matt,Norris,10,8,6,5,2,10,9,10,4,9,,2,6,4,5,1,9,3,10,4,10
+Australia,Tommy,Antonelli,10,8,6,5,2,10,9,10,3,8,,3,6,4,6,2,9,2,10,5,10
+Australia,Audience,,10,8,6,5,2,9,9,9,4,8,,4,6,5,5,0,7,4,10,5,9
+China,Matt,Ocon,8,10,7,8,1,8,9,7,5,7,,4,6,9,10,7,8,5,8,5,4
+China,Tommy,Piastri,8,10,7,8,1,9,9,7,5,7,,4,6,9,10,7,8,5,8,6,4
+China,Audience,,8,10,7,8,1,8,9,7,5,7,,4,5,8,9,7,8,6,8,5,5
+Japan,Matt,Verstappen,8,8,9,6,4,10,8,8,7,1,,4,6,9,3,10,6,5,9,5,6
+Japan,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Japan,Audience,,,,,,,,,,,,,,,,,,,,,,
+Bahrain,Matt,,,,,,,,,,,,,,,,,,,,,,
+Bahrain,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Bahrain,Audience,,,,,,,,,,,,,,,,,,,,,,
+Saudi Arabia,Matt,,,,,,,,,,,,,,,,,,,,,,
+Saudi Arabia,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Saudi Arabia,Audience,,,,,,,,,,,,,,,,,,,,,,
+Miami,Matt,,,,,,,,,,,,,,,,,,,,,,
+Miami,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Miami,Audience,,,,,,,,,,,,,,,,,,,,,,
+Imola,Matt,,,,,,,,,,,,,,,,,,,,,,
+Imola,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Imola,Audience,,,,,,,,,,,,,,,,,,,,,,
+Spain,Matt,,,,,,,,,,,,,,,,,,,,,,
+Spain,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Spain,Audience,,,,,,,,,,,,,,,,,,,,,,
+Canada,Matt,,,,,,,,,,,,,,,,,,,,,,
+Canada,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Canada,Audience,,,,,,,,,,,,,,,,,,,,,,
+Austria,Matt,,,,,,,,,,,,,,,,,,,,,,
+Austria,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Austria,Audience,,,,,,,,,,,,,,,,,,,,,,
+UK,Matt,,,,,,,,,,,,,,,,,,,,,,
+UK,Tommy,,,,,,,,,,,,,,,,,,,,,,
+UK,Audience,,,,,,,,,,,,,,,,,,,,,,
+Belgium,Matt,,,,,,,,,,,,,,,,,,,,,,
+Belgium,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Belgium,Audience,,,,,,,,,,,,,,,,,,,,,,
