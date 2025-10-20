@@ -78,7 +78,6 @@ for race_number, race in enumerate(races):
                     eliminated.append(current_result[-i])
                     last_race = race_number
                     break
-print(last_race)
 
 with open("_includes/eel/Qualifying.csv", "w") as fq:
     fq.write(

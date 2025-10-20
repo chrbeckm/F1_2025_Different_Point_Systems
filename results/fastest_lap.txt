@@ -1,11 +1,10 @@
-# https://www.fia.com/documents/championships/fia-formula-one-world-championship-14/season/season-2025-2071
 Norris,Lawson,Verstappen,Piastri,Bortoleto,Tsunoda,Hamilton,Albon,Antonelli,Gasly,Russell,Hülkenberg,Leclerc,Stroll,Ocon,Bearman,Alonso,,,#Australia
-Hamilton,,,,,,,,,,,,,,,,,,,#China Sprint
+Hamilton,Verstappen,Sainz,Piastri,Russell,Leclerc,Antonelli,Tsunoda,Stroll,Hülkenberg,Norris,Alonso,Bearman,Lawson,Albon,Bortoleto,Gasly,Hadjar,Ocon,Doohan#China Sprint
 Norris,Verstappen,Piastri,Ocon,Russell,Hadjar,Tsunoda,Bortoleto,Lawson,Stroll,Antonelli,Albon,Bearman,Doohan,Sainz,Hülkenberg,Alonso,Hamilton,Leclerc,Gasly#China
 Antonelli,Piastri,Verstappen,Sainz,Norris,Albon,Hadjar,Russell,Hamilton,Leclerc,Alonso,Gasly,Tsunoda,Ocon,Bearman,Bortoleto,Lawson,Stroll,Hülkenberg,Doohan#Japan
 Piastri,Russell,Norris,Leclerc,Verstappen,Hamilton,Gasly,Doohan,Antonelli,Hadjar,Sainz,Ocon,Albon,Tsunoda,Bearman,Lawson,Alonso,Bortoleto,Stroll,Hülkenberg#Bahrain
 Norris,Leclerc,Piastri,Verstappen,Antonelli,Sainz,Hamilton,Stroll,Russell,Lawson,Alonso,Doohan,Bearman,Hadjar,Hülkenberg,Albon,Ocon,Bortoleto,,#Saudi Arabia
-Hamilton,,,,,,,,,,,,,,,,,,,#Miami Sprint
+Hamilton,Stroll,Tsunoda,Piastri,Norris,Verstappen,Russell,Antonelli,Albon,Alonso,Lawson,Bearman,Hadjar,Ocon,Sainz,Gasly,Hülkenberg,Bortoleto,Doohan,#Miami Sprint
 Norris,Piastri,Russell,Leclerc,Verstappen,Albon,Hamilton,Sainz,Antonelli,Tsunoda,Hadjar,Hülkenberg,Ocon,Gasly,Alonso,Stroll,Lawson,Bortoleto,Bearman,#Miami
 Verstappen,Hamilton,Albon,Norris,Piastri,Leclerc,Hadjar,Bearman,Russell,Sainz,Alonso,Tsunoda,Colapinto,Gasly,Hülkenberg,Lawson,Stroll,Antonelli,Bortoleto,Ocon#Imola
 Norris,Russell,Antonelli,Piastri,Sainz,Leclerc,Hamilton,Verstappen,Albon,Bearman,Stroll,Bortoleto,Tsunoda,Ocon,Hülkenberg,Colapinto,Lawson,Alonso,Hadjar,Gasly#Monaco
@@ -13,15 +12,15 @@ Piastri,Norris,Verstappen,Russell,Leclerc,Hülkenberg,Hamilton,Hadjar,Gasly,Tsun
 Russell,Norris,Piastri,Leclerc,Verstappen,Sainz,Antonelli,Ocon,Hamilton,Stroll,Gasly,Alonso,Tsunoda,Hülkenberg,Bearman,Bortoleto,Colapinto,Albon,Hadjar,Lawson#Canada
 Piastri,Norris,Hamilton,Leclerc,Stroll,Bortoleto,Russell,Hülkenberg,Ocon,Colapinto,Tsunoda,Alonso,Bearman,Lawson,Gasly,Hadjar,Albon,,,#Austria
 Piastri,Norris,Hamilton,Albon,Verstappen,Alonso,Sainz,Gasly,Ocon,Leclerc,Russell,Tsunoda,Bearman,Hülkenberg,Stroll,Hadjar,Antonelli,Bortoleto,,#UK
-Norris,,,,,,,,,,,,,,,,,,,#Belgium Sprint
+Norris,Verstappen,Piastri,Leclerc,Antonelli,Sainz,Ocon,Hadjar,Bearman,Bortoleto,Hamilton,Lawson,Russell,Stroll,Tsunoda,Albon,Alonso,Hülkenberg,Gasly,Colapinto#Belgium Sprint
 Antonelli,Hülkenberg,Norris,Piastri,Alonso,Sainz,Verstappen,Colapinto,Leclerc,Hamilton,Russell,Lawson,Bearman,Ocon,Albon,Bortoleto,Gasly,Stroll,Tsunoda,Hadjar#Belgium
 Russell,Piastri,Verstappen,Sainz,Norris,Hülkenberg,Hamilton,Alonso,Leclerc,Lawson,Bortoleto,Stroll,Antonelli,Albon,Hadjar,Colapinto,Tsunoda,Gasly,Ocon,Bearman#Hungary
 Piastri,Norris,Verstappen,Colapinto,Hadjar,Antonelli,Albon,Alonso,Russell,Sainz,Stroll,Lawson,Bearman,Ocon,Bortoleto,Tsunoda,Leclerc,Hülkenberg,Gasly,Hamilton#Dutch
 Norris,Verstappen,Piastri,Leclerc,Albon,Hamilton,Sainz,Russell,Bearman,Antonelli,Hadjar,Bortoleto,Stroll,Gasly,Colapinto,Tsunoda,Lawson,Ocon,Alonso,#Italy
 Verstappen,Russell,Hadjar,Sainz,Hamilton,Antonelli,Albon,Norris,Leclerc,Bearman,Hülkenberg,Tsunoda,Lawson,Bortoleto,Alonso,Stroll,Ocon,Gasly,Colapinto,#Azerbaijan
 Hamilton,Gasly,Sainz,Antonelli,Hülkenberg,Piastri,Norris,Lawson,Albon,Verstappen,Russell,Stroll,Alonso,Leclerc,Bearman,Ocon,Tsunoda,Hadjar,Bortoleto,Colapinto#Singapore
-,,,,,,,,,,,,,,,,,,,#USA Sprint
-,,,,,,,,,,,,,,,,,,,#USA
+Verstappen,Russell,Hamilton,Leclerc,Sainz,Antonelli,Albon,Tsunoda,Bearman,Lawson,Ocon,Stroll,Gasly,Bortoleto,Hadjar,Hülkenberg,Colapinto,,,#USA Sprint
+Antonelli,Norris,Verstappen,Russell,Leclerc,Bortoleto,Albon,Hamilton,Hülkenberg,Piastri,Hadjar,Alonso,Tsunoda,Lawson,Stroll,Bearman,Colapinto,Ocon,Gasly,Sainz#USA
 ,,,,,,,,,,,,,,,,,,,#Mexico
 ,,,,,,,,,,,,,,,,,,,#Brasil Sprint
 ,,,,,,,,,,,,,,,,,,,#Brasil

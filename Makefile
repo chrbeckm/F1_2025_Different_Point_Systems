@@ -40,7 +40,7 @@ docs/assets/mean/qualifying/positions_2D.png: $(pre_docs)
 	    mkdir -p "docs/assets/$$(dirname "$$rel")"; \
 	    cp "$$f" "docs/assets/$$rel"; \
 	  done' _ {} +
-	zip -r all_files.zip _includes/eel _includes/mean _includes/medals _includes/noSprints _includes/withDNF _includes/woDNF
+	zip -r all_files.zip _includes/eel _includes/mean _includes/medals _includes/points _includes/withDNF_withSprint _includes/withDNF_woSprint _includes/woDNF_withSprint _includes/woDNF_woSprint
 	mv all_files.zip docs/assets/
 
 $(TARGETSCRABBLE): helpfiles/scrabble.py

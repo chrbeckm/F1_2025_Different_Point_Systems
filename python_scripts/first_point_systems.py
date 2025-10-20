@@ -113,7 +113,7 @@ for race_number, race in enumerate(races):
                             if is_sprint
                             else raw_points
                         )
-                    elif "reversed" in system["name"]:
+                    elif "Reversed" in system["name"]:
                         score = score_array[finishers - pos_index - 1]
                     else:
                         score = score_array[pos_index]
