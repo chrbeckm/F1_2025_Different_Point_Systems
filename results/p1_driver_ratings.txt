@@ -1,4 +1,3 @@
-
 #Race,Who,P1,Norris,Piastri,Leclerc,Hamilton,Lawson,Verstappen,Russell,Antonelli,Alonso,Stroll,Colapinto,Doohan,Gasly,Bearman,Ocon,Hadjar,Tsunoda,Sainz,Albon,Bortoleto,Hülkenberg
 Australia,Matt,Norris,10,8,6,5,2,10,9,10,4,9,,2,6,4,5,1,9,3,10,4,10
 Australia,Tommy,Antonelli,10,8,6,5,2,10,9,10,3,8,,3,6,4,6,2,9,2,10,5,10
@@ -7,32 +6,35 @@ China,Matt,Ocon,8,10,7,8,1,8,9,7,5,7,,4,6,9,10,7,8,5,8,5,4
 China,Tommy,Piastri,8,10,7,8,1,9,9,7,5,7,,4,6,9,10,7,8,5,8,6,4
 China,Audience,,8,10,7,8,1,8,9,7,5,7,,4,5,8,9,7,8,6,8,5,5
 Japan,Matt,Verstappen,8,8,9,6,4,10,8,8,7,1,,4,6,9,3,10,6,5,9,5,6
-Japan,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Japan,Tommy,Verstappen,8,8,9,6,5,10,8,8,7,2,,3,6,9,3,10,5,5,8,5,6
 Japan,Audience,,,,,,,,,,,,,,,,,,,,,,
-Bahrain,Matt,,,,,,,,,,,,,,,,,,,,,,
-Bahrain,Tommy,,,,,,,,,,,,,,,,,,,,,,
-Bahrain,Audience,,,,,,,,,,,,,,,,,,,,,,
-Saudi Arabia,Matt,,,,,,,,,,,,,,,,,,,,,,
-Saudi Arabia,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Bahrain,Matt,Russell,6,10,9,7,3,8,10,7,5,4,,6,10,9,9,5,7,6,6,5,6
+Bahrain,Tommy,Russell,7,10,8,7,3,8,10,7,6,4,,6,9,9,9,5,7,6,7,5,6
+Bahrain,Audience,,6,10,8,8,3,7,10,7,5,3,,6,9,9,9,5,7,5,6,5,5
+Saudi Arabia,Matt,Leclerc,7,10,10,5,7,9,7,7,8,4,,3,5,6,5,8,5,9,,,
+Saudi Arabia,Tommy,Leclerc,6,10,10,5,7,9,8,8,8,4,,3,5,6,5,9,5,9,8,4,5
 Saudi Arabia,Audience,,,,,,,,,,,,,,,,,,,,,,
-Miami,Matt,,,,,,,,,,,,,,,,,,,,,,
-Miami,Tommy,,,,,,,,,,,,,,,,,,,,,,
-Miami,Audience,,,,,,,,,,,,,,,,,,,,,,
-Imola,Matt,,,,,,,,,,,,,,,,,,,,,,
-Imola,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Miami,Matt,Albon,9,10,6,7,3,9,8,8,5,7,,3,6,4,7,6,6,7,10,6,7
+Miami,Tommy,Albon,8,9,5,7,3,9,8,9,6,7,,3,6,6,8,6,5,7,10,7,7
+Miami,Audience,,9,10,6,7,3,8,8,8,5,6,,3,5,4,5,6,6,7,10,5,6
+Imola,Matt,Verstappen,8,8,8,8,5,10,7,5,8,6,5,,5,5,4,8,5,8,10,6,8
+Imola,Tommy,Verstappen,8,8,8,8,5,10,7,5,8,6,5,,6,6,5,8,5,8,9,6,7
 Imola,Audience,,,,,,,,,,,,,,,,,,,,,,
-Spain,Matt,,,,,,,,,,,,,,,,,,,,,,
-Spain,Tommy,,,,,,,,,,,,,,,,,,,,,,
-Spain,Audience,,,,,,,,,,,,,,,,,,,,,,
-Canada,Matt,,,,,,,,,,,,,,,,,,,,,,
-Canada,Tommy,,,,,,,,,,,,,,,,,,,,,,
-Canada,Audience,,,,,,,,,,,,,,,,,,,,,,
-Austria,Matt,,,,,,,,,,,,,,,,,,,,,,
-Austria,Tommy,,,,,,,,,,,,,,,,,,,,,,
-Austria,Audience,,,,,,,,,,,,,,,,,,,,,,
-UK,Matt,,,,,,,,,,,,,,,,,,,,,,
-UK,Tommy,,,,,,,,,,,,,,,,,,,,,,
-UK,Audience,,,,,,,,,,,,,,,,,,,,,,
-Belgium,Matt,,,,,,,,,,,,,,,,,,,,,,
-Belgium,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Spain,Matt,Hülkenberg,8,10,9,7,7,0,8,6,8,5,4,,8,4,4,9,3,4,5,7,10
+Spain,Tommy,Hülkenberg,8,10,9,7,7,1,8,6,8,4,4,,8,4,4,9,3,4,4,8,10
+Spain,Audience,,8,10,9,7,6,0,8,6,8,0,5,,8,4,4,9,4,4,5,8,10
+Canada,Matt,Russell,2,7,7,7,3,9,10,10,10,2,7,,4,7,8,4,5,7,5,6,9
+Canada,Tommy,Russell,1,8,7,7,4,9,10,10,10,2,7,,5,7,8,6,5,7,5,6,10
+Canada,Audience,,4,7,7,7,3,9,10,10,9,2,6,,4,7,8,5,5,7,5,6,9
+Austria,Matt,Norris,10,9,9,8,10,,7,2,9,4,4,,6,6,8,7,2,3,6,10,9
+Austria,Tommy,Lawson,10,9,9,8,10,,8,2,9,5,4,,6,7,8,6,1,4,7,10,9
+Austria,Audience,,10,9,9,8,10,5,7,2,8,4,3,,5,7,8,6,2,5,5,10,9
+UK,Matt,Hülkenberg,9,8,3,8,4,7,5,5,7,8,1,,10,6,5,4,2,7,7,4,11
+UK,Tommy,Hülkenberg,9,8,2,8,4,7,5,5,7,8,2,,10,6,5,4,2,7,7,3,11
+UK,Audience,,10,9,4,8,5,7,5,5,7,8,0,,9,6,5,5,2,5,7,4,10
+Belgium,Matt,Piastri,7,10,9,6,8,9,7,2,4,5,3,,8,7,7,6,6,7,9,9,5
+Belgium,Tommy,Piastri,8,10,9,6,8,9,7,2,4,4,4,,8,7,8,7,6,7,9,9,5
 Belgium,Audience,,,,,,,,,,,,,,,,,,,,,,
+Hungary,Matt,Bortoleto,9,9,9,4,8,6,9,5,10,9,5,,3,5,4,6,3,6,5,10,5
+Hungary,Tommy,Bortoleto,9,9,9,3,8,6,9,5,10,8,4,,3,4,4,6,4,6,5,10,5
+Hungary,Audience,,,,,,,,,,,,,,,,,,,,,,

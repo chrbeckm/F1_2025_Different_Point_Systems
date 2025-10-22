@@ -19,9 +19,10 @@ def sorted_legend_by_final_points(ax, bbox=(1.0, 0.5)):
 
 
 def plot_help(point_systems, races, driver_data, path="_includes"):
-    for j, system in enumerate(point_systems):
+    for system in point_systems:
         label_format = "{:7.1f} {}" if "Balatro" in system["name"] else "{:5.0f} {}"
-        x = np.arange(len(races) + 1)
+        len_races_p1 = len(races) + 1
+        x = np.arange(len_races_p1)
 
         point_readout = np.zeros((len(driver_data["name"]), len(races)))
         os.makedirs(path + "/" + system["dir"], exist_ok=True)
@@ -41,10 +42,10 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
         ax.set_title(f"{system['name']}")
         sorted_legend_by_final_points(ax)
         ax.grid()
-        ax.set_xlim(0, 30)
+        ax.set_xlim(0, len_races_p1 - 1)
         ax.set_ylim(0, ax.get_ylim()[-1])
         ax.set_xticks(
-            np.arange(31),
+            x,
             labels=[""] + races,
             rotation=-45,
             ha="left",
@@ -70,8 +71,8 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
             writer.writerows(data_with_race_names)
             writer.writerow(["Σ"] + [f"{fp}" for fp in full_points])
 
-        RacingBulls = np.zeros(31)
-        RedBull = np.zeros(31)
+        RacingBulls = np.zeros(len_races_p1)
+        RedBull = np.zeros(len_races_p1)
         for i, (tsu, law) in enumerate(
             zip(
                 np.diff(system["driver_dict"]["Tsunoda"]),
@@ -128,10 +129,10 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
         ax.set_title(f"{system['name']} Constructors' Championship")
         sorted_legend_by_final_points(ax)
         ax.grid()
-        ax.set_xlim(0, 30)
+        ax.set_xlim(0, len_races_p1 - 1)
         ax.set_ylim(0, ax.get_ylim()[-1])
         ax.set_xticks(
-            np.arange(31),
+            x,
             labels=[""] + races,
             rotation=-45,
             ha="left",
