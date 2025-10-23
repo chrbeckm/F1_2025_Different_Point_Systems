@@ -7,19 +7,22 @@ China,Tommy,Piastri,8,10,7,8,1,9,9,7,5,7,,4,6,9,10,7,8,5,8,6,4
 China,Audience,,8,10,7,8,1,8,9,7,5,7,,4,5,8,9,7,8,6,8,5,5
 Japan,Matt,Verstappen,8,8,9,6,4,10,8,8,7,1,,4,6,9,3,10,6,5,9,5,6
 Japan,Tommy,Verstappen,8,8,9,6,5,10,8,8,7,2,,3,6,9,3,10,5,5,8,5,6
-Japan,Audience,,,,,,,,,,,,,,,,,,,,,,
+Japan,Audience,,8,8,8,6,4,10,8,8,6,0,,4,5,9,3,9,6,5,8,4,5
 Bahrain,Matt,Russell,6,10,9,7,3,8,10,7,5,4,,6,10,9,9,5,7,6,6,5,6
 Bahrain,Tommy,Russell,7,10,8,7,3,8,10,7,6,4,,6,9,9,9,5,7,6,7,5,6
 Bahrain,Audience,,6,10,8,8,3,7,10,7,5,3,,6,9,9,9,5,7,5,6,5,5
-Saudi Arabia,Matt,Leclerc,7,10,10,5,7,9,7,7,8,4,,3,5,6,5,8,5,9,,,
+Saudi Arabia,Matt,Leclerc,7,10,10,5,7,9,7,7,8,4,,3,5,6,5,8,5,9,8,4,6
 Saudi Arabia,Tommy,Leclerc,6,10,10,5,7,9,8,8,8,4,,3,5,6,5,9,5,9,8,4,5
-Saudi Arabia,Audience,,,,,,,,,,,,,,,,,,,,,,
+Saudi Arabia,Audience,,7,10,10,6,6,9,7,7,7,4,,4,5,5,5,8,5,9,8,4,5
 Miami,Matt,Albon,9,10,6,7,3,9,8,8,5,7,,3,6,4,7,6,6,7,10,6,7
 Miami,Tommy,Albon,8,9,5,7,3,9,8,9,6,7,,3,6,6,8,6,5,7,10,7,7
 Miami,Audience,,9,10,6,7,3,8,8,8,5,6,,3,5,4,5,6,6,7,10,5,6
 Imola,Matt,Verstappen,8,8,8,8,5,10,7,5,8,6,5,,5,5,4,8,5,8,10,6,8
 Imola,Tommy,Verstappen,8,8,8,8,5,10,7,5,8,6,5,,6,6,5,8,5,8,9,6,7
 Imola,Audience,,,,,,,,,,,,,,,,,,,,,,
+Monaco,Matt,Norris,10,8,10,6,8,8,5,3,9,3,6,,3,7,10,10,4,7,8,6,6
+Monaco,Tommy,Hadjar,10,8,9,6,8,8,6,2,9,3,5,,2,6,10,10,4,7,7,6,6
+Monaco,Audience,,,,,,,,,,,,,,,,,,,,,,
 Spain,Matt,Hülkenberg,8,10,9,7,7,0,8,6,8,5,4,,8,4,4,9,3,4,5,7,10
 Spain,Tommy,Hülkenberg,8,10,9,7,7,1,8,6,8,4,4,,8,4,4,9,3,4,4,8,10
 Spain,Audience,,8,10,9,7,6,0,8,6,8,0,5,,8,4,4,9,4,4,5,8,10
@@ -38,3 +41,33 @@ Belgium,Audience,,,,,,,,,,,,,,,,,,,,,,
 Hungary,Matt,Bortoleto,9,9,9,4,8,6,9,5,10,9,5,,3,5,4,6,3,6,5,10,5
 Hungary,Tommy,Bortoleto,9,9,9,3,8,6,9,5,10,8,4,,3,4,4,6,4,6,5,10,5
 Hungary,Audience,,,,,,,,,,,,,,,,,,,,,,
+Dutch,Matt,Hadjar,9,10,9,2,5,9,7,2,7,8,7,,5,10,8,10,6,6,9,5,5
+Dutch,Tommy,Hadjar,9,10,8,3,5,9,7,3,7,7,7,,5,9,8,10,6,6,9,5,5
+Dutch,Audience,,9,10,9,4,5,9,7,3,7,8,6,,5,10,7,10,7,6,9,5,5
+Italy,Matt,Verstappen,9,8,8,7,5,10,8,6,7,4,6,,5,6,4,7,3,6,9,9,
+Italy,Tommy,Verstappen,9,8,8,7,5,10,8,4,8,4,6,,5,5,4,8,3,7,9,9,
+Italy,Audience,,,,,,,,,,,,,,,,,,,,,,
+Azerbaijan,Matt,Verstappen,5,0,5,6,10,10,9,9,5,4,4,,4,5,5,7,8,10,3,6,3
+Azerbaijan,Tommy,Verstappen,5,0,5,6,10,10,9,9,5,4,5,,4,5,5,7,8,10,3,7,3
+Azerbaijan,Audience,,,,,5,9,10,9,8,5,4,3,,4,6,6,7,8,10,4,6,4
+Singapore,Matt,Russell,8,7,7,7,5,9,10,7,10,5,6,,5,9,4,7,4,9,6,5,3
+Singapore,Tommy,Russell,8,8,7,7,5,9,10,7,10,6,7,,5,9,4,8,4,8,6,5,3
+Singapore,Audience,,,,,,,,,,,,,,,,,,,,,,
+USA,Matt,Verstappen,8,5,9,8,7,10,7,6,7,4,6,,5,7,4,4,6,7,6,4,9
+USA,Tommy,Verstappen,8,4,9,8,7,10,8,6,8,4,5,,5,7,4,4,6,7,5,4,9
+USA,Audience,,,,,,,,,,,,,,,,,,,,,,
+Mexico,Matt,,,,,,,,,,,,,,,,,,,,,,
+Mexico,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Mexico,Audience,,,,,,,,,,,,,,,,,,,,,,
+Brasil,Matt,,,,,,,,,,,,,,,,,,,,,,
+Brasil,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Brasil,Audience,,,,,,,,,,,,,,,,,,,,,,
+Las Vegas,Matt,,,,,,,,,,,,,,,,,,,,,,
+Las Vegas,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Las Vegas,Audience,,,,,,,,,,,,,,,,,,,,,,
+Qatar,Matt,,,,,,,,,,,,,,,,,,,,,,
+Qatar,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Qatar,Audience,,,,,,,,,,,,,,,,,,,,,,
+Abu Dhabi,Matt,,,,,,,,,,,,,,,,,,,,,,
+Abu Dhabi,Tommy,,,,,,,,,,,,,,,,,,,,,,
+Abu Dhabi,Audience,,,,,,,,,,,,,,,,,,,,,,
