@@ -4,6 +4,7 @@ TARGETBALATRO = _includes/withDNF_withSprint/math/Balatro/Balatro_with_Sprints.p
 TARGETMEAN = _includes/mean/grid/mean.csv
 TARGETMEDALS = _includes/medals/F1_Medals_Gridresults_races.csv
 TARGETINDYCAR = _includes/withDNF_withSprint/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png
+TARGETP1wMT = _includes/p1_wMT/Matt/Matt.png
 TARGETwithDNF = _includes/withDNF_withSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
 TARGETwoDNF = _includes/woDNF_withSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
 TARGETnoSprintswithDNF = _includes/withDNF_woSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
@@ -19,6 +20,7 @@ RESULTGRID = results/Gridresults.txt
 RESULTQUALIFYING = results/Qualifyingresults.txt
 RESULTwoDNF = results/Raceresults_woDNF.txt
 RESULTwithDNF = results/Raceresults_withDNF.txt
+RESULTP1wMT = results/p1_driver_ratings.txt
 
 all: _includes/eel/Grid.md \
 	docs/assets/mean/qualifying/positions_2D.png \
@@ -27,11 +29,13 @@ all: _includes/eel/Grid.md \
 _includes/points/F1_1950.md: python_scripts/print_points.py	$(HELPDICT)
 	python $<
 
-pre_csv2md = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) $(TARGETSCRABBLE) $(TARGETEEL) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
+pre_csv2md = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) \
+	$(TARGETSCRABBLE) $(TARGETEEL) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO) $(TARGETP1wMT)
 _includes/eel/Grid.md: $(pre_csv2md)
 	find _includes -type f -name '*.csv' -exec sh -c 'for f; do csv2md "$$f" > "$${f%.csv}.md"; done' _ {} +
 
-pre_docs = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
+pre_docs = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) \
+	$(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO) $(TARGETP1wMT)
 docs/assets/mean/qualifying/positions_2D.png: $(pre_docs)
 	mkdir -p docs/assets
 	find _includes -type f -name '*.png' \
@@ -40,7 +44,7 @@ docs/assets/mean/qualifying/positions_2D.png: $(pre_docs)
 	    mkdir -p "docs/assets/$$(dirname "$$rel")"; \
 	    cp "$$f" "docs/assets/$$rel"; \
 	  done' _ {} +
-	zip -r all_files.zip _includes/eel _includes/mean _includes/medals _includes/points _includes/withDNF_withSprint _includes/withDNF_woSprint _includes/woDNF_withSprint _includes/woDNF_woSprint
+	zip -r all_files.zip _includes/eel _includes/mean _includes/medals _includes/p1_wMT _includes/points _includes/withDNF_withSprint _includes/withDNF_woSprint _includes/woDNF_withSprint _includes/woDNF_woSprint
 	mv all_files.zip docs/assets/
 
 $(TARGETSCRABBLE): helpfiles/scrabble.py
@@ -64,6 +68,10 @@ $(TARGETMEDALS): python_scripts/medals.py $(pre_medals)
 
 pre_indy = $(RESULTQUALIFYING) $(RESULTGRID) $(RESULTwoDNF) $(RESULTwithDNF) $(RESULTLAPSLED) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
 $(TARGETINDYCAR): python_scripts/indycar.py $(pre_indy)
+	python $<
+
+pre_wMT = $(RESULTP1wMT) $(HELPDRIVERDATA)
+$(TARGETP1wMT): python_scripts/p1_driver_ratings.py $(pre_wMT)
 	python $<
 
 pre_with = $(HELPDICT) $(RESULTGRID) $(RESULTwithDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
