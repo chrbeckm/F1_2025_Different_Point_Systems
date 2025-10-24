@@ -4,7 +4,7 @@ TARGETBALATRO = _includes/withDNF_withSprint/math/Balatro/Balatro_with_Sprints.p
 TARGETMEAN = _includes/mean/grid/mean.csv
 TARGETMEDALS = _includes/medals/F1_Medals_Gridresults_races.csv
 TARGETINDYCAR = _includes/withDNF_withSprint/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png
-TARGETP1wMT = _includes/p1_wMT/Matt.png
+TARGETP1wMT = _includes/p1_wMT/Matt/Matt.png
 TARGETwithDNF = _includes/withDNF_withSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
 TARGETwoDNF = _includes/woDNF_withSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
 TARGETnoSprintswithDNF = _includes/withDNF_woSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
@@ -71,7 +71,7 @@ $(TARGETINDYCAR): python_scripts/indycar.py $(pre_indy)
 	python $<
 
 pre_wMT = $(RESULTP1wMT) $(HELPDRIVERDATA)
-$(TARGETP1wMT): python_scripts/p1_driver_ratings.py $(PRE_wMT)
+$(TARGETP1wMT): python_scripts/p1_driver_ratings.py $(pre_wMT)
 	python $<
 
 pre_with = $(HELPDICT) $(RESULTGRID) $(RESULTwithDNF) $(RESULTFASTEST) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)

@@ -52,19 +52,19 @@ pure_ratings = ratings[3:]
 point_systems = [
     {
         "name": "Matt",
-        "dir": "p1_wMT/",
+        "dir": "p1_wMT/Matt/",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "ratings_mean": defaultdict(lambda: np.zeros(nr_of_races)),
     },
     {
         "name": "Tommy",
-        "dir": "p1_wMT/",
+        "dir": "p1_wMT/Tommy/",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "ratings_mean": defaultdict(lambda: np.zeros(nr_of_races)),
     },
     {
         "name": "Audience",
-        "dir": "p1_wMT/",
+        "dir": "p1_wMT/Audience",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "ratings_mean": defaultdict(lambda: np.zeros(nr_of_races)),
     },
@@ -115,11 +115,11 @@ for system in point_systems:
     fig.savefig(f"{filename}.png", dpi=500)
     plt.close(fig)
 
-for list, file in zip([p1_matt, p1_tommy], ["matt", "tommy"]):
+for list, file in zip([p1_matt, p1_tommy], ["Matt", "Tommy"]):
     no_empty_strings = [_ for _ in list if _]
     counts = Counter(no_empty_strings)
     sorted_counts = sorted(counts.items(), key=lambda x: (-x[1], x[0]))
-    with open(f"_includes/p1_wMT/{file}_p1.csv", "w") as f:
+    with open(f"_includes/p1_wMT/{file}/{file}_p1.csv", "w") as f:
         f.write("Driver,Number of P1 awards\n")
         for name, count in sorted_counts:
             f.write(f"{name},{count}\n")
