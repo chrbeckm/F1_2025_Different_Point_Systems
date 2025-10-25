@@ -106,16 +106,16 @@ def plot_help(point_systems, races, driver_data, path="_includes"):
         }
         fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
         teams = {
-            "Alpine": ["#0093cc", "Alpine"],
-            "AstonMartin": ["#229971", "Aston Martin"],
+            "Alpine": ["#0093cc", "Alpine-Renault"],
+            "AstonMartin": ["#229971", "Aston Martin Aramco-Mercedes"],
             "Ferrari": ["#e80020", "Ferrari"],
-            "Haas": ["#b6babd", "Haas"],
-            "KickSauber": ["#52e252", "Kick Sauber"],
-            "McLaren": ["#ff8000", "McLaren"],
+            "Haas": ["#b6babd", "Haas-Ferrari"],
+            "KickSauber": ["#52e252", "Kick Sauber-Ferrari"],
+            "McLaren": ["#ff8000", "McLaren-Mercedes"],
             "Mercedes": ["#27f4d2", "Mercedes"],
-            "RacingBulls": ["#6692ff", "Racing Bulls"],
-            "RedBull": ["#3671C6", "Red Bull"],
-            "Williams": ["#64c4ff", "Williams"],
+            "RacingBulls": ["#6692ff", "Racing Bulls-Honda RBPT"],
+            "RedBull": ["#3671C6", "Red Bull Racing-Honda RBPT"],
+            "Williams": ["#64c4ff", "Williams-Mercedes"],
         }
 
         for team, (color, label) in teams.items():

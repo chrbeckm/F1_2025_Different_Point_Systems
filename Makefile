@@ -30,12 +30,12 @@ _includes/points/F1_1950.md: python_scripts/print_points.py	$(HELPDICT)
 	python $<
 
 pre_csv2md = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) \
-	$(TARGETSCRABBLE) $(TARGETEEL) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO) $(TARGETP1wMT)
+	$(TARGETP1wMT) $(TARGETSCRABBLE) $(TARGETEEL) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
 _includes/eel/Grid.md: $(pre_csv2md)
 	find _includes -type f -name '*.csv' -exec sh -c 'for f; do csv2md "$$f" > "$${f%.csv}.md"; done' _ {} +
 
 pre_docs = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) \
-	$(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO) $(TARGETP1wMT)
+	$(TARGETP1wMT) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
 docs/assets/mean/qualifying/positions_2D.png: $(pre_docs)
 	mkdir -p docs/assets
 	find _includes -type f -name '*.png' \
