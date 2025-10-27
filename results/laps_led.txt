@@ -21,7 +21,7 @@ Verstappen,51#Azerbaijan
 Russell,60,Piastri,2#Singapore
 Verstappen,19#USA Sprint
 Verstappen,56#USA
-#Mexico
+Norris,71#Mexico
 #Brasil Sprint
 #Brasil
 #Las Vegas

@@ -21,7 +21,7 @@ Verstappen,Russell,Hadjar,Sainz,Hamilton,Antonelli,Albon,Norris,Leclerc,Bearman,
 Hamilton,Gasly,Sainz,Antonelli,Hülkenberg,Piastri,Norris,Lawson,Albon,Verstappen,Russell,Stroll,Alonso,Leclerc,Bearman,Ocon,Tsunoda,Hadjar,Bortoleto,Colapinto#Singapore
 Verstappen,Russell,Hamilton,Leclerc,Sainz,Antonelli,Albon,Tsunoda,Bearman,Lawson,Ocon,Stroll,Gasly,Bortoleto,Hadjar,Hülkenberg,Colapinto,,,#USA Sprint
 Antonelli,Norris,Verstappen,Russell,Leclerc,Bortoleto,Albon,Hamilton,Hülkenberg,Piastri,Hadjar,Alonso,Tsunoda,Lawson,Stroll,Bearman,Colapinto,Ocon,Gasly,Sainz#USA
-,,,,,,,,,,,,,,,,,,,#Mexico
+Russell,Sainz,Piastri,Albon,Stroll,Hamilton,Bearman,Norris,Antonelli,Verstappen,Bortoleto,Colapinto,Tsunoda,Leclerc,Alonso,Hadjar,Ocon,Gasly,Hülkenberg,Lawson#Mexico
 ,,,,,,,,,,,,,,,,,,,#Brasil Sprint
 ,,,,,,,,,,,,,,,,,,,#Brasil
 ,,,,,,,,,,,,,,,,,,,#Las Vegas
