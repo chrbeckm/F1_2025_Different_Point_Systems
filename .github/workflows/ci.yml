@@ -43,9 +43,6 @@ jobs:
           bundle config set --local path 'vendor/bundle'
           bundle install
 
-      - name: Build site with Jekyll
-        run: bundle exec jekyll build
-
       - name: Remove unnecessary files
         run: |
           rm -f LICENSE
@@ -56,8 +53,10 @@ jobs:
           rm -rf results
 
       - name: Remove plots from includes dir
-        run: |
-          find _includes -type f -name '*.png' -exec sh -c 'for f; do rel=$${f#_includes/}; rm "$$f"; done' _ {} +
+        run: find _includes -type f -name "*.png" -exec rm -f {} +
+
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
