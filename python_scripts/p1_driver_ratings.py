@@ -51,21 +51,24 @@ pure_ratings = np.array(ratings[3:])
 
 point_systems = [
     {
-        "name": "Matt",
+        "id": "Matt",
+        "name": "Matt - Sum of ratings",
         "dir": "p1_wMT/Matt/",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "ratings_mean": defaultdict(lambda: np.zeros(nr_of_races)),
         "race_mean": np.zeros(nr_of_races),
     },
     {
-        "name": "Tommy",
+        "id": "Tommy",
+        "name": "Tommy - Sum of ratings",
         "dir": "p1_wMT/Tommy/",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "ratings_mean": defaultdict(lambda: np.zeros(nr_of_races)),
         "race_mean": np.zeros(nr_of_races),
     },
     {
-        "name": "Audience",
+        "id": "Audience",
+        "name": "Audience - Sum of ratings",
         "dir": "p1_wMT/Audience",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
         "ratings_mean": defaultdict(lambda: np.zeros(nr_of_races)),
@@ -103,7 +106,7 @@ def sorted_legend_by_final_points(ax, axtitle):
 x = np.arange(nr_of_races)
 
 for system in point_systems:
-    filename = f"_includes/{system['dir']}/{system["name"]}_average"
+    filename = f"_includes/{system['dir']}/{system["id"]}_average"
     fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
     for i, dn in enumerate(driver_data["name"]):
         ax.plot(
@@ -113,7 +116,7 @@ for system in point_systems:
             color=f"#{driver_data['color'][i]}",
             linestyle=driver_data["style"][i],
         )
-    ax.set_title(f"{system['name']}'s Driver Ratings - Rolling Average")
+    ax.set_title(f"{system['id']}'s Driver Ratings - Rolling Average")
     sorted_legend_by_final_points(ax, "Average")
     ax.set_xlim(-0.5, x[-1] + 0.5)
     ax.set_ylim(0.5, 10.5)
