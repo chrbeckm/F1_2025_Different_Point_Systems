@@ -57,11 +57,7 @@ jobs:
 
       - name: Remove plots from includes dir
         run: |
-          find _includes -type f -name '*.png' \
-	          -exec sh -c 'for f; do \
-	            rel=$${f#_includes/}; \
-	            rm "$$f"; \
-	          done' _ {} +
+          find _includes -type f -name '*.png' -exec sh -c 'for f; do rel=$${f#_includes/}; rm "$$f"; done' _ {} +
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
