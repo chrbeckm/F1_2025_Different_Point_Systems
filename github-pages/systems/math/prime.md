@@ -1,24 +1,24 @@
 ---
 layout: default
 title: Prime Numbers
-permalink: /prime
+permalink: /math/prime
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/math/)
 
 # Prime Numbers
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/prime#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/prime#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/prime#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/prime#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/prime#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/prime#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/prime#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/prime#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/prime#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/math/prime#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/math/prime#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/math/prime#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/math/prime#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/math/prime#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/math/prime#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/math/prime#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/math/prime#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/math/prime#tn)
 
 ## Points
 

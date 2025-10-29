@@ -1,24 +1,24 @@
 ---
 layout: default
 title: Square Numbers
-permalink: /squared
+permalink: /math/squared
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/math/)
 
 # Square Numbers
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/squared#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/squared#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/squared#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/squared#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/squared#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/squared#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/squared#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/squared#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/squared#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/math/squared#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/math/squared#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/math/squared#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/math/squared#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/math/squared#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/math/squared#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/math/squared#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/math/squared#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/math/squared#tn)
 
 ## Points
 

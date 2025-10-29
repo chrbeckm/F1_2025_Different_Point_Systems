@@ -1,24 +1,24 @@
 ---
 layout: default
 title: Mariokart DS
-permalink: /mariokart_DS
+permalink: /mk/mariokart_DS
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/mk/)
 
 # Mariokart DS
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/mariokart_DS#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/mariokart_DS#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/mariokart_DS#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/mariokart_DS#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/mariokart_DS#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/mariokart_DS#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/mariokart_DS#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/mariokart_DS#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/mariokart_DS#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/mk/mariokart_DS#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/mk/mariokart_DS#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/mk/mariokart_DS#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/mk/mariokart_DS#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/mk/mariokart_DS#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/mk/mariokart_DS#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/mk/mariokart_DS#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/mk/mariokart_DS#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/mk/mariokart_DS#tn)
 
 ## Points
 

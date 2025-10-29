@@ -1,22 +1,22 @@
 ---
 layout: default
 title: Formula E
-permalink: /FormulaE
+permalink: /om/FormulaE
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/om/)
 
 # Formula E 2025
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/FormulaE#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/FormulaE#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/FormulaE#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/FormulaE#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/FormulaE#tables)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/FormulaE#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/FormulaE#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/om/FormulaE#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/om/FormulaE#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/om/FormulaE#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/om/FormulaE#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/om/FormulaE#tables)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/om/FormulaE#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/om/FormulaE#tn)
 
 ## Points
 

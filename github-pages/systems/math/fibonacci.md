@@ -1,24 +1,24 @@
 ---
 layout: default
 title: Fibonacci
-permalink: /fibonacci
+permalink: /math/fibonacci
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/math/)
 
 # Fibonacci
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/fibonacci#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/fibonacci#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/fibonacci#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/fibonacci#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/fibonacci#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/fibonacci#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/fibonacci#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/fibonacci#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/fibonacci#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/math/fibonacci#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/math/fibonacci#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/math/fibonacci#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/math/fibonacci#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/math/fibonacci#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/math/fibonacci#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/math/fibonacci#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/math/fibonacci#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/math/fibonacci#tn)
 
 ## Points
 

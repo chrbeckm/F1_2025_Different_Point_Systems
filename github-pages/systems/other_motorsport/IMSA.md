@@ -1,24 +1,24 @@
 ---
 layout: default
 title: IMSA
-permalink: /imsa
+permalink: /om/imsa
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/om/)
 
 # IMSA
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/imsa#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/imsa#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/imsa#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/imsa#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/imsa#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/imsa#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/imsa#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/imsa#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/imsa#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/om/imsa#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/om/imsa#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/om/imsa#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/om/imsa#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/om/imsa#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/om/imsa#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/om/imsa#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/om/imsa#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/om/imsa#tn)
 
 ## Points
 

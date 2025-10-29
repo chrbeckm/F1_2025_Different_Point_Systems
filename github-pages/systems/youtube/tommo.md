@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Tommo
-permalink: /tommo
+permalink: /yt/tommo
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/yt)
 
 # Tommo
 
@@ -12,11 +12,11 @@ permalink: /tommo
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/tommo#ww)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/tommo#nw)
-- [Point Tables](/F1_2025_Different_Point_Systems/tommo#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/tommo#tq)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/tommo#tw)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/yt/tommo#ww)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/yt/tommo#nw)
+- [Point Tables](/F1_2025_Different_Point_Systems/yt/tommo#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/yt/tommo#tq)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/yt/tommo#tw)
 
 ## Points
 

@@ -1,15 +1,15 @@
 ---
 layout: default
 title: F1 Medals
-permalink: /F1Medals
+permalink: /F1_rel/F1Medals
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/F1_rel/)
 
 **Table of Content**
-1. [Qualifyingresults](/F1_2025_Different_Point_Systems/F1Medals#Q)
-2. [Gridpositions](/F1_2025_Different_Point_Systems/F1Medals#G)
-3. [Raceresults](/F1_2025_Different_Point_Systems/F1Medals#race)
+1. [Qualifyingresults](/F1_2025_Different_Point_Systems/F1_rel/F1Medals#Q)
+2. [Gridpositions](/F1_2025_Different_Point_Systems/F1_rel/F1Medals#G)
+3. [Raceresults](/F1_2025_Different_Point_Systems/F1_rel/F1Medals#race)
 
 ## F1 Medals
 

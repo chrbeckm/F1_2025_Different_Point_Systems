@@ -1,24 +1,24 @@
 ---
 layout: default
 title: Scrabble
-permalink: /scrabble
+permalink: /games/scrabble
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/games/)
 
 # Scrabble
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/scrabble#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/scrabble#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/scrabble#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/scrabble#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/scrabble#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/scrabble#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/scrabble#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/scrabble#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/scrabble#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/games/scrabble#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/games/scrabble#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/games/scrabble#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/games/scrabble#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/games/scrabble#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/games/scrabble#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/games/scrabble#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/games/scrabble#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/games/scrabble#tn)
 
 ## <a id="ww"></a> with Sprints, with DNF
 

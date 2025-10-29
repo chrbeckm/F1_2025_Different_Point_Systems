@@ -1,24 +1,24 @@
 ---
 layout: default
 title: Moto GP
-permalink: /motoGP
+permalink: /om/motoGP
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/om/)
 
 # Moto GP
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/motoGP#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/motoGP#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/motoGP#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/motoGP#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/motoGP#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/motoGP#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/motoGP#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/motoGP#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/motoGP#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/om/motoGP#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/om/motoGP#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/om/motoGP#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/om/motoGP#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/om/motoGP#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/om/motoGP#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/om/motoGP#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/om/motoGP#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/om/motoGP#tn)
 
 ## Points
 

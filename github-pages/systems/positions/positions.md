@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Positions
-permalink: /positions
+permalink: /positions/positions
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/positions/)
 
 **Table of Content**
-1. [Qualifyingresults](/F1_2025_Different_Point_Systems/positions#Q)
-2. [Gridpositions](/F1_2025_Different_Point_Systems/positions#G)
-3. [Raceresults with DNF](/F1_2025_Different_Point_Systems/positions#with)
-4. [Raceresults without DNF](/F1_2025_Different_Point_Systems/positions#wo)
+1. [Qualifyingresults](/F1_2025_Different_Point_Systems/positions/positions#Q)
+2. [Gridpositions](/F1_2025_Different_Point_Systems/positions/positions#G)
+3. [Raceresults with DNF](/F1_2025_Different_Point_Systems/positions/positions#with)
+4. [Raceresults without DNF](/F1_2025_Different_Point_Systems/positions/positions#wo)
 
 _Position 21 is the default position_
 

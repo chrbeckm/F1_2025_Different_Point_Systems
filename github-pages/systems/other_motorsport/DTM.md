@@ -1,24 +1,24 @@
 ---
 layout: default
 title: DTM
-permalink: /dtm
+permalink: /om/dtm
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/om/)
 
 # DTM
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/dtm#ww)
-- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/dtm#wn)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/dtm#nw)
-- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/dtm#nn)
-- [Point Tables](/F1_2025_Different_Point_Systems/dtm#tables)
-  - [Qualifyingresults](/F1_2025_Different_Point_Systems/dtm#tq)
-  - [Gridpositions](/F1_2025_Different_Point_Systems/dtm#tg)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/dtm#tw)
-  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/dtm#tn)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/om/dtm#ww)
+- [with Sprints, without DNF](/F1_2025_Different_Point_Systems/om/dtm#wn)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/om/dtm#nw)
+- [without Sprints, without DNF](/F1_2025_Different_Point_Systems/om/dtm#nn)
+- [Point Tables](/F1_2025_Different_Point_Systems/om/dtm#tables)
+  - [Qualifyingresults](/F1_2025_Different_Point_Systems/om/dtm#tq)
+  - [Gridpositions](/F1_2025_Different_Point_Systems/om/dtm#tg)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/om/dtm#tw)
+  - [Raceresults without DNF](/F1_2025_Different_Point_Systems/om/dtm#tn)
 
 ## Points
 

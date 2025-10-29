@@ -1,19 +1,19 @@
 ---
 layout: default
 title: Balatro
-permalink: /balatro
+permalink: /games/balatro
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/)
+[Back to index](/F1_2025_Different_Point_Systems/games/)
 
 # Balatro
 
 **Table of Content**
 
-- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/balatro#ww)
-- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/balatro#nw)
-- [Point Tables](/F1_2025_Different_Point_Systems/balatro#tables)
-  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/balatro#tw)
+- [with Sprints, with DNF](/F1_2025_Different_Point_Systems/games/balatro#ww)
+- [without Sprints, with DNF](/F1_2025_Different_Point_Systems/games/balatro#nw)
+- [Point Tables](/F1_2025_Different_Point_Systems/games/balatro#tables)
+  - [Raceresults with DNF](/F1_2025_Different_Point_Systems/games/balatro#tw)
 
 ## Points
 
