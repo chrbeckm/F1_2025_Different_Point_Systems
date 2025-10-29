@@ -46,6 +46,23 @@ jobs:
       - name: Build site with Jekyll
         run: bundle exec jekyll build
 
+      - name: Remove unnecessary files
+        run: |
+          rm -f LICENSE
+          rm -f Makefile 
+          rm -f README.md
+          rm -rf helpfiles
+          rm -rf python_scripts
+          rm -rf results
+
+      - name: Remove plots from includes dir
+        run: |
+          find _includes -type f -name '*.png' \
+	          -exec sh -c 'for f; do \
+	            rel=$${f#_includes/}; \
+	            rm "$$f"; \
+	          done' _ {} +
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
