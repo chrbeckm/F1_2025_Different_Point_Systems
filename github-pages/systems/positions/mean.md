@@ -4,7 +4,7 @@ title: Mean Positions
 permalink: /positions/mean
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/positions)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 **Table of Content**
 1. [Qualifyingresults](/F1_2025_Different_Point_Systems/positions/mean#Q)

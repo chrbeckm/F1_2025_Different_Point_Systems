@@ -4,7 +4,7 @@ title: Mariokart World
 permalink: /mk/mariokart_World
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/mk/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # Mariokart World
 

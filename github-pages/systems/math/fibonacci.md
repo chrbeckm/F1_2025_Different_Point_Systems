@@ -4,7 +4,7 @@ title: Fibonacci
 permalink: /math/fibonacci
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/math/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # Fibonacci
 

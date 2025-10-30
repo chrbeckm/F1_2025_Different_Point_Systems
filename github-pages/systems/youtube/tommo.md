@@ -4,7 +4,7 @@ title: Tommo
 permalink: /yt/tommo
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/yt)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # Tommo
 

@@ -4,7 +4,7 @@ title: DTM
 permalink: /om/dtm
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/om/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # DTM
 

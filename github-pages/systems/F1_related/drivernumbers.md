@@ -4,7 +4,7 @@ title: F1 2025 Drivernumbers
 permalink: /F1_rel/drivernumbers
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/F1_rel/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # F1 2025 Drivernumbers
 

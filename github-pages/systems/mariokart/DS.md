@@ -4,7 +4,7 @@ title: Mariokart DS
 permalink: /mk/mariokart_DS
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/mk/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # Mariokart DS
 

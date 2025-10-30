@@ -4,7 +4,7 @@ title: Inverse Positions
 permalink: /positions/inverse_positions
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/positions/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # Inverse Positions
 

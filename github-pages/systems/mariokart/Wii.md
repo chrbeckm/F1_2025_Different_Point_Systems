@@ -4,7 +4,7 @@ title: Mariokart Wii
 permalink: /mk/mariokart_Wii
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/mk/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # Mariokart Wii
 

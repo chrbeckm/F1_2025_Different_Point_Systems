@@ -4,7 +4,7 @@ title: Square Numbers
 permalink: /math/squared
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/math/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # Square Numbers
 

@@ -4,7 +4,7 @@ title: Indycar
 permalink: /om/indycar
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/om/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # Indycar
 

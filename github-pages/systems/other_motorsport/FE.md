@@ -4,7 +4,7 @@ title: Formula E
 permalink: /om/FormulaE
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/om/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # Formula E 2025
 

@@ -4,7 +4,7 @@ title: F1 Medals
 permalink: /F1_rel/F1Medals
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/F1_rel/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 **Table of Content**
 1. [Qualifyingresults](/F1_2025_Different_Point_Systems/F1_rel/F1Medals#Q)

@@ -4,7 +4,7 @@ title: Scrabble
 permalink: /games/scrabble
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/games/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # Scrabble
 

@@ -4,7 +4,7 @@ title: Balatro
 permalink: /games/balatro
 ---
 
-[Back to index](/F1_2025_Different_Point_Systems/games/)
+[Back to index](/F1_2025_Different_Point_Systems/)
 
 # Balatro
 
