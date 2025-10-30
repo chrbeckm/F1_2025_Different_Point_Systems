@@ -172,7 +172,7 @@ for i, dn in enumerate(driver_order):
         ax[p].set_xticks(np.arange(11))
         ax[p].legend(loc="upper left")
     fig.suptitle(f"Ratings for {dn}")
-    fig.savefig(f"_includes/p1_wMT/driver_ratings/{dn}.png")
+    fig.savefig(f"_includes/p1_wMT/driver_ratings/{dn}.png", dpi=500)
     plt.close(fig)
 
 for i, system in enumerate(point_systems):
@@ -188,7 +188,7 @@ for i, system in enumerate(point_systems):
     ax.set_xticks(x, labels=races, rotation=-45, ha="left", rotation_mode="anchor")
     ax.set_yticks(np.arange(len(driver_order)), driver_order)
     fig.suptitle(f"Ratings from {system["id"]}")
-    fig.savefig(f"_includes/{system['dir']}/{system["id"]}_2D.png")
+    fig.savefig(f"_includes/{system['dir']}/{system["id"]}_2D.png", dpi=500)
     plt.close(fig)
 
 
