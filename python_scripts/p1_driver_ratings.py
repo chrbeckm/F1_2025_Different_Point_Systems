@@ -124,6 +124,7 @@ for system in point_systems:
     fig.savefig(f"{filename}.png", dpi=500)
     plt.close(fig)
 
+
 for list, file in zip([p1_matt, p1_tommy], ["Matt", "Tommy"]):
     no_empty_strings = [_ for _ in list if _]
     counts = Counter(no_empty_strings)
@@ -173,5 +174,22 @@ for i, dn in enumerate(driver_order):
     fig.suptitle(f"Ratings for {dn}")
     fig.savefig(f"_includes/p1_wMT/driver_ratings/{dn}.png")
     plt.close(fig)
+
+for i, system in enumerate(point_systems):
+    fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
+    im = ax.imshow(pure_ratings[:, i::3], vmin=0, vmax=11, aspect="auto", cmap="hot")
+    fig.colorbar(im, ax=ax)
+    for d in range(pure_ratings[:, i::3].shape[0]):
+        for r in range(pure_ratings[:, i::3].shape[1]):
+            if np.isnan(pure_ratings[:, i::3][d, r]):
+                text = ax.text(r, d, "~", ha="center", va="center", color="#3671C6")
+            else:
+                text = ax.text(r, d, f"{pure_ratings[:, i::3][d, r]:.0f}", ha="center", va="center", color="#3671C6")
+    ax.set_xticks(x, labels=races, rotation=-45, ha="left", rotation_mode="anchor")
+    ax.set_yticks(np.arange(len(driver_order)), driver_order)
+    fig.suptitle(f"Ratings from {system["id"]}")
+    fig.savefig(f"_includes/{system['dir']}/{system["id"]}_2D.png")
+    plt.close(fig)
+
 
 print(f">>> p1_driver_ratings.py done")
