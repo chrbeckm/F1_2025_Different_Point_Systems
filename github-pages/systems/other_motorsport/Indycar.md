@@ -20,8 +20,12 @@ permalink: /om/indycar
 
 ## Points
 
+1 point for the pole position.
+1 point for every driver leading one lap, 2 points for the driver leading the most laps.
+
 | Event / Position | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - | - |
+| Monaco Qualifying | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 5 | 4 | 3 | 2 | 1 | | | | | | | |
 | Sprint | 16 | 12 | 11 | 10 | 9 | 8 | 8 | 7 | 7 | 6 | 6 | 5 | 5 | 5 | 4 | 4 | 4 | 3 | 3 | 3 |
 | Race | 50 | 40 | 35 | 32 | 30 | 28 | 26 | 24 | 22 | 20 | 19 | 18 | 17 | 16 | 15 | 14 | 13 | 12 | 11 | 10 |
 

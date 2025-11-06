@@ -20,6 +20,9 @@ permalink: /om/FormulaE
 
 ## Points
 
+3 points for the pole position.
+1 point for the fastest lap of the top 10 finishers.
+
 {% include points/Formula_E.md %}
 
 ## <a id="ww"></a> with Sprints, with DNF

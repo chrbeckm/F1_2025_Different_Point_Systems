@@ -22,6 +22,8 @@ permalink: /om/dtm
 
 ## Points
 
+3, 2, 1 point for the top three qualifying positions.
+
 {% include points/DTM.md %}
 
 ## <a id="ww"></a> with Sprints, with DNF

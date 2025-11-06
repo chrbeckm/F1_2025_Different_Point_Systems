@@ -18,7 +18,8 @@ def get_point_systems_dict(nr_of_races):
         [25, 18, 15, 12, 10, 8, 6, 5, 4, 3, 2, 1] + [0] * 8, dtype=np.int32
     )
     f150 = np.array([8, 6, 4, 3, 2] + [0] * 15, dtype=np.int32)  # 4 best
-    f188 = np.array([9, 6, 4, 3, 2, 1] + [0] * 14, dtype=np.int32)  # 11 best
+    f181 = np.array([9, 6, 4, 3, 2, 1] + [0] * 14, dtype=np.int32)  # 11 best
+    f191 = np.array([10, 6, 4, 3, 2, 1] + [0] * 14, dtype=np.int32)
     f2_s = np.array([10, 8, 6, 5, 4, 3, 2, 1] + [0] * 12, dtype=np.int32)
     imsa = np.array(
         [
@@ -45,7 +46,7 @@ def get_point_systems_dict(nr_of_races):
         ],
         dtype=np.int32,
     )
-    f107 = np.array([10, 8, 6, 5, 4, 3, 2, 1] + [0] * 12, dtype=np.int32)
+    f103 = np.array([10, 8, 6, 5, 4, 3, 2, 1] + [0] * 12, dtype=np.int32)
     motoGP = np.array(
         [25, 20, 16, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] + [0] * 5, dtype=np.int32
     )
@@ -171,6 +172,7 @@ def get_point_systems_dict(nr_of_races):
             "sprint_points": f125_s,
             "driver_dict": make_driver_dict(nr_of_races),
             "fastest_lap": empty_1P,
+            "fl_until": 10,
             "dir": "formula1/2024",
         },
         {
@@ -179,6 +181,8 @@ def get_point_systems_dict(nr_of_races):
             "sprint_points": f121_s,
             "driver_dict": make_driver_dict(nr_of_races),
             "fastest_lap": empty_1P,
+            "fl_until": 10,
+            "fl_sprint_until": 8,
             "dir": "formula1/2021",
         },
         {
@@ -187,6 +191,8 @@ def get_point_systems_dict(nr_of_races):
             "sprint_points": f121_s,
             "driver_dict": make_driver_dict(nr_of_races),
             "fastest_lap": empty_1P,
+            "fl_until": 10,
+            "fl_sprint_until": 8,
             "qualifying": True,
             "dir": "formula1/2021",
         },
@@ -212,9 +218,11 @@ def get_point_systems_dict(nr_of_races):
             "points": f125,
             "sprint_points": f2_s,
             "driver_dict": make_driver_dict(nr_of_races),
-            "fastest_lap": empty_1P,
             "pole_points": empty_1P * 2,
+            "fastest_lap": empty_1P,
             "sprint_fastest_lap": empty_1P,
+            "fl_until": 10,
+            "fl_sprint_until": 10,
             "dir": "other_motorsport/F2",
         },
         {
@@ -222,7 +230,7 @@ def get_point_systems_dict(nr_of_races):
             "points": f125,
             "sprint_points": (f125 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
-            "fastest_lap": empty_1P,
+            # "fastest_lap": empty_1P,
             "pole_points": empty_1P * 3,
             "dir": "other_motorsport/FE",
         },
@@ -257,19 +265,34 @@ def get_point_systems_dict(nr_of_races):
             "dir": "other_motorsport/IMSA",
         },
         {
-            "name": "F1 2007 Raceresults",
-            "points": f107,
-            "sprint_points": (f107 * 8) // 25,
+            "name": "F1 1991 Raceresults",
+            "points": f191,
+            "sprint_points": (f191 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
-            "dir": "formula1/2007",
+            "dir": "formula1/1991",
         },
         {
-            "name": "F1 2007 Qualifyingresults",
-            "points": f107,
-            "sprint_points": (f107 * 8) // 25,
+            "name": "F1 1991 Qualifyingresults",
+            "points": f191,
+            "sprint_points": (f191 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,
-            "dir": "formula1/2007",
+            "dir": "formula1/1991",
+        },
+        {
+            "name": "F1 2003 Raceresults",
+            "points": f103,
+            "sprint_points": (f103 * 8) // 25,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "dir": "formula1/2003",
+        },
+        {
+            "name": "F1 2003 Qualifyingresults",
+            "points": f103,
+            "sprint_points": (f103 * 8) // 25,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "qualifying": True,
+            "dir": "formula1/2003",
         },
         {
             "name": "Mariokart DS Raceresults",
@@ -415,21 +438,21 @@ def get_point_systems_dict(nr_of_races):
             "dir": "formula1/1950",
         },
         {
-            "name": "F1 1988 Raceresults",
-            "points": f188,
-            "sprint_points": (f188 * 8) // 25,
+            "name": "F1 1981 Raceresults",
+            "points": f181,
+            "sprint_points": (f181 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
             "driver_sum": defaultdict(lambda: 0),
-            "dir": "formula1/1988",
+            "dir": "formula1/1981",
         },
         {
-            "name": "F1 1988 Qualifyingresults",
-            "points": f188,
-            "sprint_points": (f188 * 8) // 25,
+            "name": "F1 1981 Qualifyingresults",
+            "points": f181,
+            "sprint_points": (f181 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
             "driver_sum": defaultdict(lambda: 0),
             "qualifying": True,
-            "dir": "formula1/1988",
+            "dir": "formula1/1981",
         },
         {
             "name": "Super Mario Kart Raceresults",
@@ -478,14 +501,14 @@ def get_point_systems_dict(nr_of_races):
         },
         {
             "name": "Squared Numbers Raceresults",
-            "points": inverse_position ** 2,
+            "points": inverse_position**2,
             "sprint_points": inverse_position,
             "driver_dict": make_driver_dict(nr_of_races),
             "dir": "math/squared",
         },
         {
             "name": "Squared Numbers Qualifyingresults",
-            "points": inverse_position ** 2,
+            "points": inverse_position**2,
             "sprint_points": inverse_position,
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,

@@ -48,6 +48,7 @@ driver_data = np.genfromtxt(
 )
 
 point_systems = psd.get_point_systems_dict(len(races))
+zero_array = np.zeros(20)
 
 # Process race results
 for race_number, race in enumerate(races):
@@ -92,7 +93,6 @@ for race_number, race in enumerate(races):
                         system["sprint_points"] if is_sprint else system["points"]
                     )
             for dn in driver_data["name"]:
-                prev_score = system["driver_dict"][dn][race_number]
                 if dn in current_result:
                     pos_index = np.where(dn == current_result)[0][0]
                     if system.get("is_drivernumbers"):
@@ -121,11 +121,22 @@ for race_number, race in enumerate(races):
                         (system.get("fastest_lap") is not None and not is_sprint)
                         or (system.get("sprint_fastest_lap") is not None and is_sprint)
                     ) and (dn in fastest_lap[race_number]):
-                        fastest_array = (
-                            system["sprint_fastest_lap"]
-                            if is_sprint
-                            else system["fastest_lap"]
-                        )
+                        fastest_array = zero_array
+                        if system.get("fl_until") is not None and not is_sprint:
+                            if pos_index < system["fl_until"]:
+                                fastest_array = system["fastest_lap"]
+                        elif system.get("fl_sprint_until") is not None and is_sprint:
+                            if pos_index < system["fl_sprint_until"]:
+                                fastest_array = system["sprint_fastest_lap"]
+                        elif (
+                            system.get("fl_until") is None
+                            and system.get("fl_sprint_until") is None
+                        ):
+                            fastest_array = (
+                                system["sprint_fastest_lap"]
+                                if is_sprint
+                                else system["fastest_lap"]
+                            )
                         score += fastest_array[
                             np.where(dn == fastest_lap[race_number])[0][0]
                         ]
@@ -141,12 +152,23 @@ for race_number, race in enumerate(races):
                         score += pole_array[
                             np.where(dn == qualiresults[race_number, 1:])[0][0]
                         ]
-                    system["driver_dict"][dn][race_number + 1] = prev_score + score
+                    system["driver_dict"][dn][race_number + 1] = (
+                        system["driver_dict"][dn][race_number] + score
+                    )
                 else:
-                    system["driver_dict"][dn][race_number + 1] = prev_score
+                    system["driver_dict"][dn][race_number + 1] = system["driver_dict"][
+                        dn
+                    ][race_number]
+            if system["name"] == "Formula E Raceresults":
+                for i in range(len(fastest_lap[race_number])):
+                    driver = fastest_lap[race_number][i]
+                    if driver in current_result:
+                        if np.where(driver == current_result)[0][0] < 10:
+                            system["driver_dict"][dn][race_number + 1] += 1
+                            break
 
 
-imsa, imsa_q, f150, f150q, f188, f188q, f125, mksc, mkscq = 0, 0, 0, 0, 0, 0, 0, 0, 0
+imsa, imsa_q, f150, f150q, f181, f181q, f125, mksc, mkscq = 0, 0, 0, 0, 0, 0, 0, 0, 0
 for i in range(len(point_systems)):
     if point_systems[i]["name"] == "IMSA":
         imsa = i
@@ -156,10 +178,10 @@ for i in range(len(point_systems)):
         f150 = i
     elif point_systems[i]["name"] == "F1 1950 Qualifyingresults":
         f150q = i
-    elif point_systems[i]["name"] == "F1 1988 Raceresults":
-        f188 = i
-    elif point_systems[i]["name"] == "F1 1988 Qualifyingresults":
-        f188q = i
+    elif point_systems[i]["name"] == "F1 1981 Raceresults":
+        f181 = i
+    elif point_systems[i]["name"] == "F1 1981 Qualifyingresults":
+        f181q = i
     elif point_systems[i]["name"] == "F1 2025 Raceresults":
         f125 = i
     elif point_systems[i]["name"] == "Super Mario Kart Raceresults":
@@ -214,8 +236,8 @@ if DNFdiff == "withDNF" and SprintDiff == "withSprint":
 plot_help(point_systems, races, driver_data, f"_includes/{DNFdiff}_{SprintDiff}")
 
 # F1 1950: only 4 best results count
-# F1 1988: only 11 best results count
-for system_nr in [f150, f150q, f188, f188q]:
+# F1 1981: only 11 best results count
+for system_nr in [f150, f150q, f181, f181q]:
     system = point_systems[system_nr]
     sum_index = 4 if "50" in system["name"] else 11
 

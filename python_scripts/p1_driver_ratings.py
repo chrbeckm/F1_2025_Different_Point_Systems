@@ -149,7 +149,9 @@ plt.close(fig)
 
 os.makedirs("_includes/p1_wMT/driver_ratings/", exist_ok=True)
 for i, dn in enumerate(driver_order):
-    fig, ax = plt.subplots(3, layout="constrained", figsize=(11.69, 8.27), sharex=True, sharey=True)
+    fig, ax = plt.subplots(
+        3, layout="constrained", figsize=(11.69, 8.27), sharex=True, sharey=True
+    )
     group_data = [
         ("Matt", "#e80020"),
         ("Tommy", "#3671C6"),
@@ -162,7 +164,7 @@ for i, dn in enumerate(driver_order):
         ax[p].bar(
             bar_positions,
             counts,
-            width=.8,
+            width=0.8,
             color=col,
             label=name,
             align="center",
@@ -184,7 +186,14 @@ for i, system in enumerate(point_systems):
             if np.isnan(pure_ratings[:, i::3][d, r]):
                 text = ax.text(r, d, "~", ha="center", va="center", color="#3671C6")
             else:
-                text = ax.text(r, d, f"{pure_ratings[:, i::3][d, r]:.0f}", ha="center", va="center", color="#3671C6")
+                text = ax.text(
+                    r,
+                    d,
+                    f"{pure_ratings[:, i::3][d, r]:.0f}",
+                    ha="center",
+                    va="center",
+                    color="#3671C6",
+                )
     ax.set_xticks(x, labels=races, rotation=-45, ha="left", rotation_mode="anchor")
     ax.set_yticks(np.arange(len(driver_order)), driver_order)
     fig.suptitle(f"Ratings from {system["id"]}")
