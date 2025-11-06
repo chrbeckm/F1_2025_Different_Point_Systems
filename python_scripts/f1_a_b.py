@@ -104,3 +104,5 @@ for system in point_systems:
     system["driver_dict"] = system["driver_dict_a"] | system["driver_dict_b"]
 
 plot_help(point_systems, races, driver_data, f"_includes/")
+
+print(f">>> f1_a_b.py done")
