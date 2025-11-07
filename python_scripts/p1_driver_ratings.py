@@ -147,6 +147,28 @@ ax.set_xticks(x, labels=races, rotation=-45, ha="left", rotation_mode="anchor")
 fig.savefig(f"_includes/p1_wMT/race_averages.png", dpi=500)
 plt.close(fig)
 
+# Find max for team
+team_max_dict = {
+    "Alpine,Doohan,Gasly,Colapinto": 0,
+    "AstonMartin,Alonso,Stroll": 0,
+    "Ferrari,Leclerc,Hamilton": 0,
+    "Haas,Ocon,Bearman": 0,
+    "KickSauber,Bortoleto,Hülkenberg": 0,
+    "McLaren,Norris,Piastri": 0,
+    "Mercedes,Antonelli,Russell": 0,
+    "RacingBulls,Hadjar,Lawson": 0,
+    "RedBull,Tsunoda,Verstappen": 0,
+    "Williams,Albon,Sainz": 0,
+}
+
+for i, dn in enumerate(driver_order):
+    for p in range(3):
+        y = pure_ratings[i][p::3][~np.isnan(pure_ratings[i][p::3])].astype(int)
+        counts = np.bincount(y)
+        for key in team_max_dict.keys():
+            if dn in key and np.max(counts) > team_max_dict[key]:
+                team_max_dict[key] = np.max(counts)
+
 os.makedirs("_includes/p1_wMT/driver_ratings/", exist_ok=True)
 for i, dn in enumerate(driver_order):
     fig, ax = plt.subplots(
@@ -168,11 +190,18 @@ for i, dn in enumerate(driver_order):
             color=col,
             label=name,
             align="center",
+            zorder=2,
         )
+        upper_ylim = 0
+        for key in team_max_dict.keys():
+            if dn in key and upper_ylim < team_max_dict[key]:
+                upper_ylim = team_max_dict[key]
         ax[p].set_xlim(-0.5, 10.5)
-        ax[p].set_ylim(0, 10.5)
+        ax[p].set_ylim(0, upper_ylim + 0.5)
         ax[p].set_xticks(np.arange(11))
+        ax[p].set_yticks(np.arange(upper_ylim))
         ax[p].legend(loc="upper left")
+        ax[p].grid(axis="y", zorder=1)
     fig.suptitle(f"Ratings for {dn}")
     fig.savefig(f"_includes/p1_wMT/driver_ratings/{dn}.png", dpi=500)
     plt.close(fig)
