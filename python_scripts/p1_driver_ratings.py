@@ -122,6 +122,7 @@ for system in point_systems:
     ax.set_ylim(0.5, 10.5)
     ax.set_xticks(x, labels=races, rotation=-45, ha="left", rotation_mode="anchor")
     fig.savefig(f"{filename}.png", dpi=500)
+    fig.savefig(f"{filename}.pdf")
     plt.close(fig)
 
 
@@ -145,6 +146,7 @@ ax.grid()
 ax.legend()
 ax.set_xticks(x, labels=races, rotation=-45, ha="left", rotation_mode="anchor")
 fig.savefig(f"_includes/p1_wMT/race_averages.png", dpi=500)
+fig.savefig(f"_includes/p1_wMT/race_averages.pdf")
 plt.close(fig)
 
 # Find max for team
@@ -204,6 +206,7 @@ for i, dn in enumerate(driver_order):
         ax[p].grid(axis="y", zorder=1)
     fig.suptitle(f"Ratings for {dn}")
     fig.savefig(f"_includes/p1_wMT/driver_ratings/{dn}.png", dpi=500)
+    fig.savefig(f"_includes/p1_wMT/driver_ratings/{dn}.pdf")
     plt.close(fig)
 
 for i, system in enumerate(point_systems):
@@ -227,6 +230,7 @@ for i, system in enumerate(point_systems):
     ax.set_yticks(np.arange(len(driver_order)), driver_order)
     fig.suptitle(f"Ratings from {system['id']}")
     fig.savefig(f"_includes/{system['dir']}/{system['id']}_2D.png", dpi=500)
+    fig.savefig(f"_includes/{system['dir']}/{system['id']}_2D.pdf")
     plt.close(fig)
 
 

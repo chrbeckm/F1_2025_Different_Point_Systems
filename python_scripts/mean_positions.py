@@ -158,7 +158,7 @@ for system in point_systems:
     ax.set_yticks(np.arange(1, 21))
     ax.yaxis.set_inverted(True)
     fig.savefig(f"{filename}.png", dpi=500)
-    # fig.savefig(f"{filename}.pdf")
+    fig.savefig(f"{filename}.pdf")
     plt.close(fig)
 
     ax2d.set_title(f"{system['name']} - Positions")
@@ -168,7 +168,7 @@ for system in point_systems:
     ax2d.set_yticks(np.arange(1, 21))
     ax2d.yaxis.set_inverted(True)
     fig2d.savefig(f"{filename}_2D.png")
-    # fig2d.savefig(f"{filename}_2D.pdf")
+    fig2d.savefig(f"{filename}_2D.pdf")
     plt.close(fig2d)
 
     filename = f"{system['dir']}/mean"
@@ -196,7 +196,7 @@ for system in point_systems:
     ax.set_yticks(np.arange(1, 21))
     ax.yaxis.set_inverted(True)
     fig.savefig(f"{filename}.png")
-    # fig.savefig(f"{filename}.pdf")
+    fig.savefig(f"{filename}.pdf")
     plt.close(fig)
 
 team_max_dict = {
@@ -215,13 +215,9 @@ team_max_dict = {
 for i, dn in enumerate(driver_data["name"]):
     for system in point_systems:
         counts = np.bincount(system["driver_positions"][dn])[1:-1]
-        print(dn, np.max(counts))
         for key in team_max_dict.keys():
             if dn in key and np.max(counts) > team_max_dict[key]:
                 team_max_dict[key] = np.max(counts)
-
-for k in team_max_dict.keys():
-    print(k, team_max_dict[k], sep="\t")
 
 dp_dir = "_includes/mean/driver_positions/"
 os.makedirs(dp_dir, exist_ok=True)
@@ -251,7 +247,6 @@ for i, (dn, dc) in enumerate(zip(driver_data["name"], driver_data["color"])):
         for key in team_max_dict.keys():
             if dn in key and upper_ylim < team_max_dict[key]:
                 upper_ylim = team_max_dict[key]
-        print(dn, upper_ylim)
         ax[p].set_xlim(0.5, 20.5)
         ax[p].set_ylim(0, upper_ylim + 0.5)
         ax[p].set_xticks(np.arange(1, 21))
@@ -260,6 +255,7 @@ for i, (dn, dc) in enumerate(zip(driver_data["name"], driver_data["color"])):
         ax[p].grid(axis="y", zorder=1)
     fig.suptitle(f"Positions for {dn}")
     fig.savefig(f"{dp_dir}{dn}.png", dpi=500)
+    fig.savefig(f"{dp_dir}{dn}.pdf")
     plt.close(fig)
 
 print(f">>> mean_positions.py done")

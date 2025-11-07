@@ -61,8 +61,8 @@ def plot_help(
         )
 
         filename = f"{path}/{system['dir']}/{system['name'].replace(' ', '_').replace('/', '-')}"
-        # fig.savefig(filename + ".pdf")
         fig.savefig(filename + ".png", dpi=500)
+        fig.savefig(filename + ".pdf")
         plt.close(fig)
 
         if point_table:
@@ -153,6 +153,6 @@ def plot_help(
             )
 
             filename = f"{path}/{system['dir']}/constructors_{system['name'].replace(' ', '_').replace('/', '-')}"
-            # fig.savefig(filename + ".pdf")
             fig.savefig(filename + ".png", dpi=500)
+            fig.savefig(filename + ".pdf")
             plt.close(fig)

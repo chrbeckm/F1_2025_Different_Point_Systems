@@ -226,7 +226,7 @@ if DNFdiff == "withDNF" and SprintDiff == "withSprint":
     ax.yaxis.tick_right()
 
     filename = f"_includes/{DNFdiff}_{SprintDiff}/{point_systems[f125]['dir']}/{point_systems[f125]['name'].replace(' ', '_')}_leftLegend"
-    # fig.savefig(filename + ".pdf")
+    fig.savefig(filename + ".pdf")
     fig.savefig(filename + ".png", dpi=500)
     plt.close(fig)
     print("F1 2025 plot done", DNFdiff)

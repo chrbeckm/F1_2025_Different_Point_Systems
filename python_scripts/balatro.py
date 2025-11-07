@@ -165,7 +165,7 @@ for j, system in enumerate(point_systems):
     )
 
     filename = f"_includes/{system['dir']}/{system['name'].replace(' ', '_')}"
-    # fig.savefig(filename + "_multiplier.pdf")
+    fig.savefig(filename + "_multiplier.pdf")
     fig.savefig(filename + "_multiplier.png", dpi=500)
     plt.close(fig)
 
