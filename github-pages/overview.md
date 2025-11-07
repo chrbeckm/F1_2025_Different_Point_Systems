@@ -10,8 +10,8 @@ title: Overview over all possible files
 | Inverse Positions     | Fibonacci         | 1981-90 | F1 2025 Proposal    | Formula E | Mariokart Wii   | only Scrabble       | P1 Driver Ratings |
 | Mean Positions        | Squared Numbers   | 1991-02 | F1 2025 Reversed    | IMSA      | Mariokart 7     | Scrabble  + F1 2025 |                   |
 | Everyone Except Last  |                   | 2003-09 | F1 Points from 11th | Indycar   | Mariokart 8     |                     |                   |
-|                       |                   | 2021    | Drivernumbers       | Moto GP   | Mariokart World |                     |                   |
-|                       |                   | 2024    |                     | DTM       |                 |                     |                   |
+|                       |                   | 2021    | F1 2025 A/b         | Moto GP   | Mariokart World |                     |                   |
+|                       |                   | 2024    | Drivernumbers       | DTM       |                 |                     |                   |
 |                       |                   | 2025    |                     |           |                 |                     |                   |
 
 Download all files in a zip [here](/F1_2025_Different_Point_Systems/docs/assets/all_files.zip).
@@ -52,6 +52,7 @@ All comparisons are based on the systems with sprint results and DNF.
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1_extended/2025_proposal/F1_2025_Proposal_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1_extended/2025_reversed/F1_2025_Reversed_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1_extended/2025_11th/F1_2025_Points_from_11th_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1_extended/F1_A_B/F1_A-B_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/drivernumbers/Drivernumbers_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="om"></a> Other Motorsport
