@@ -199,7 +199,7 @@ for i, dn in enumerate(driver_order):
         ax[p].set_xlim(-0.5, 10.5)
         ax[p].set_ylim(0, upper_ylim + 0.5)
         ax[p].set_xticks(np.arange(11))
-        ax[p].set_yticks(np.arange(upper_ylim))
+        ax[p].set_yticks(np.arange(upper_ylim + 1))
         ax[p].legend(loc="upper left")
         ax[p].grid(axis="y", zorder=1)
     fig.suptitle(f"Ratings for {dn}")
