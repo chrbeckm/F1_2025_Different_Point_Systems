@@ -8,6 +8,9 @@ permalink: /F1_rel/a_b
 
 # F1 2025 A/B
 
+Idea from Twitter/X user \@Unpaid1ntern.
+Discussed on the Mr. V's Garage Discord.
+
 **Table of Content**
 
 - [with Sprints, with DNF](/F1_2025_Different_Point_Systems/F1_rel/a_b#ww)
