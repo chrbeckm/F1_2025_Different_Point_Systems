@@ -38,12 +38,12 @@ All comparisons are based on the systems with sprint results and DNF.
 
 | Point System | Formula 1 2025 |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/1950/F1_1950_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/1981/F1_1981_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/1991/F1_1991_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2003/F1_2003_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/1950/F1_1950_-_1953_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/1981/F1_1981_-_1990_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/1991/F1_1991_-_2002_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2003/F1_2003_-_2009_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2021/F1_2021_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2022/F1_2022_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2022/F1_2022_-_2024_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="f1related"></a> Formula 1 related
 

@@ -174,13 +174,13 @@ for i in range(len(point_systems)):
         imsa = i
     elif point_systems[i]["name"] == "IMSA q":
         imsa_q = i
-    elif point_systems[i]["name"] == "F1 1950 Raceresults":
+    elif point_systems[i]["name"] == "F1 1950 - 1953 Raceresults":
         f150 = i
-    elif point_systems[i]["name"] == "F1 1950 Qualifyingresults":
+    elif point_systems[i]["name"] == "F1 1950 - 1953 Qualifyingresults":
         f150q = i
-    elif point_systems[i]["name"] == "F1 1981 Raceresults":
+    elif point_systems[i]["name"] == "F1 1981 - 1990 Raceresults":
         f181 = i
-    elif point_systems[i]["name"] == "F1 1981 Qualifyingresults":
+    elif point_systems[i]["name"] == "F1 1981 - 1990 Qualifyingresults":
         f181q = i
     elif point_systems[i]["name"] == "F1 2025 Raceresults":
         f125 = i

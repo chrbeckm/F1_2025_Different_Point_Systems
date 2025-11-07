@@ -419,7 +419,7 @@ def get_point_systems_dict(nr_of_races):
             "dir": "formula1_extended/2025_reversed",
         },
         {
-            "name": "F1 1950 -1953 Raceresults",
+            "name": "F1 1950 - 1953 Raceresults",
             "points": f150,
             "sprint_points": (f150 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
@@ -428,7 +428,7 @@ def get_point_systems_dict(nr_of_races):
             "dir": "formula1/1950",
         },
         {
-            "name": "F1 1950 -1953 Qualifyingresults",
+            "name": "F1 1950 - 1953 Qualifyingresults",
             "points": f150,
             "sprint_points": (f150 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
