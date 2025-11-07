@@ -4,6 +4,7 @@ TARGETBALATRO = _includes/withDNF_withSprint/math/Balatro/Balatro_with_Sprints.p
 TARGETMEAN = _includes/mean/grid/mean.csv
 TARGETMEDALS = _includes/medals/F1_Medals_Gridresults_races.csv
 TARGETINDYCAR = _includes/withDNF_withSprint/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png
+TARGETF1AB = _includes/withDNF_withSprint/formula1_extended/F1_A_B/F1_A_Gridresults_with_Sprints_and_DNF.png
 TARGETP1wMT = _includes/p1_wMT/Matt/Matt_-_Sum_of_ratings.png
 TARGETwithDNF = _includes/withDNF_withSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
 TARGETwoDNF = _includes/woDNF_withSprint/drivernumbers/constructors_Drivernumbers_Qualifyingresults.png
@@ -12,6 +13,7 @@ TARGETnoSprintswoDNF = _includes/woDNF_woSprint/drivernumbers/constructors_Drive
 
 HELPPLOT = python_scripts/plot_help.py
 HELPDICT = python_scripts/first_point_systems_dict.py
+HELPABDICT = python_scripts/f1_a_b_dict.py
 HELPDRIVERDATA = helpfiles/driver_data.txt
 HELPRACES = helpfiles/races.txt
 RESULTFASTEST = results/fastest_lap.txt
@@ -30,12 +32,12 @@ _includes/points/F1_1950.md: python_scripts/print_points.py	$(HELPDICT)
 	python $<
 
 pre_csv2md = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) \
-	$(TARGETP1wMT) $(TARGETSCRABBLE) $(TARGETEEL) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
+	$(TARGETP1wMT) $(TARGETF1AB) $(TARGETSCRABBLE) $(TARGETEEL) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
 _includes/eel/Grid.md: $(pre_csv2md)
 	find _includes -type f -name '*.csv' -exec sh -c 'for f; do csv2md "$$f" > "$${f%.csv}.md"; done' _ {} +
 
 pre_docs = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) \
-	$(TARGETP1wMT) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
+	$(TARGETP1wMT) $(TARGETF1AB) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
 docs/assets/mean/qualifying/positions_2D.png: $(pre_docs)
 	mkdir -p docs/assets
 	find _includes -type f -name '*.png' \
@@ -68,6 +70,10 @@ $(TARGETMEDALS): python_scripts/medals.py $(pre_medals)
 
 pre_indy = $(RESULTQUALIFYING) $(RESULTGRID) $(RESULTwoDNF) $(RESULTwithDNF) $(RESULTLAPSLED) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
 $(TARGETINDYCAR): python_scripts/indycar.py $(pre_indy)
+	python $<
+
+pre_F1AB = $(RESULTQUALIFYING) $(RESULTGRID) $(RESULTwoDNF) $(RESULTwithDNF) $(HELPABDICT) $(HELPRACES) $(HELPDRIVERDATA) $(HELPPLOT)
+$(TARGETF1AB): python_scripts/f1_a_b.py $(pre_F1AB)
 	python $<
 
 pre_wMT = $(RESULTP1wMT) $(HELPDRIVERDATA)
