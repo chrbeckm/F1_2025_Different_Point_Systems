@@ -1,5 +1,5 @@
 import numpy as np
-from plot_help import plot_help
+from plot_help import plot_help, sorted_legend_by_final_points
 import f1_a_b_dict as psd
 
 qualiresults = np.genfromtxt(
@@ -72,15 +72,15 @@ point_systems = psd.get_point_systems_dict(
 for race_number, race in enumerate(races):
     is_sprint = "Sprint" in race
     for system in point_systems:
-        if is_sprint and not system["sprints"]:
-            for dn in system["driver_dict_a"].keys():
-                system["driver_dict_a"][dn][race_number + 1] = system["driver_dict_a"][
-                    dn
-                ][race_number]
-            for dn in system["driver_dict_b"].keys():
-                system["driver_dict_b"][dn][race_number + 1] = system["driver_dict_b"][
-                    dn
-                ][race_number]
+        # if is_sprint and not system["sprints"]:
+        for dn in f1_a:
+            system["driver_dict_a"][dn][race_number + 1] = system["driver_dict_a"][dn][
+                race_number
+            ]
+        for dn in f1_b:
+            system["driver_dict_b"][dn][race_number + 1] = system["driver_dict_b"][dn][
+                race_number
+            ]
         else:
             result_a = []
             result_b = []
@@ -103,6 +103,33 @@ for race_number, race in enumerate(races):
 for system in point_systems:
     system["driver_dict"] = system["driver_dict_a"] | system["driver_dict_b"]
 
-plot_help(point_systems, races, driver_data, f"_includes/")
+plot_help(point_systems, races, driver_data, f"_includes")
+
+a_system = []
+b_system = []
+for system in point_systems:
+    a_system.append(
+        {
+            "name": system["name"].replace("A/B", "A"),
+            "dir": system["dir"],
+            "driver_dict": system["driver_dict_a"],
+        }
+    )
+    b_system.append(
+        {
+            "name": system["name"].replace("A/B", "B"),
+            "dir": system["dir"],
+            "driver_dict": system["driver_dict_b"],
+        }
+    )
+
+print(a_system[0]["driver_dict"].keys())
+plot_help(
+    a_system, races, driver_data, f"_includes", point_table=False, constructors=False
+)
+
+plot_help(
+    b_system, races, driver_data, f"_includes", point_table=False, constructors=False
+)
 
 print(f">>> f1_a_b.py done")
