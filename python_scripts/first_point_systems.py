@@ -189,8 +189,6 @@ for i in range(len(point_systems)):
     elif point_systems[i]["name"] == "Super Mario Kart Qualifyingresults":
         mkscq = i
 
-print("Now combining IMSA points, check for names:")
-print(f"{point_systems[imsa]['name']} & {point_systems[imsa_q]['name']}")
 for dn in driver_data["name"]:
     point_systems[imsa]["driver_dict"][dn] += point_systems[imsa_q]["driver_dict"][dn]
 

@@ -123,7 +123,6 @@ for system in point_systems:
         }
     )
 
-print(a_system[0]["driver_dict"].keys())
 plot_help(
     a_system, races, driver_data, f"_includes", point_table=False, constructors=False
 )
