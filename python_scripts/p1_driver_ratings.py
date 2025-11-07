@@ -106,7 +106,7 @@ def sorted_legend_by_final_points(ax, axtitle):
 x = np.arange(nr_of_races)
 
 for system in point_systems:
-    filename = f"_includes/{system['dir']}/{system["id"]}_average"
+    filename = f"_includes/{system['dir']}/{system['id']}_average"
     fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
     for i, dn in enumerate(driver_data["name"]):
         ax.plot(
@@ -225,8 +225,8 @@ for i, system in enumerate(point_systems):
                 )
     ax.set_xticks(x, labels=races, rotation=-45, ha="left", rotation_mode="anchor")
     ax.set_yticks(np.arange(len(driver_order)), driver_order)
-    fig.suptitle(f"Ratings from {system["id"]}")
-    fig.savefig(f"_includes/{system['dir']}/{system["id"]}_2D.png", dpi=500)
+    fig.suptitle(f"Ratings from {system['id']}")
+    fig.savefig(f"_includes/{system['dir']}/{system['id']}_2D.png", dpi=500)
     plt.close(fig)
 
 

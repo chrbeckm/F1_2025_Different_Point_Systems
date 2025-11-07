@@ -8,8 +8,8 @@ permalink: /F1_rel/a_b
 
 # F1 2025 A/B
 
-Idea from Twitter/X user \@Unpaid1ntern.
-Discussed on the Mr. V's Garage Discord.
+Idea from Twitter/X user \@Unpaid1ntern,
+discussed on the Mr. V's Garage Discord.
 
 **Table of Content**
 

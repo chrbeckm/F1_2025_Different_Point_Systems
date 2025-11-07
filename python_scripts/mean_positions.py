@@ -199,4 +199,67 @@ for system in point_systems:
     # fig.savefig(f"{filename}.pdf")
     plt.close(fig)
 
+team_max_dict = {
+    "Alpine,Doohan,Gasly,Colapinto": 0,
+    "AstonMartin,Alonso,Stroll": 0,
+    "Ferrari,Leclerc,Hamilton": 0,
+    "Haas,Ocon,Bearman": 0,
+    "KickSauber,Bortoleto,Hülkenberg": 0,
+    "McLaren,Norris,Piastri": 0,
+    "Mercedes,Antonelli,Russell": 0,
+    "RacingBulls,Hadjar,Lawson": 0,
+    "RedBull,Tsunoda,Verstappen": 0,
+    "Williams,Albon,Sainz": 0,
+}
+
+for i, dn in enumerate(driver_data["name"]):
+    for system in point_systems:
+        counts = np.bincount(system["driver_positions"][dn])[1:-1]
+        print(dn, np.max(counts))
+        for key in team_max_dict.keys():
+            if dn in key and np.max(counts) > team_max_dict[key]:
+                team_max_dict[key] = np.max(counts)
+
+for k in team_max_dict.keys():
+    print(k, team_max_dict[k], sep="\t")
+
+dp_dir = "_includes/mean/driver_positions/"
+os.makedirs(dp_dir, exist_ok=True)
+for i, (dn, dc) in enumerate(zip(driver_data["name"], driver_data["color"])):
+    fig, ax = plt.subplots(
+        4, layout="constrained", figsize=(11.69, 8.27), sharex=True, sharey=True
+    )
+    group_data = [
+        (point_systems[0], "Qualifying times"),
+        (point_systems[1], "Grid positions"),
+        (point_systems[2], "Race results without DNF"),
+        (point_systems[3], "Race results with DNF"),
+    ]
+    for p, (system, label_text) in enumerate(group_data):
+        counts = np.bincount(system["driver_positions"][dn])
+        bar_positions = np.arange(len(counts))
+        ax[p].bar(
+            bar_positions,
+            counts,
+            width=0.8,
+            color=f"#{dc}",
+            label=label_text,
+            align="center",
+            zorder=2,
+        )
+        upper_ylim = 0
+        for key in team_max_dict.keys():
+            if dn in key and upper_ylim < team_max_dict[key]:
+                upper_ylim = team_max_dict[key]
+        print(dn, upper_ylim)
+        ax[p].set_xlim(0.5, 20.5)
+        ax[p].set_ylim(0, upper_ylim + 0.5)
+        ax[p].set_xticks(np.arange(1, 21))
+        ax[p].set_yticks(np.arange(upper_ylim + 1))
+        ax[p].legend(loc="upper right")
+        ax[p].grid(axis="y", zorder=1)
+    fig.suptitle(f"Positions for {dn}")
+    fig.savefig(f"{dp_dir}{dn}.png", dpi=500)
+    plt.close(fig)
+
 print(f">>> mean_positions.py done")
