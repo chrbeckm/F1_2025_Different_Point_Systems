@@ -11,7 +11,7 @@ title: Overview over all possible files
 | Mean Positions        | Squared Numbers   | 1991-02 | F1 2025 Reversed    | IMSA      | Mariokart 7     | Scrabble  + F1 2025 |                   |
 | Everyone Except Last  |                   | 2003-09 | F1 Points from 11th | Indycar   | Mariokart 8     |                     |                   |
 |                       |                   | 2021    | F1 2025 A/b         | Moto GP   | Mariokart World |                     |                   |
-|                       |                   | 2024    | Drivernumbers       | DTM       |                 |                     |                   |
+|                       |                   | 2022-24 | Drivernumbers       | DTM       |                 |                     |                   |
 |                       |                   | 2025    |                     |           |                 |                     |                   |
 
 Download all files in a zip [here](/F1_2025_Different_Point_Systems/docs/assets/all_files.zip).
@@ -43,7 +43,7 @@ All comparisons are based on the systems with sprint results and DNF.
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/1991/F1_1991_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2003/F1_2003_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2021/F1_2021_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2024/F1_2024_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2022/F1_2022_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="f1related"></a> Formula 1 related
 

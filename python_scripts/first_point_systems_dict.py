@@ -167,13 +167,13 @@ def get_point_systems_dict(nr_of_races):
             "dir": "drivernumbers",
         },
         {
-            "name": "F1 2024 Raceresults",
+            "name": "F1 2022 - 2024 Raceresults",
             "points": f125,
             "sprint_points": f125_s,
             "driver_dict": make_driver_dict(nr_of_races),
             "fastest_lap": empty_1P,
             "fl_until": 10,
-            "dir": "formula1/2024",
+            "dir": "formula1/2022",
         },
         {
             "name": "F1 2021 Raceresults",
@@ -265,14 +265,14 @@ def get_point_systems_dict(nr_of_races):
             "dir": "other_motorsport/IMSA",
         },
         {
-            "name": "F1 1991 Raceresults",
+            "name": "F1 1991 - 2002 Raceresults",
             "points": f191,
             "sprint_points": (f191 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
             "dir": "formula1/1991",
         },
         {
-            "name": "F1 1991 Qualifyingresults",
+            "name": "F1 1991 - 2002 Qualifyingresults",
             "points": f191,
             "sprint_points": (f191 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
@@ -280,14 +280,14 @@ def get_point_systems_dict(nr_of_races):
             "dir": "formula1/1991",
         },
         {
-            "name": "F1 2003 Raceresults",
+            "name": "F1 2003 - 2009 Raceresults",
             "points": f103,
             "sprint_points": (f103 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
             "dir": "formula1/2003",
         },
         {
-            "name": "F1 2003 Qualifyingresults",
+            "name": "F1 2003 - 2009 Qualifyingresults",
             "points": f103,
             "sprint_points": (f103 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
@@ -419,7 +419,7 @@ def get_point_systems_dict(nr_of_races):
             "dir": "formula1_extended/2025_reversed",
         },
         {
-            "name": "F1 1950 Raceresults",
+            "name": "F1 1950 -1953 Raceresults",
             "points": f150,
             "sprint_points": (f150 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
@@ -428,7 +428,7 @@ def get_point_systems_dict(nr_of_races):
             "dir": "formula1/1950",
         },
         {
-            "name": "F1 1950 Qualifyingresults",
+            "name": "F1 1950 -1953 Qualifyingresults",
             "points": f150,
             "sprint_points": (f150 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
@@ -438,7 +438,7 @@ def get_point_systems_dict(nr_of_races):
             "dir": "formula1/1950",
         },
         {
-            "name": "F1 1981 Raceresults",
+            "name": "F1 1981 - 1990 Raceresults",
             "points": f181,
             "sprint_points": (f181 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
@@ -446,7 +446,7 @@ def get_point_systems_dict(nr_of_races):
             "dir": "formula1/1981",
         },
         {
-            "name": "F1 1981 Qualifyingresults",
+            "name": "F1 1981 - 1990 Qualifyingresults",
             "points": f181,
             "sprint_points": (f181 * 8) // 25,
             "driver_dict": make_driver_dict(nr_of_races),
