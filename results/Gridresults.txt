@@ -23,7 +23,7 @@ Singapore,Russell,Verstappen,Piastri,Antonelli,Norris,Hamilton,Leclerc,Hadjar,Be
 USA Sprint,Verstappen,Norris,Piastri,Hülkenberg,Russell,Alonso,Sainz,Hamilton,Albon,Leclerc,Antonelli,Hadjar,Gasly,Stroll,Lawson,Bearman,Colapinto,Tsunoda,Ocon,Bortoleto
 USA,Verstappen,Norris,Leclerc,Russell,Hamilton,Piastri,Antonelli,Bearman,Sainz,Alonso,Hülkenberg,Lawson,Tsunoda,Gasly,Colapinto,Bortoleto,Ocon,Albon,Stroll,Hadjar
 Mexico,Norris,Leclerc,Hamilton,Russell,Verstappen,Antonelli,Piastri,Hadjar,Bearman,Tsunoda,Ocon,Sainz,Hülkenberg,Alonso,Lawson,Bortoleto,Albon,Gasly,Stroll,Colapinto
-Brazil Sprint,,,,,,,,,,,,,,,,,,,,
+Brazil Sprint,Norris,Antonelli,Piastri,Russell,Alonso,Verstappen,Stroll,Leclerc,Hadjar,Hülkenberg,Hamilton,Albon,Gasly,Bortoleto,Bearman,Colapinto,Lawson,Tsunoda,Ocon,Sainz
 Brazil,,,,,,,,,,,,,,,,,,,,
 Las Vegas,,,,,,,,,,,,,,,,,,,,
 Qatar Sprint,,,,,,,,,,,,,,,,,,,,
