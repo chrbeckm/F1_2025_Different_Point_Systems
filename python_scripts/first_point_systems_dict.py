@@ -102,6 +102,7 @@ def get_point_systems_dict(nr_of_races):
         [16, 14, 12, 10, 8, 7, 6, 5, 4, 3, 2, 1] + [0] * 8,
         dtype=np.int32,
     )
+    esc = np.array([12, 10, 8, 7, 6, 5, 4, 3, 2, 1] + [0] * 10, dtype=np.int32)
 
     empty_1P = np.array([1] + [0] * 19, dtype=np.int32)
 
@@ -560,6 +561,23 @@ def get_point_systems_dict(nr_of_races):
             "qualifying": True,
             "pole_points": f121_s,
             "dir": "other_motorsport/DTM",
+        },
+        {
+            "name": "Eurovision Song Contest Raceresults",
+            "points": esc,
+            "sprint_points": np.zeros(20, np.int32),
+            "fastest_lap": esc,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "dir": "ESC",
+        },
+        {
+            "name": "Eurovision Song Contest Qualifyingresults",
+            "points": esc,
+            "sprint_points": np.zeros(20, np.int32),
+            "fastest_lap": esc,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "qualifying": True,
+            "dir": "ESC",
         },
     ]
     return point_systems

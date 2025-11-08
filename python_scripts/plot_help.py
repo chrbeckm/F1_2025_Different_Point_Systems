@@ -46,7 +46,10 @@ def plot_help(
                     color=f"#{driver_data['color'][i]}",
                     linestyle=driver_data["style"][i],
                 )
-                point_readout[i] = np.diff(system["driver_dict"][dn])
+                p_diff = np.diff(system["driver_dict"][dn])
+                point_readout[i] = (
+                    p_diff if "Balatro" in system["name"] else p_diff.astype(int)
+                )
         ax.set_title(f"{system['name']}")
         sorted_legend_by_final_points(ax)
         ax.grid()
