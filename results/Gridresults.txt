@@ -16,15 +16,15 @@ UK,Verstappen,Piastri,Norris,Russell,Hamilton,Leclerc,Alonso,Gasly,Sainz,Antonel
 Belgium Sprint,Piastri,Verstappen,Norris,Leclerc,Ocon,Sainz,Bearman,Gasly,Hadjar,Bortoleto,Lawson,Tsunoda,Russell,Alonso,Stroll,Albon,Hülkenberg,Hamilton,Antonelli,Colapinto
 Belgium,Norris,Piastri,Leclerc,Verstappen,Albon,Russell,Tsunoda,Hadjar,Lawson,Bortoleto,Ocon,Bearman,Gasly,Hülkenberg,Colapinto,Stroll,Sainz,Hamilton,Antonelli,Alonso
 Hungary,Leclerc,Piastri,Norris,Russell,Alonso,Stroll,Bortoleto,Verstappen,Lawson,Hadjar,Bearman,Hamilton,Sainz,Colapinto,Antonelli,Gasly,Ocon,Hülkenberg,Albon,Tsunoda
-Dutch,Piastri,Norris,Verstappen,Hadjar,Russell,Leclerc,Hamilton,Lawson,Sainz,Alonso,Antonelli,Tsunoda,Bortoleto,Gasly,Albon,Colapinto,Hülkenberg,Ocon,Stroll,Bearman
+Netherlands,Piastri,Norris,Verstappen,Hadjar,Russell,Leclerc,Hamilton,Lawson,Sainz,Alonso,Antonelli,Tsunoda,Bortoleto,Gasly,Albon,Colapinto,Hülkenberg,Ocon,Stroll,Bearman
 Italy,Verstappen,Norris,Piastri,Leclerc,Russell,Antonelli,Bortoleto,Alonso,Tsunoda,Hamilton,Bearman,Sainz,Albon,Ocon,Stroll,Colapinto,Lawson,Hadjar,Gasly,
 Azerbaijan,Verstappen,Sainz,Lawson,Antonelli,Russell,Tsunoda,Norris,Hadjar,Piastri,Leclerc,Alonso,Hamilton,Bortoleto,Stroll,Bearman,Colapinto,Hülkenberg,Gasly,Albon,Ocon
 Singapore,Russell,Verstappen,Piastri,Antonelli,Norris,Hamilton,Leclerc,Hadjar,Bearman,Alonso,Hülkenberg,Lawson,Tsunoda,Bortoleto,Stroll,Colapinto,Ocon,Sainz,Gasly,Albon
 USA Sprint,Verstappen,Norris,Piastri,Hülkenberg,Russell,Alonso,Sainz,Hamilton,Albon,Leclerc,Antonelli,Hadjar,Gasly,Stroll,Lawson,Bearman,Colapinto,Tsunoda,Ocon,Bortoleto
 USA,Verstappen,Norris,Leclerc,Russell,Hamilton,Piastri,Antonelli,Bearman,Sainz,Alonso,Hülkenberg,Lawson,Tsunoda,Gasly,Colapinto,Bortoleto,Ocon,Albon,Stroll,Hadjar
 Mexico,Norris,Leclerc,Hamilton,Russell,Verstappen,Antonelli,Piastri,Hadjar,Bearman,Tsunoda,Ocon,Sainz,Hülkenberg,Alonso,Lawson,Bortoleto,Albon,Gasly,Stroll,Colapinto
-Brasil Sprint,,,,,,,,,,,,,,,,,,,,
-Brasil,,,,,,,,,,,,,,,,,,,,
+Brazil Sprint,,,,,,,,,,,,,,,,,,,,
+Brazil,,,,,,,,,,,,,,,,,,,,
 Las Vegas,,,,,,,,,,,,,,,,,,,,
 Qatar Sprint,,,,,,,,,,,,,,,,,,,,
 Qatar,,,,,,,,,,,,,,,,,,,,

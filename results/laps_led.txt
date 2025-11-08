@@ -15,15 +15,15 @@ Piastri,36,Norris,9,Verstappen,7#UK
 Verstappen,15#Belgium Sprint
 Piastri,38,Norris,6#Belgium
 Norris,36,Leclerc,28,Piastri,6#Hungary
-Piastri,72#Dutch
+Piastri,72#Netherlands
 Verstappen,42,Norris,11#Italy
 Verstappen,51#Azerbaijan
 Russell,60,Piastri,2#Singapore
 Verstappen,19#USA Sprint
 Verstappen,56#USA
 Norris,71#Mexico
-#Brasil Sprint
-#Brasil
+#Brazil Sprint
+#Brazil
 #Las Vegas
 #Qatar Sprint
 #Qatar
