@@ -568,7 +568,7 @@ def get_point_systems_dict(nr_of_races):
             "sprint_points": np.zeros(20, np.int32),
             "fastest_lap": esc,
             "driver_dict": make_driver_dict(nr_of_races),
-            "dir": "ESC",
+            "dir": "other/ESC",
         },
         {
             "name": "Eurovision Song Contest Qualifyingresults",
@@ -577,7 +577,7 @@ def get_point_systems_dict(nr_of_races):
             "fastest_lap": esc,
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,
-            "dir": "ESC",
+            "dir": "other/ESC",
         },
     ]
     return point_systems

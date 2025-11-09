@@ -4,8 +4,8 @@ permalink: /
 title: F1 2025 in different Point Systems
 ---
 
-| Position based systems | Math | Formula 1 | Formula 1 related | Other Motorsport | Mariokart | Games | Youtubers |
-| - | - | - | - | - | - | - | - | - |
+| Position based systems | Math | Formula 1 | Formula 1 related | Other Motorsport | Mariokart | Games | Youtubers | Oter |
+| - | - | - | - | - | - | - | - | - | - |
 | [Positions](/F1_2025_Different_Point_Systems/positions/positions)                 | [Prime Numbers](/F1_2025_Different_Point_Systems/math/prime)     | [1950-53](/F1_2025_Different_Point_Systems/F1/1950) | [F1 Medals](/F1_2025_Different_Point_Systems/F1_rel/F1Medals)                 | [Formula 2](/F1_2025_Different_Point_Systems/om/F2_2025)  | [Mariokart DS](/F1_2025_Different_Point_Systems/mk/mariokart_DS)       | [Balatro](/F1_2025_Different_Point_Systems/games/balatro)                          | [Tommo](/F1_2025_Different_Point_Systems/yt/tommo)                   |
 | [Inverse Positions](/F1_2025_Different_Point_Systems/positions/inverse_positions) | [Fibonacci](/F1_2025_Different_Point_Systems/math/fibonacci)     | [1981-90](/F1_2025_Different_Point_Systems/F1/1981) | [F1 2025 Proposal](/F1_2025_Different_Point_Systems/F1_rel/2025_proposal)     | [Formula E](/F1_2025_Different_Point_Systems/om/FormulaE) | [Mariokart Wii](/F1_2025_Different_Point_Systems/mk/mariokart_Wii)     | [only Scrabble](/F1_2025_Different_Point_Systems/games/scrabble)                   | [P1 with Matt and Tommy](/F1_2025_Different_Point_Systems/yt/p1_wMT) |
 | [Mean Positions](/F1_2025_Different_Point_Systems/positions/mean)                 | [Squared Numbers](/F1_2025_Different_Point_Systems/math/squared) | [1991-02](/F1_2025_Different_Point_Systems/F1/1991) | [F1 2025 Reversed](/F1_2025_Different_Point_Systems/F1_rel/2025_reversed)     | [IMSA](/F1_2025_Different_Point_Systems/om/imsa)          | [Mariokart 7](/F1_2025_Different_Point_Systems/mk/mariokart_7)         | [Scrabble + F1 2025](/F1_2025_Different_Point_Systems/games/scrabble_plus_f1_2025) |                                                                      |
