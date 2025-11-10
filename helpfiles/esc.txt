@@ -5,7 +5,7 @@ Bortoleto,Brazil
 Hadjar,Italy
 Doohan,Australia
 Gasly,UK
-Antonelli,Italy
+Antonelli,Imola
 Alonso,Spain
 Leclerc,Monaco
 Stroll,Canada
