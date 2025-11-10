@@ -47,6 +47,18 @@ driver_data = np.genfromtxt(
     autostrip=True,
 )
 
+esc_races = np.genfromtxt(
+    "helpfiles/esc.txt",
+    delimiter=",",
+    dtype=[
+        ("driver", "U50"),
+        ("excluded_races", "U15"),
+    ],
+    comments="#",
+    names=True,
+    autostrip=True,
+)
+
 point_systems = psd.get_point_systems_dict(len(races))
 zero_array = np.zeros(20)
 
@@ -92,7 +104,7 @@ for race_number, race in enumerate(races):
                     score_array = (
                         system["sprint_points"] if is_sprint else system["points"]
                     )
-            for dn in driver_data["name"]:
+            for i_dn, dn in enumerate(driver_data["name"]):
                 if dn in current_result:
                     pos_index = np.where(dn == current_result)[0][0]
                     if system.get("is_drivernumbers"):
@@ -152,6 +164,11 @@ for race_number, race in enumerate(races):
                         score += pole_array[
                             np.where(dn == qualiresults[race_number, 1:])[0][0]
                         ]
+                    if (
+                        "Eurovision" in system["name"]
+                        and esc_races["excluded_races"][i_dn] == race
+                    ):
+                        score = 0
                     system["driver_dict"][dn][race_number + 1] = (
                         system["driver_dict"][dn][race_number] + score
                     )
