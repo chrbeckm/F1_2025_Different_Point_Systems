@@ -22,8 +22,8 @@ Russell,60,Piastri,2#Singapore
 Verstappen,19#USA Sprint
 Verstappen,56#USA
 Norris,71#Mexico
-#Brazil Sprint
-#Brazil
+Norris,24#Brazil Sprint
+Norris,59,Piastri,8,Verstappen,4#Brazil
 #Las Vegas
 #Qatar Sprint
 #Qatar
