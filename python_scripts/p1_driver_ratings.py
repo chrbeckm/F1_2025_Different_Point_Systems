@@ -190,7 +190,7 @@ for i, dn in enumerate(driver_order):
             counts,
             width=0.8,
             color=col,
-            label=name,
+            label=f"{name} - {np.mean(y):.2f}",
             align="center",
             zorder=2,
         )
@@ -204,7 +204,7 @@ for i, dn in enumerate(driver_order):
         ax[p].set_yticks(np.arange(upper_ylim + 1))
         ax[p].legend(loc="upper left")
         ax[p].grid(axis="y", zorder=1)
-    fig.suptitle(f"Ratings for {dn}")
+    fig.suptitle(f"Ratings for {dn} - <Average Rating>")
     fig.savefig(f"_includes/p1_wMT/driver_ratings/{dn}.png", dpi=500)
     fig.savefig(f"_includes/p1_wMT/driver_ratings/{dn}.pdf")
     plt.close(fig)

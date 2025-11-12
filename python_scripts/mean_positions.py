@@ -232,14 +232,14 @@ for i, (dn, dc) in enumerate(zip(driver_data["name"], driver_data["color"])):
         (point_systems[3], "Race results with DNF"),
     ]
     for p, (system, label_text) in enumerate(group_data):
-        counts = np.bincount(system["driver_positions"][dn])
+        counts = np.bincount(system["driver_positions"][dn])[1:-1]
         bar_positions = np.arange(len(counts))
         ax[p].bar(
             bar_positions,
             counts,
             width=0.8,
             color=f"#{dc}",
-            label=label_text,
+            label=f"{label_text} - {np.mean(system["driver_positions"][dn][1:-1]):.2f}",
             align="center",
             zorder=2,
         )
@@ -253,7 +253,7 @@ for i, (dn, dc) in enumerate(zip(driver_data["name"], driver_data["color"])):
         ax[p].set_yticks(np.arange(upper_ylim + 1))
         ax[p].legend(loc="upper right")
         ax[p].grid(axis="y", zorder=1)
-    fig.suptitle(f"Positions for {dn}")
+    fig.suptitle(f"Positions for {dn} - <Average Position>")
     fig.savefig(f"{dp_dir}{dn}.png", dpi=500)
     fig.savefig(f"{dp_dir}{dn}.pdf")
     plt.close(fig)
