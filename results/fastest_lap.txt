@@ -24,7 +24,7 @@ Antonelli,Norris,Verstappen,Russell,Leclerc,Bortoleto,Albon,Hamilton,Hülkenberg
 Russell,Sainz,Piastri,Albon,Stroll,Hamilton,Bearman,Norris,Antonelli,Verstappen,Bortoleto,Colapinto,Tsunoda,Leclerc,Alonso,Hadjar,Ocon,Gasly,Hülkenberg,Lawson#Mexico
 Norris,Antonelli,Hülkenberg,Russell,Verstappen,Hamilton,Piastri,Leclerc,Gasly,Stroll,Alonso,Albon,Hadjar,Bortoleto,Sainz,Bearman,Ocon,Lawson,Tsunoda,Colapinto#Brazil Sprint
 Albon,Verstappen,Piastri,Tsunoda,Colapinto,Norris,Stroll,Russell,Antonelli,Alonso,Hülkenberg,Ocon,Bearman,Sainz,Hadjar,Gasly,Hamilton,Lawson,Leclerc,#Brazil
-,,,,,,,,,,,,,,,,,,,#Las Vegas
+Verstappen,Antonelli,Leclerc,Sainz,Bearman,Hamilton,Ocon,Hülkenberg,Russell,Hadjar,Lawson,Tsunoda,Albon,Alonso,Gasly,Colapinto,Bortoleto,,,#Las Vegas
 ,,,,,,,,,,,,,,,,,,,#Qatar Sprint
 ,,,,,,,,,,,,,,,,,,,#Qatar
 ,,,,,,,,,,,,,,,,,,,#Abu Dhabi

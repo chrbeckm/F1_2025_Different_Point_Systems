@@ -26,6 +26,7 @@ RESULTP1wMT = results/p1_driver_ratings.txt
 
 all: _includes/eel/Grid.md \
 	docs/assets/mean/qualifying/positions_2D.png \
+	docs/assets/all_files.zip \
 	_includes/points/F1_1950_-_1953.md
 
 _includes/points/F1_1950_-_1953.md: python_scripts/print_points.py	$(HELPDICT)
@@ -38,7 +39,7 @@ _includes/eel/Grid.md: $(pre_csv2md)
 
 pre_docs = $(TARGETwithDNF) $(TARGETwoDNF) $(TARGETnoSprintswithDNF) $(TARGETnoSprintswoDNF) \
 	$(TARGETP1wMT) $(TARGETF1AB) $(TARGETMEAN) $(TARGETMEDALS) $(TARGETINDYCAR) $(TARGETBALATRO)
-docs/assets/mean/qualifying/positions_2D.png: $(pre_docs)
+docs/assets/mean/qualifying/positions_2D.png docs/assets/all_files.zip &: $(pre_docs)
 	mkdir -p docs/assets
 	find _includes -type f -name '*.png' \
 	  -exec sh -c 'for f; do \

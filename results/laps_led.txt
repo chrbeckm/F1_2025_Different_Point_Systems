@@ -24,7 +24,7 @@ Verstappen,56#USA
 Norris,71#Mexico
 Norris,24#Brazil Sprint
 Norris,59,Piastri,8,Verstappen,4#Brazil
-#Las Vegas
+Verstappen,50#Las Vegas
 #Qatar Sprint
 #Qatar
 #Abu Dhabi
