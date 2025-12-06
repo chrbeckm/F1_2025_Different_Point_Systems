@@ -376,7 +376,7 @@ def get_point_systems_dict(nr_of_races):
             "scale": 8 / 25,
             "driver_dict": make_driver_dict(nr_of_races),
             "scrabble": True,
-            "dir": "scrabble",
+            "dir": "games/scrabble",
         },
         {
             "name": "Scrabble Qualifyingresults",
@@ -385,7 +385,7 @@ def get_point_systems_dict(nr_of_races):
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,
             "scrabble": True,
-            "dir": "scrabble",
+            "dir": "games/scrabble",
         },
         {
             "name": "Scrabble + F1 2025 Raceresults",
@@ -393,7 +393,7 @@ def get_point_systems_dict(nr_of_races):
             "sprint_points": scrabble + f125_s,
             "driver_dict": make_driver_dict(nr_of_races),
             "scrabble": True,
-            "dir": "scrabble/PlusF12025",
+            "dir": "games/scrabble/PlusF12025",
         },
         {
             "name": "Scrabble + F1 2025 Qualifyingresults",
@@ -402,7 +402,7 @@ def get_point_systems_dict(nr_of_races):
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,
             "scrabble": True,
-            "dir": "scrabble/PlusF12025",
+            "dir": "games/scrabble/PlusF12025",
         },
         {
             "name": "F1 2025 Reversed Raceresults",
@@ -502,14 +502,14 @@ def get_point_systems_dict(nr_of_races):
         },
         {
             "name": "Squared Numbers Raceresults",
-            "points": inverse_position ** 2,
+            "points": inverse_position**2,
             "sprint_points": inverse_position,
             "driver_dict": make_driver_dict(nr_of_races),
             "dir": "math/squared",
         },
         {
             "name": "Squared Numbers Qualifyingresults",
-            "points": inverse_position ** 2,
+            "points": inverse_position**2,
             "sprint_points": inverse_position,
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,

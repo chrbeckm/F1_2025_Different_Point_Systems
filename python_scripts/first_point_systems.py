@@ -245,7 +245,7 @@ if DNFdiff == "withDNF" and SprintDiff == "withSprint":
     filename = f"_includes/{DNFdiff}_{SprintDiff}/{point_systems[f125]['dir']}/{point_systems[f125]['name'].replace(' ', '_')}_leftLegend"
     fig.savefig(filename + ".pdf")
     fig.savefig(filename + ".png", dpi=500)
-    plt.close(fig)
+    plt.close(fig=fig)
     print("F1 2025 plot done", DNFdiff)
 
 plot_help(point_systems, races, driver_data, f"_includes/{DNFdiff}_{SprintDiff}")

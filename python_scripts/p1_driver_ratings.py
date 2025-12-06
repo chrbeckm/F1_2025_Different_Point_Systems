@@ -123,7 +123,7 @@ for system in point_systems:
     ax.set_xticks(x, labels=races, rotation=-45, ha="left", rotation_mode="anchor")
     fig.savefig(f"{filename}.png", dpi=500)
     fig.savefig(f"{filename}.pdf")
-    plt.close(fig)
+    plt.close(fig=fig)
 
 
 for list, file in zip([p1_matt, p1_tommy], ["Matt", "Tommy"]):
@@ -147,7 +147,7 @@ ax.legend()
 ax.set_xticks(x, labels=races, rotation=-45, ha="left", rotation_mode="anchor")
 fig.savefig(f"_includes/p1_wMT/race_averages.png", dpi=500)
 fig.savefig(f"_includes/p1_wMT/race_averages.pdf")
-plt.close(fig)
+plt.close(fig=fig)
 
 # Find max for team
 team_max_dict = {
@@ -207,7 +207,7 @@ for i, dn in enumerate(driver_order):
     fig.suptitle(f"Ratings for {dn} - <Average Rating>")
     fig.savefig(f"_includes/p1_wMT/driver_ratings/{dn}.png", dpi=500)
     fig.savefig(f"_includes/p1_wMT/driver_ratings/{dn}.pdf")
-    plt.close(fig)
+    plt.close(fig=fig)
 
 for i, system in enumerate(point_systems):
     fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
@@ -231,7 +231,7 @@ for i, system in enumerate(point_systems):
     fig.suptitle(f"Ratings from {system['id']}")
     fig.savefig(f"_includes/{system['dir']}/{system['id']}_2D.png", dpi=500)
     fig.savefig(f"_includes/{system['dir']}/{system['id']}_2D.pdf")
-    plt.close(fig)
+    plt.close(fig=fig)
 
 
 print(f">>> p1_driver_ratings.py done")

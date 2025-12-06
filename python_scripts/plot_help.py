@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def sorted_legend_by_final_points(ax, bbox=(1.0, 0.5)):
+def sorted_legend_by_final_points(ax, bbox=(1.0, 0.5), **kwargs):
     handles, labels = ax.get_legend_handles_labels()
     points_in_labels = [float(label.split()[0]) for label in labels]
     sorted_items = sorted(
@@ -15,6 +15,7 @@ def sorted_legend_by_final_points(ax, bbox=(1.0, 0.5)):
         sorted_labels,
         loc="center left",
         bbox_to_anchor=bbox,
+        **kwargs,
     )
 
 
@@ -53,8 +54,12 @@ def plot_help(
         ax.set_title(f"{system['name']}")
         sorted_legend_by_final_points(ax)
         ax.grid()
+        if "Balatro" in system["name"]:
+            ax.set_yscale("log")
+            ax.set_ylim(1, ax.get_ylim()[-1])
+        else:
+            ax.set_ylim(0, ax.get_ylim()[-1])
         ax.set_xlim(0, len_races_p1 - 1)
-        ax.set_ylim(0, ax.get_ylim()[-1])
         ax.set_xticks(
             x,
             labels=[""] + races,
@@ -66,7 +71,7 @@ def plot_help(
         filename = f"{path}/{system['dir']}/{system['name'].replace(' ', '_').replace('/', '-')}"
         fig.savefig(filename + ".png", dpi=500)
         fig.savefig(filename + ".pdf")
-        plt.close(fig)
+        plt.close(fig=fig)
 
         if point_table:
             data_with_race_names = []
@@ -146,7 +151,11 @@ def plot_help(
             sorted_legend_by_final_points(ax)
             ax.grid()
             ax.set_xlim(0, len_races_p1 - 1)
-            ax.set_ylim(0, ax.get_ylim()[-1])
+            if "Balatro" in system["name"]:
+                ax.set_yscale("log")
+                ax.set_ylim(1, ax.get_ylim()[-1])
+            else:
+                ax.set_ylim(0, ax.get_ylim()[-1])
             ax.set_xticks(
                 x,
                 labels=[""] + races,
@@ -158,4 +167,4 @@ def plot_help(
             filename = f"{path}/{system['dir']}/constructors_{system['name'].replace(' ', '_').replace('/', '-')}"
             fig.savefig(filename + ".png", dpi=500)
             fig.savefig(filename + ".pdf")
-            plt.close(fig)
+            plt.close(fig=fig)

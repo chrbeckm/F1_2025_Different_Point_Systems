@@ -159,7 +159,7 @@ for system in point_systems:
     ax.yaxis.set_inverted(True)
     fig.savefig(f"{filename}.png", dpi=500)
     fig.savefig(f"{filename}.pdf")
-    plt.close(fig)
+    plt.close(fig=fig)
 
     ax2d.set_title(f"{system['name']} - Positions")
     ax2d.set_xlim(-0.5, len(races) - 0.5)
@@ -169,7 +169,7 @@ for system in point_systems:
     ax2d.yaxis.set_inverted(True)
     fig2d.savefig(f"{filename}_2D.png")
     fig2d.savefig(f"{filename}_2D.pdf")
-    plt.close(fig2d)
+    plt.close(fig=fig2d)
 
     filename = f"{system['dir']}/mean"
     fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
@@ -197,7 +197,7 @@ for system in point_systems:
     ax.yaxis.set_inverted(True)
     fig.savefig(f"{filename}.png")
     fig.savefig(f"{filename}.pdf")
-    plt.close(fig)
+    plt.close(fig=fig)
 
 team_max_dict = {
     "Alpine,Doohan,Gasly,Colapinto": 0,
@@ -256,6 +256,6 @@ for i, (dn, dc) in enumerate(zip(driver_data["name"], driver_data["color"])):
     fig.suptitle(f"Positions for {dn} - <Average Position>")
     fig.savefig(f"{dp_dir}{dn}.png", dpi=500)
     fig.savefig(f"{dp_dir}{dn}.pdf")
-    plt.close(fig)
+    plt.close(fig=fig)
 
 print(f">>> mean_positions.py done")

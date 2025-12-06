@@ -80,9 +80,9 @@ All comparisons are based on the systems with sprint results and DNF.
 
 | Point System | Formula 1 2025 |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/Balatro/Balatro_with_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/scrabble/Scrabble_Raceresults.png)  | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/scrabble/PlusF12025/Scrabble_+_F1_2025_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/games/balatro/Balatro_with_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/games/scrabble/Scrabble_Raceresults.png)  | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/games/scrabble/PlusF12025/Scrabble_+_F1_2025_Raceresults.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="yt"></a> Youtubers
 

@@ -45,7 +45,7 @@ f125_s = np.array([8, 7, 6, 5, 4, 3, 2, 1] + [0] * 12, dtype=np.int32)
 
 # Multipliers
 point_finish = 1.0
-podium = 0.5  # resets
+podium_points = 0.5  # resets
 # Extra points
 fastest_lap_points = 10.0
 pole_position = 10.0
@@ -58,20 +58,20 @@ point_systems = [
     {
         "name": "Balatro with Sprints",
         "sprints": True,
-        "dir": "withDNF_withSprint/math/Balatro",
+        "dir": "withDNF_withSprint/games/balatro",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
-        "point_finishes": defaultdict(lambda: np.zeros(nr_of_races + 1)),
-        "podium": defaultdict(lambda: np.zeros(nr_of_races + 1)),
+        "point_finishes": defaultdict(lambda: np.ones(nr_of_races + 1)),
+        "podium": defaultdict(lambda: np.ones(nr_of_races + 1)),
         "r_results": raceresults_with,
         "q_results": gridresults,
     },
     {
         "name": "Balatro without Sprints",
         "sprints": False,
-        "dir": "withDNF_woSprint/math/Balatro",
+        "dir": "withDNF_woSprint/games/balatro",
         "driver_dict": defaultdict(lambda: np.zeros(nr_of_races + 1)),
-        "point_finishes": defaultdict(lambda: np.zeros(nr_of_races + 1)),
-        "podium": defaultdict(lambda: np.zeros(nr_of_races + 1)),
+        "point_finishes": defaultdict(lambda: np.ones(nr_of_races + 1)),
+        "podium": defaultdict(lambda: np.ones(nr_of_races + 1)),
         "r_results": raceresults_with,
         "q_results": gridresults,
     },
@@ -103,16 +103,14 @@ for system in point_systems:
                     if pos_index < 10:
                         system["point_finishes"][dn][race_number + 1] += point_finish
                         if pos_index < 3:
-                            system["podium"][dn][race_number + 1] += (
-                                system["podium"][dn][race_number] + podium
+                            system["podium"][dn][race_number + 1] = (
+                                system["podium"][dn][race_number] + podium_points
                             )
-                        else:
-                            system["podium"][dn][race_number + 1] += 0
                     system["driver_dict"][dn][race_number + 1] = system["driver_dict"][
                         dn
                     ][race_number] + added_score * (
-                        system["point_finishes"][dn][race_number]
-                        * system["podium"][dn][race_number]
+                        system["point_finishes"][dn][race_number + 1]
+                        * system["podium"][dn][race_number + 1]
                     )
                 else:
                     system["driver_dict"][dn][race_number + 1] = system["driver_dict"][
@@ -142,16 +140,14 @@ for j, system in enumerate(point_systems):
     os.makedirs("_includes/" + system["dir"], exist_ok=True)
     fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
     for i, (di, dn) in enumerate(zip(driver_data["shorthand"], driver_data["name"])):
-        data = system["podium"][dn] * system["point_finishes"][dn]
         ax.plot(
             x,
-            data,
-            label=f"{data[-1]:5.1f} {di}",
+            system["podium"][dn],
+            label=f"{system["podium"][dn].max():4.1f} {di}",
             color=f"#{driver_data['color'][i]}",
             linestyle=driver_data["style"][i],
         )
         point_readout[j][i] = np.diff(system["driver_dict"][dn])
-    ax.set_title(f"{system['name']} - Multiplier")
     sorted_legend_by_final_points(ax)
     ax.grid()
     ax.set_xlim(0, 30)
@@ -163,11 +159,41 @@ for j, system in enumerate(point_systems):
         ha="left",
         rotation_mode="anchor",
     )
+    ax.set_title("Mutliplier - Consecutive Podium finishes")
 
     filename = f"_includes/{system['dir']}/{system['name'].replace(' ', '_')}"
-    fig.savefig(filename + "_multiplier.pdf")
-    fig.savefig(filename + "_multiplier.png", dpi=500)
-    plt.close(fig)
+    fig.savefig(filename + "_podium_multiplier.pdf")
+    fig.savefig(filename + "_podium_multiplier.png", dpi=500)
+    plt.close(fig=fig)
+
+    fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
+    for i, (di, dn) in enumerate(zip(driver_data["shorthand"], driver_data["name"])):
+        label_format = "{:4.1f} {}" if j == 0 else "{:2.0f} {}"
+        ax.plot(
+            x,
+            system["point_finishes"][dn],
+            label=f"{system["point_finishes"][dn][-1]:2.0f} {di}",
+            color=f"#{driver_data['color'][i]}",
+            linestyle=driver_data["style"][i],
+        )
+        point_readout[j][i] = np.diff(system["driver_dict"][dn])
+    sorted_legend_by_final_points(ax)
+    ax.grid()
+    ax.set_xlim(0, 30)
+    ax.set_ylim(0, ax.get_ylim()[-1])
+    ax.set_xticks(
+        np.arange(31),
+        labels=[""] + races,
+        rotation=-45,
+        ha="left",
+        rotation_mode="anchor",
+    )
+    ax.set_title("Mutliplier - Point finishes")
+
+    filename = f"_includes/{system['dir']}/{system['name'].replace(' ', '_')}"
+    fig.savefig(filename + "_points_multiplier.pdf")
+    fig.savefig(filename + "_points_multiplier.png", dpi=500)
+    plt.close(fig=fig)
 
 
 print(f">>> balatro.py done")

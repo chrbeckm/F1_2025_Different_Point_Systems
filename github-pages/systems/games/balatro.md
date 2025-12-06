@@ -28,15 +28,15 @@ permalink: /games/balatro
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/Balatro/Balatro_with_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/Balatro/constructors_Balatro_with_Sprints.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/math/Balatro/Balatro_with_Sprints_multiplier.png) | |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/games/balatro/Balatro_with_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/games/balatro/constructors_Balatro_with_Sprints.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/games/balatro/Balatro_with_Sprints_podium_multiplier.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/games/balatro/Balatro_with_Sprints_points_multiplier.png) |
 
 ## <a id="nw"></a> without Sprints, with DNF
 
 | World Drivers' Championship standings | World Constructors' Championship standings |
 | - | - |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/Balatro/Balatro_without_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/Balatro/constructors_Balatro_without_Sprints.png) |
-| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/math/Balatro/Balatro_without_Sprints_multiplier.png) | |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/games/balatro/Balatro_without_Sprints.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/games/balatro/constructors_Balatro_without_Sprints.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/games/balatro/Balatro_without_Sprints_podium_multiplier.png) | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_woSprint/games/balatro/Balatro_without_Sprints_points_multiplier.png) |
 
 # <a id="tables"></a> Number Tables
 
@@ -44,8 +44,8 @@ permalink: /games/balatro
 
 ### with Sprints
 
-{% include withDNF_withSprint/math/Balatro/Balatro_with_Sprints.md %}
+{% include withDNF_withSprint/games/balatro/Balatro_with_Sprints.md %}
 
 ### without Sprints
 
-{% include withDNF_woSprint/math/Balatro/Balatro_without_Sprints.md %}
+{% include withDNF_woSprint/games/balatro/Balatro_without_Sprints.md %}
