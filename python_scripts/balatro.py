@@ -112,7 +112,7 @@ for system in point_systems:
                         dn
                     ][race_number] + added_score * (
                         system["point_finishes"][dn][race_number]
-                        + system["podium"][dn][race_number]
+                        * system["podium"][dn][race_number]
                     )
                 else:
                     system["driver_dict"][dn][race_number + 1] = system["driver_dict"][
@@ -142,7 +142,7 @@ for j, system in enumerate(point_systems):
     os.makedirs("_includes/" + system["dir"], exist_ok=True)
     fig, ax = plt.subplots(layout="constrained", figsize=(11.69, 8.27))
     for i, (di, dn) in enumerate(zip(driver_data["shorthand"], driver_data["name"])):
-        data = system["podium"][dn] + system["point_finishes"][dn]
+        data = system["podium"][dn] * system["point_finishes"][dn]
         ax.plot(
             x,
             data,
