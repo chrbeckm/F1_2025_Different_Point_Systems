@@ -1,7 +1,7 @@
 import os, csv, gc
 import numpy as np
 import matplotlib.pyplot as plt
-from tqdm import tqdm
+# from tqdm import tqdm
 
 def sorted_legend_by_final_points(ax, bbox=(1.0, 0.5), **kwargs):
     handles, labels = ax.get_legend_handles_labels()
@@ -27,7 +27,8 @@ def plot_help(
     point_table=True,
     constructors=True,
 ):
-    for system in tqdm(point_systems):
+#    for system in tqdm(point_systems):
+    for system in point_systems:
         label_format = "{:7.1f} {}" if "Balatro" in system["name"] else "{:5.0f} {}"
         len_races_p1 = len(races) + 1
         x = np.arange(len_races_p1)
