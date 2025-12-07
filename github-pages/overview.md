@@ -8,8 +8,8 @@ title: Overview over all possible files
 | - | - | - | - | - | - | - | - | - |
 | Positions             | Prime Numbers     | 1950-53 | F1 Medals           | Formula 2 | Mariokart DS    | Balatro             | Tommo             | Eurovision Song Contest |
 | Inverse Positions     | Fibonacci         | 1981-90 | F1 2025 Proposal    | Formula E | Mariokart Wii   | only Scrabble       | P1 Driver Ratings |                         |
-| Mean Positions        | Squared Numbers   | 1991-02 | F1 2025 Reversed    | IMSA      | Mariokart 7     | Scrabble  + F1 2025 |                   |                         |
-| Everyone Except Last  |                   | 2003-09 | F1 Points from 11th | Indycar   | Mariokart 8     |                     |                   |                         |
+| Mean Positions        | Squared Numbers   | 1991-02 | F1 2025 Reversed    | IMSA      | Mariokart 7     | Scrabble  + F1 2025 | Ana Gennisi       |                         |
+| Everyone Except Last  |                   | 2003-09 | F1 Points from 11th | Indycar   | Mariokart 8     |                     | Yiğit             |                         |
 |                       |                   | 2021    | F1 2025 A/b         | Moto GP   | Mariokart World |                     |                   |                         |
 |                       |                   | 2022-24 | Drivernumbers       | DTM       |                 |                     |                   |                         |
 |                       |                   | 2025    |                     |           |                 |                     |                   |                         |
@@ -92,6 +92,8 @@ All comparisons are based on the systems with sprint results and DNF.
 | ![](/F1_2025_Different_Point_Systems/docs/assets/p1_wMT/Audience/Audience_-_Sum_of_ratings.png)  | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/p1_wMT/Matt/Matt_-_Sum_of_ratings.png)  | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 | ![](/F1_2025_Different_Point_Systems/docs/assets/p1_wMT/Tommy/Tommy_-_Sum_of_ratings.png)  | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/yt/anagennisigd/Anagennisigd_Raceresults.png)  | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
+| ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/yt/yigit_v19/Yigit_v19_Raceresults.png)  | ![](/F1_2025_Different_Point_Systems/docs/assets/withDNF_withSprint/formula1/2025/F1_2025_Raceresults_leftLegend.png) |
 
 # <a id="ot"></a> Other
 

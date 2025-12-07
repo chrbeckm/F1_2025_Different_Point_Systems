@@ -103,6 +103,11 @@ def get_point_systems_dict(nr_of_races):
         dtype=np.int32,
     )
     esc = np.array([12, 10, 8, 7, 6, 5, 4, 3, 2, 1] + [0] * 10, dtype=np.int32)
+    anagennisigd = np.array(f125 - f125[::-1], dtype=np.int32)
+    anagennisigd_s = np.array(f125_s - f125_s[::-1])
+
+    Yiğit_v19 = np.array([28, 19, 15, 14, 13, 12 ,11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] + [0] * 3, dtype=np.int32)
+    Yiğit_v19_s = np.array([15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1] + [0] * 5, dtype=np.int32)
 
     empty_1P = np.array([1] + [0] * 19, dtype=np.int32)
 
@@ -578,6 +583,36 @@ def get_point_systems_dict(nr_of_races):
             "driver_dict": make_driver_dict(nr_of_races),
             "qualifying": True,
             "dir": "other/ESC",
+        },
+        {
+            "name": "Anagennisigd Raceresults",
+            "points": anagennisigd,
+            "sprint_points": anagennisigd_s,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "dir": "yt/anagennisigd",
+        },
+        {
+            "name": "Anagennisigd Qualifyingresults",
+            "points": anagennisigd,
+            "sprint_points": anagennisigd_s,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "qualifying": True,
+            "dir": "yt/anagennisigd",
+        },
+        {
+            "name": "Yiğit_v19 Raceresults",
+            "points": Yiğit_v19,
+            "sprint_points": Yiğit_v19_s,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "dir": "yt/yigit_v19",
+        },
+        {
+            "name": "Yiğit_v19 Qualifyingresults",
+            "points": Yiğit_v19,
+            "sprint_points": Yiğit_v19_s,
+            "driver_dict": make_driver_dict(nr_of_races),
+            "qualifying": True,
+            "dir": "yt/yigit_v19",
         },
     ]
     return point_systems

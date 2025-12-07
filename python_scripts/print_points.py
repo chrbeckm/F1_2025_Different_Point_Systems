@@ -11,7 +11,7 @@ for system in point_systems:
             if "crabble" not in system["name"]:
                 filename = (
                     "_includes/points/"
-                    + system["name"].replace(" Raceresults", "").replace(" ", "_")
+                    + system["name"].replace(" Raceresults", "").replace(" ", "_").replace("ğ", "g")
                     + ".md"
                 )
                 with open(filename, "w") as file:

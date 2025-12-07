@@ -1,7 +1,7 @@
-import os, csv
+import os, csv, gc
 import numpy as np
 import matplotlib.pyplot as plt
-
+from tqdm import tqdm
 
 def sorted_legend_by_final_points(ax, bbox=(1.0, 0.5), **kwargs):
     handles, labels = ax.get_legend_handles_labels()
@@ -27,7 +27,7 @@ def plot_help(
     point_table=True,
     constructors=True,
 ):
-    for system in point_systems:
+    for system in tqdm(point_systems):
         label_format = "{:7.1f} {}" if "Balatro" in system["name"] else "{:5.0f} {}"
         len_races_p1 = len(races) + 1
         x = np.arange(len_races_p1)
@@ -54,11 +54,12 @@ def plot_help(
         ax.set_title(f"{system['name']}")
         sorted_legend_by_final_points(ax)
         ax.grid()
-        if "Balatro" in system["name"]:
-            ax.set_yscale("log")
-            ax.set_ylim(1, ax.get_ylim()[-1])
-        else:
-            ax.set_ylim(0, ax.get_ylim()[-1])
+        if "Anagennisigd" not in system["name"]:
+            if "Balatro" in system["name"]:
+                ax.set_yscale("log")
+                ax.set_ylim(1, ax.get_ylim()[-1])
+            else:
+                ax.set_ylim(0, ax.get_ylim()[-1])
         ax.set_xlim(0, len_races_p1 - 1)
         ax.set_xticks(
             x,
@@ -68,7 +69,7 @@ def plot_help(
             rotation_mode="anchor",
         )
 
-        filename = f"{path}/{system['dir']}/{system['name'].replace(' ', '_').replace('/', '-')}"
+        filename = f"{path}/{system['dir']}/{system['name'].replace(' ', '_').replace('/', '-').replace('ğ', 'g')}"
         fig.savefig(filename + ".png", dpi=500)
         fig.savefig(filename + ".pdf")
         plt.close(fig=fig)
@@ -151,11 +152,12 @@ def plot_help(
             sorted_legend_by_final_points(ax)
             ax.grid()
             ax.set_xlim(0, len_races_p1 - 1)
-            if "Balatro" in system["name"]:
-                ax.set_yscale("log")
-                ax.set_ylim(1, ax.get_ylim()[-1])
-            else:
-                ax.set_ylim(0, ax.get_ylim()[-1])
+            if "Anagennisigd" not in system["name"]:
+                if "Balatro" in system["name"]:
+                    ax.set_yscale("log")
+                    ax.set_ylim(1, ax.get_ylim()[-1])
+                else:
+                    ax.set_ylim(0, ax.get_ylim()[-1])
             ax.set_xticks(
                 x,
                 labels=[""] + races,
@@ -164,7 +166,9 @@ def plot_help(
                 rotation_mode="anchor",
             )
 
-            filename = f"{path}/{system['dir']}/constructors_{system['name'].replace(' ', '_').replace('/', '-')}"
+            filename = f"{path}/{system['dir']}/constructors_{system['name'].replace(' ', '_').replace('/', '-').replace('ğ', 'g')}"
             fig.savefig(filename + ".png", dpi=500)
             fig.savefig(filename + ".pdf")
             plt.close(fig=fig)
+
+            gc.collect()

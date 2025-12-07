@@ -28,4 +28,4 @@ Brazil,Norris,Antonelli,Leclerc,Piastri,Hadjar,Russell,Lawson,Bearman,Gasly,Hül
 Las Vegas,Norris,Verstappen,Sainz,Russell,Piastri,Lawson,Alonso,Hadjar,Leclerc,Gasly,Hülkenberg,Stroll,Ocon,Bearman,Colapinto,Albon,Antonelli,Bortoleto,Hamilton,Tsunoda
 Qatar Sprint,Piastri,Russell,Norris,Alonso,Tsunoda,Verstappen,Antonelli,Sainz,Leclerc,Albon,Hadjar,Bearman,Bortoleto,Hülkenberg,Ocon,Lawson,Stroll,Hamilton,Gasly,Colapinto
 Qatar,Piastri,Norris,Verstappen,Russell,Antonelli,Hadjar,Sainz,Alonso,Gasly,Leclerc,Hülkenberg,Lawson,Bearman,Albon,Tsunoda,Ocon,Hamilton,Stroll,Bortoleto,Colapinto
-Abu Dhabi,,,,,,,,,,,,,,,,,,,,
+Abu Dhabi,Verstappen,Norris,Piastri,Russell,Leclerc,Alonso,Bortoleto,Ocon,Hadjar,Tsunoda,Bearman,Sainz,Lawson,Antonelli,Stroll,Hamilton,Albon,Hülkenberg,Gasly,Colapinto
