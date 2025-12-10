@@ -1,6 +1,6 @@
 TARGETSCRABBLE = helpfiles/scrabble.txt
 TARGETEEL = _includes/eel/Grid.csv
-TARGETBALATRO = _includes/withDNF_withSprint/math/Balatro/Balatro_with_Sprints.png
+TARGETBALATRO = _includes/withDNF_withSprint/games/balatro/Balatro_with_Sprints.png
 TARGETMEAN = _includes/mean/grid/mean.csv
 TARGETMEDALS = _includes/medals/F1_Medals_Gridresults_races.csv
 TARGETINDYCAR = _includes/withDNF_withSprint/other_motorsport/Indycar/Indycar_with_Sprints_and_DNF.png
