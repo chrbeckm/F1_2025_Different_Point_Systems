@@ -14,7 +14,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      BUNDLE_GEMFILE: ${{ github.workspace }}/vendor/bundle
+      BUNDLE_GEMFILE: vendor/bundle
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
